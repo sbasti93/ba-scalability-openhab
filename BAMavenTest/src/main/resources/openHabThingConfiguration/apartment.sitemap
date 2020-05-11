@@ -1,0 +1,13 @@
+sitemap wohnraeume label="Wohnräume" {
+     Frame label="Wohnraum 1"{
+        Group item=Wohnraum1
+    }
+
+     Frame label="Wohnraum 2"{
+        Group item=Wohnraum2
+    }
+
+     Frame label="Wohnraum 3"{
+        Group item=Wohnraum3
+    }
+}

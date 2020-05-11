@@ -1,0 +1,42 @@
+Bridge mqtt:broker:myWohnraumBroker "myWohnraumBroker" [host="192.168.178.22", secure=false] 
+{
+    // Thing Sensoren Wohnraum1
+    Thing topic wohnraumSensoren1 "Wohnraum1 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment1/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment1/humidity/"]
+    }
+
+    // Thing Actors Wohnraum1
+    Thing topic wohnraumActors1 "Wohnraum1 Actors" {
+    Channels:
+        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment1/heater/setNewLevel/", min=0, max=5]
+    }
+
+    // Thing Sensoren Wohnraum2
+    Thing topic wohnraumSensoren2 "Wohnraum2 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment2/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment2/humidity/"]
+    }
+
+    // Thing Actors Wohnraum2
+    Thing topic wohnraumActors2 "Wohnraum2 Actors" {
+    Channels:
+        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment2/heater/setNewLevel/", min=0, max=5]
+    }
+
+    // Thing Sensoren Wohnraum3
+    Thing topic wohnraumSensoren3 "Wohnraum3 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment3/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment3/humidity/"]
+    }
+
+    // Thing Actors Wohnraum3
+    Thing topic wohnraumActors3 "Wohnraum3 Actors" {
+    Channels:
+        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment3/heater/setNewLevel/", min=0, max=5]
+    }
+
+}
