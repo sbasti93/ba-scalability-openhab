@@ -1,2 +1,4 @@
-# ba-scalability-openhab
-In diesem Repository wird Code verwaltet, der zum Test der Skalierbarkeit von Openhab innerhalb einer Bachelorarbeit dienen soll!orarbeit
+# Scalability openHab
+
+In diesen Repository wird eine Umgebung zum Testen der Skalierbarkeit von openHab geschaffen.
+Diese Tests beruhen auf den Test der Performance von openHab!
