@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bdb0d886-0c38-4429-a85b-c7937e1c75a2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1biKXY1Hk1PEw4wz49or5ttg9bL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Basti\IdeaProjects\BAMavenTest\src\main\resources\openHabThingConfiguration" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.smbSendFiles">
+    <configuration name="buildItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="buildItems" />
+      <module name="BAMavenTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ftpSetThings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="backlog.ftpSetThings" />
+      <module name="BAMavenTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="getConfigurations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="getConfigurations" />
+      <module name="BAMavenTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="smbSendFiles" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="smbSendFiles" />
+      <module name="BAMavenTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="startCmdPublisher" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="startCmdPublisher" />
+      <module name="BAMavenTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.smbSendFiles" />
+        <item itemvalue="Application.startCmdPublisher" />
+        <item itemvalue="Application.buildItems" />
+        <item itemvalue="Application.getConfigurations" />
+        <item itemvalue="Application.ftpSetThings" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bdb0d886-0c38-4429-a85b-c7937e1c75a2" name="Default Changelist" comment="" />
+      <created>1589109513245</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589109513245</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="175" y="218" key="#Inspections" timestamp="1589201312617">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="175" y="218" key="#Inspections/93.0.1827.1080@93.0.1827.1080" timestamp="1589201312617" />
+    <state x="486" y="114" key="#Project_Structure" timestamp="1589110703192">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="486" y="114" key="#Project_Structure/93.0.1827.1080@93.0.1827.1080" timestamp="1589110703192" />
+    <state x="460" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589217605524">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="460" y="194" key="#com.intellij.execution.impl.EditConfigurationsDialog/93.0.1827.1080@93.0.1827.1080" timestamp="1589217605524" />
+    <state x="736" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1589223444303">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="736" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/93.0.1827.1080@93.0.1827.1080" timestamp="1589223444303" />
+    <state x="1244" y="271" key="FileChooserDialogImpl" timestamp="1589220655508">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="1244" y="271" key="FileChooserDialogImpl/93.0.1827.1080@93.0.1827.1080" timestamp="1589220655508" />
+    <state width="1784" height="292" key="GridCell.Tab.0.bottom" timestamp="1589223622389">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="292" key="GridCell.Tab.0.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1589223622389" />
+    <state width="1784" height="292" key="GridCell.Tab.0.center" timestamp="1589223622389">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="292" key="GridCell.Tab.0.center/93.0.1827.1080@93.0.1827.1080" timestamp="1589223622389" />
+    <state width="1784" height="292" key="GridCell.Tab.0.left" timestamp="1589223622389">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="292" key="GridCell.Tab.0.left/93.0.1827.1080@93.0.1827.1080" timestamp="1589223622389" />
+    <state width="1784" height="292" key="GridCell.Tab.0.right" timestamp="1589223622389">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state width="1784" height="292" key="GridCell.Tab.0.right/93.0.1827.1080@93.0.1827.1080" timestamp="1589223622389" />
+    <state x="504" y="137" key="SettingsEditor" timestamp="1589193127052">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="504" y="137" key="SettingsEditor/93.0.1827.1080@93.0.1827.1080" timestamp="1589193127052" />
+    <state x="663" y="250" key="run.anything.popup" timestamp="1589210432126">
+      <screen x="93" y="0" width="1827" height="1080" />
+    </state>
+    <state x="663" y="250" key="run.anything.popup/93.0.1827.1080@93.0.1827.1080" timestamp="1589210432126" />
+  </component>
+</project>
