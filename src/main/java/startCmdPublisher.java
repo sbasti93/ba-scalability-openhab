@@ -6,7 +6,7 @@ public class startCmdPublisher {
     public static boolean startPublisher(int number){
 
         ProcessBuilder pb = new ProcessBuilder("cmd", "/c", "startPublisher.bat " +  number);
-        File dir = new File("C:/Users/Basti/IdeaProjects/BAMavenTest/src/main/resources/batchFiles");
+        File dir = new File("src/main/resources/windowsFiles");
         pb.directory(dir);
         try {
             Process p = pb.start();

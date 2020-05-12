@@ -16,7 +16,7 @@ public class smbSendFiles {
     private static final String NETWORK_FOLDER_THINGS = NETWORK_FOLDER + "things/";
     private static final String NETWORK_FOLDER_RULES = NETWORK_FOLDER + "rules/";
     private static final String NETWORK_FOLDER_SITEMAPS = NETWORK_FOLDER + "sitemaps/";
-    private static final String LOCAL_SAMBA_BUILD_FILES_PATH = "C:/Users/Basti/IdeaProjects/BAMavenTest/src/main/resources/openHabThingConfiguration/";
+    private static final String LOCAL_SAMBA_BUILD_FILES_PATH = "src/main/resources/openHabThingConfiguration/";
     private static int num = Integer.parseInt(getConfigurations.getConfigs("apartment", "number"));
     private static Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 

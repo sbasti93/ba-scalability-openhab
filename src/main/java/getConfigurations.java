@@ -10,7 +10,7 @@ public class getConfigurations {
 
     public static String getConfigs(String sectionName, String keyName) {
         try {
-            Ini ini = new Ini(new File("C:/Users/Basti/IdeaProjects/BAMavenTest/src/main/resources/batchFiles/openHab.ini"));
+            Ini ini = new Ini(new File("src/main/resources/windowsFiles/openHab.ini"));
             return ini.get(sectionName, keyName);
         } catch (IOException e) {
             logger.severe("Failed to get ini's!");
