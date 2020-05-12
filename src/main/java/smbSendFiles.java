@@ -5,7 +5,6 @@ import jcifs.smb.SmbFileOutputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.net.MalformedURLException;
-import java.util.logging.Logger;
 
 public class smbSendFiles {
 
@@ -18,16 +17,14 @@ public class smbSendFiles {
     private static final String NETWORK_FOLDER_SITEMAPS = NETWORK_FOLDER + "sitemaps/";
     private static final String LOCAL_SAMBA_BUILD_FILES_PATH = "src/main/resources/openHabThingConfiguration/";
     private static int num = Integer.parseInt(getConfigurations.getConfigs("apartment", "number"));
-    private static Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
 
-    public static void main(String args[]) {
+
+    public static boolean sendFiles() {
 
         try {
-            logger.info("Build Connection!");
             NtlmPasswordAuthentication auth =
                     new NtlmPasswordAuthentication(NETWORK_FOLDER, USER_NAME, PASSWORD);
-            logger.info("Connection built!");
 
             buildItems bi = new buildItems();
             buildThings bt = new buildThings();
@@ -38,44 +35,31 @@ public class smbSendFiles {
                 File fileSource = new File(LOCAL_SAMBA_BUILD_FILES_PATH + "apartment.items");
                 SmbFile smbFileTarget = new SmbFile(NETWORK_FOLDER_ITEMS, "apartment.items");
                 copyFiles(fileSource, smbFileTarget);
-            } else {
-                logger.severe("Build File Failed!");
             }
 
             if(bt.buildThingsFile(LOCAL_SAMBA_BUILD_FILES_PATH)){
                 File fileSource = new File(LOCAL_SAMBA_BUILD_FILES_PATH + "apartment.things");
                 SmbFile smbFileTarget = new SmbFile(NETWORK_FOLDER_THINGS, "apartment.things");
                 copyFiles(fileSource, smbFileTarget);
-            } else {
-                logger.severe("Build File Failed!");
             }
 
             if(br.buildRulesFile(LOCAL_SAMBA_BUILD_FILES_PATH)){
                 File fileSource = new File(LOCAL_SAMBA_BUILD_FILES_PATH + "apartment.rules");
                 SmbFile smbFileTarget = new SmbFile(NETWORK_FOLDER_RULES, "apartment.rules");
                 copyFiles(fileSource, smbFileTarget);
-            } else {
-                logger.severe("Build File Failed!");
             }
 
             if(bs.buildSitemapFile(LOCAL_SAMBA_BUILD_FILES_PATH)){
                 File fileSource = new File(LOCAL_SAMBA_BUILD_FILES_PATH + "apartment.sitemap");
                 SmbFile smbFileTarget = new SmbFile(NETWORK_FOLDER_SITEMAPS, "apartment.sitemap");
                 copyFiles(fileSource, smbFileTarget);
-            } else {
-                logger.severe("Build File Failed!");
             }
 
-            Thread.sleep(5000);
-
-            startCmdPublisher.startPublisher(num);
+            return true;
 
         } catch (MalformedURLException e) {
-            logger.info("Connection Failed!");
             e.printStackTrace();
-        } catch (InterruptedException e) {
-            logger.info("Sleep Failed!");
-            e.printStackTrace();
+            return false;
         }
 
     }
@@ -89,22 +73,18 @@ public class smbSendFiles {
             try{
                 final byte[] b = new byte[1024*1024];
                 int read = 0;
-                logger.info("Start copy File!");
                 while ((read=fileInputStream.read(b,0, b.length)) > 0){
                     smbFileOutputStream.write(b,0, read);
                 }
-                logger.info("Copy File successfull!");
                 successful = true;
             } catch (Exception e){
                 successful = false;
-                logger.info("File copy Failed!");
                 e.printStackTrace();
             } finally {
                 fileInputStream.close();
                 smbFileOutputStream.close();
             }
 
-            logger.info("Sucessful: " + successful);
         } catch (Exception e) {
             successful = false;
             e.printStackTrace();
