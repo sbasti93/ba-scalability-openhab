@@ -66,7 +66,7 @@ public class smbSendFiles {
                 logger.severe("Build File Failed!");
             }
 
-            Thread.sleep(10000);
+            Thread.sleep(5000);
 
             startCmdPublisher.startPublisher(num);
 

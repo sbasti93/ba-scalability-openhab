@@ -1,0 +1,20 @@
+// Group for whole House
+Group House
+
+// Group per apartment
+Group Wohnraum1 (House)
+Group Wohnraum2 (House)
+Group Wohnraum3 (House)
+
+// Wohnraum1
+Number Wohnraum1_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum1)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren1:temperature"}
+Dimmer Wohnraum1_Heater         "Heizungs Level"                <heating>       (House, Wohnraum1)  {channel="mqtt:topic:myWohnraumBroker:wohnraumActors1:setHeater"}
+
+// Wohnraum2
+Number Wohnraum2_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum2)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren2:temperature"}
+Dimmer Wohnraum2_Heater         "Heizungs Level"                <heating>       (House, Wohnraum2)  {channel="mqtt:topic:myWohnraumBroker:wohnraumActors2:setHeater"}
+
+// Wohnraum3
+Number Wohnraum3_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum3)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren3:temperature"}
+Dimmer Wohnraum3_Heater         "Heizungs Level"                <heating>       (House, Wohnraum3)  {channel="mqtt:topic:myWohnraumBroker:wohnraumActors3:setHeater"}
+
