@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="bdb0d886-0c38-4429-a85b-c7937e1c75a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BAMavenTest.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,6 +146,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="175" y="218" key="#Inspections" timestamp="1589201312617">
@@ -144,9 +165,14 @@
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state x="736" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/93.0.1827.1080@93.0.1827.1080" timestamp="1589223444303" />
-    <state x="1244" y="271" key="FileChooserDialogImpl" timestamp="1589220655508">
-      <screen x="93" y="0" width="1827" height="1080" />
+    <state x="-1263" y="159" key="#smbSendFiles" timestamp="1589271724915">
+      <screen x="-1920" y="0" width="1858" height="1080" />
     </state>
+    <state x="-1263" y="159" key="#smbSendFiles/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589271724915" />
+    <state x="-749" y="271" key="FileChooserDialogImpl" timestamp="1589271402773">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-749" y="271" key="FileChooserDialogImpl/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589271402773" />
     <state x="1244" y="271" key="FileChooserDialogImpl/93.0.1827.1080@93.0.1827.1080" timestamp="1589220655508" />
     <state width="1784" height="292" key="GridCell.Tab.0.bottom" timestamp="1589223622389">
       <screen x="93" y="0" width="1827" height="1080" />
@@ -164,9 +190,14 @@
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state width="1784" height="292" key="GridCell.Tab.0.right/93.0.1827.1080@93.0.1827.1080" timestamp="1589223622389" />
-    <state x="504" y="137" key="SettingsEditor" timestamp="1589193127052">
-      <screen x="93" y="0" width="1827" height="1080" />
+    <state x="-1430" y="195" key="Maven.ArtifactSearchDialog" timestamp="1589271241330">
+      <screen x="-1920" y="0" width="1858" height="1080" />
     </state>
+    <state x="-1430" y="195" key="Maven.ArtifactSearchDialog/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589271241330" />
+    <state x="-1502" y="137" key="SettingsEditor" timestamp="1589271738073">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1502" y="137" key="SettingsEditor/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589271738073" />
     <state x="504" y="137" key="SettingsEditor/93.0.1827.1080@93.0.1827.1080" timestamp="1589193127052" />
     <state x="663" y="250" key="run.anything.popup" timestamp="1589210432126">
       <screen x="93" y="0" width="1827" height="1080" />
