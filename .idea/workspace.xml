@@ -27,17 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdb0d886-0c38-4429-a85b-c7937e1c75a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sshCleanCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/startAutomatedConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/publish.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/getConfigurations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/getConfigurations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smbSendFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smbSendFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sshConnectionCleanCache.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/windowsFiles/openHab.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/windowsFiles/openHab.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sshConnectionCleanCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sshConnectionCleanCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/windowsFiles/openHab.ini" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/windowsFiles/openHab.ini" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +45,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="development" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -82,10 +80,10 @@
       <recent name="C:\Users\Basti\IdeaProjects\BAMavenTest\src\main\resources\openHabThingConfiguration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.startAutomatedConfiguration">
-    <configuration name="buildItems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="buildItems" />
-      <module name="BAMavenTest" />
+  <component name="RunManager" selected="Application.publish">
+    <configuration name="publish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="publish" />
+      <module name="ba-scalability-openhab" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -122,11 +120,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.publish" />
         <item itemvalue="Application.startAutomatedConfiguration" />
         <item itemvalue="Application.sshCleanCache" />
         <item itemvalue="Application.smbSendFiles" />
         <item itemvalue="Application.startCmdPublisher" />
-        <item itemvalue="Application.buildItems" />
       </list>
     </recent_temporary>
   </component>
@@ -192,26 +190,26 @@
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state x="1244" y="271" key="FileChooserDialogImpl/93.0.1827.1080@93.0.1827.1080" timestamp="1589220655508" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1589297457896">
-      <screen x="-1920" y="0" width="1858" height="1080" />
+    <state width="867" height="291" key="GridCell.Tab.0.bottom" timestamp="1589318144279">
+      <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.bottom/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589297457896" />
-    <state width="1784" height="292" key="GridCell.Tab.0.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1589223622389" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1589297457896">
-      <screen x="-1920" y="0" width="1858" height="1080" />
+    <state width="867" height="291" key="GridCell.Tab.0.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1589318144279" />
+    <state width="867" height="291" key="GridCell.Tab.0.center" timestamp="1589318144279">
+      <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.center/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589297457896" />
-    <state width="1784" height="292" key="GridCell.Tab.0.center/93.0.1827.1080@93.0.1827.1080" timestamp="1589223622389" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1589297457896">
-      <screen x="-1920" y="0" width="1858" height="1080" />
+    <state width="867" height="291" key="GridCell.Tab.0.center/93.0.1827.1080@93.0.1827.1080" timestamp="1589318144279" />
+    <state width="867" height="291" key="GridCell.Tab.0.left" timestamp="1589318144279">
+      <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.left/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589297457896" />
-    <state width="1784" height="292" key="GridCell.Tab.0.left/93.0.1827.1080@93.0.1827.1080" timestamp="1589223622389" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1589297457896">
-      <screen x="-1920" y="0" width="1858" height="1080" />
+    <state width="867" height="291" key="GridCell.Tab.0.left/93.0.1827.1080@93.0.1827.1080" timestamp="1589318144279" />
+    <state width="867" height="291" key="GridCell.Tab.0.right" timestamp="1589318144279">
+      <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.right/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589297457896" />
-    <state width="1784" height="292" key="GridCell.Tab.0.right/93.0.1827.1080@93.0.1827.1080" timestamp="1589223622389" />
+    <state width="867" height="291" key="GridCell.Tab.0.right/93.0.1827.1080@93.0.1827.1080" timestamp="1589318144279" />
     <state x="504" y="137" key="SettingsEditor" timestamp="1589193127052">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
