@@ -10,4 +10,8 @@ sitemap wohnraeume label="Wohnräume" {
      Frame label="Wohnraum 3"{
         Group item=Wohnraum3
     }
+
+     Frame label="Wohnraum 4"{
+        Group item=Wohnraum4
+    }
 }

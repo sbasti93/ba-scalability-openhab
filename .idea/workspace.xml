@@ -27,10 +27,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdb0d886-0c38-4429-a85b-c7937e1c75a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/publish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/PublisherAndSubscriber/publishElectricity.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/PublisherAndSubscriber/publishHumidity.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/PublisherAndSubscriber/publishTemperature.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/PublisherAndSubscriber/subscribeHeater.bat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/buildThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/buildThings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/publish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/publish.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smbSendFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smbSendFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/startAutomatedConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/startAutomatedConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/startCmdPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/startCmdPublisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration/apartment.items" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration/apartment.items" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration/apartment.sitemap" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration/apartment.sitemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration/apartment.things" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration/apartment.things" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/windowsFiles/openHab.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/windowsFiles/openHab.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/windowsFiles/publisher.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/windowsFiles/startPublisher.bat" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/windowsFiles/startPublisher.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/buildThings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/buildThings.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.items" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.items" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.sitemap" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.sitemap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.things" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.things" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/publish.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/publish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/smbSendFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/smbSendFiles.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/startAutomatedConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/startAutomatedConfiguration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/startCmdPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/startCmdPublisher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/windowsFiles/openHab.ini" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/windowsFiles/openHab.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/windowsFiles/publisher.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/windowsFiles/startPublisher.bat" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/windowsFiles/startPublisher.bat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,10 +100,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BA-Repo\ba-scalability-openhab\src\main\resources\PublisherAndSubscriber" />
       <recent name="C:\Users\Basti\IdeaProjects\BAMavenTest\src\main\resources\openHabThingConfiguration" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.publish">
+  <component name="RunManager" selected="Application.startAutomatedConfiguration">
     <configuration name="publish" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="publish" />
       <module name="ba-scalability-openhab" />
@@ -120,8 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.publish" />
         <item itemvalue="Application.startAutomatedConfiguration" />
+        <item itemvalue="Application.publish" />
         <item itemvalue="Application.sshCleanCache" />
         <item itemvalue="Application.smbSendFiles" />
         <item itemvalue="Application.startCmdPublisher" />
@@ -147,18 +171,38 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="origin/development" />
+                        <option value="development" />
                       </list>
                     </value>
                   </entry>
                 </map>
               </option>
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="development" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
@@ -186,29 +230,37 @@
       <screen x="-1920" y="0" width="1858" height="1080" />
     </state>
     <state x="-1263" y="159" key="#smbSendFiles/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589271974581" />
+    <state x="92" y="92" width="1674" height="896" key="DiffContextDialog" timestamp="1589372082422">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="92" y="92" width="1674" height="896" key="DiffContextDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1589372082422" />
     <state x="1244" y="271" key="FileChooserDialogImpl" timestamp="1589220655508">
       <screen x="93" y="0" width="1827" height="1080" />
     </state>
     <state x="1244" y="271" key="FileChooserDialogImpl/93.0.1827.1080@93.0.1827.1080" timestamp="1589220655508" />
-    <state width="867" height="291" key="GridCell.Tab.0.bottom" timestamp="1589318144279">
-      <screen x="93" y="0" width="1827" height="1080" />
+    <state width="1815" height="297" key="GridCell.Tab.0.bottom" timestamp="1589379782468">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.bottom/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589297457896" />
+    <state width="1815" height="297" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1589379782468" />
     <state width="867" height="291" key="GridCell.Tab.0.bottom/93.0.1827.1080@93.0.1827.1080" timestamp="1589318144279" />
-    <state width="867" height="291" key="GridCell.Tab.0.center" timestamp="1589318144279">
-      <screen x="93" y="0" width="1827" height="1080" />
+    <state width="1815" height="297" key="GridCell.Tab.0.center" timestamp="1589379782468">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.center/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589297457896" />
+    <state width="1815" height="297" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1589379782468" />
     <state width="867" height="291" key="GridCell.Tab.0.center/93.0.1827.1080@93.0.1827.1080" timestamp="1589318144279" />
-    <state width="867" height="291" key="GridCell.Tab.0.left" timestamp="1589318144279">
-      <screen x="93" y="0" width="1827" height="1080" />
+    <state width="1815" height="297" key="GridCell.Tab.0.left" timestamp="1589379782468">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.left/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589297457896" />
+    <state width="1815" height="297" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1589379782468" />
     <state width="867" height="291" key="GridCell.Tab.0.left/93.0.1827.1080@93.0.1827.1080" timestamp="1589318144279" />
-    <state width="867" height="291" key="GridCell.Tab.0.right" timestamp="1589318144279">
-      <screen x="93" y="0" width="1827" height="1080" />
+    <state width="1815" height="297" key="GridCell.Tab.0.right" timestamp="1589379782468">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="1877" height="295" key="GridCell.Tab.0.right/-1920.0.1858.1080/0.0.1858.1080@-1920.0.1858.1080" timestamp="1589297457896" />
+    <state width="1815" height="297" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1589379782468" />
     <state width="867" height="291" key="GridCell.Tab.0.right/93.0.1827.1080@93.0.1827.1080" timestamp="1589318144279" />
     <state x="504" y="137" key="SettingsEditor" timestamp="1589193127052">
       <screen x="93" y="0" width="1827" height="1080" />

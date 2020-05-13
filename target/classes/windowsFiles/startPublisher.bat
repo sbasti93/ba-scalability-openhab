@@ -2,6 +2,9 @@
 
 FOR /L %%d IN (1 1 %1) DO  (
 
-	start /Min publisher.bat %%d
+    IF %2 EQU 0 (
+        start /Min ../PublisherAndSubscriber/publishTemperature.bat %%d
+    )
+
 
 )

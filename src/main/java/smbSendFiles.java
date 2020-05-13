@@ -8,23 +8,23 @@ import java.net.MalformedURLException;
 
 public class smbSendFiles {
 
-    private static final String USER_NAME = getConfigurations.getConfigs("properties", "user");
-    private static final String PASSWORD = getConfigurations.getConfigs("properties", "pass");
+    private static final String USER_NAME = getConfigurations.getConfigs("properties", "openhab_login_name");
+    private static final String PASSWORD = getConfigurations.getConfigs("properties", "openhab_login_pwd");
     private static final String NETWORK_FOLDER = getConfigurations.getConfigs("properties", "smb_path");
+    private static final int HEATER_AVAILABLE = Integer.parseInt(getConfigurations.getConfigs("perApartment", "heater"));
     private static final String NETWORK_FOLDER_ITEMS = NETWORK_FOLDER + "items/";
     private static final String NETWORK_FOLDER_THINGS = NETWORK_FOLDER + "things/";
     private static final String NETWORK_FOLDER_RULES = NETWORK_FOLDER + "rules/";
     private static final String NETWORK_FOLDER_SITEMAPS = NETWORK_FOLDER + "sitemaps/";
     private static final String LOCAL_SAMBA_BUILD_FILES_PATH = "src/main/resources/openHabThingConfiguration/";
-    private static int num = Integer.parseInt(getConfigurations.getConfigs("apartment", "number"));
-
-
 
     public static boolean sendFiles() {
 
+        boolean stat = false;
+
         try {
             NtlmPasswordAuthentication auth =
-                    new NtlmPasswordAuthentication(NETWORK_FOLDER, USER_NAME, PASSWORD);
+                    new NtlmPasswordAuthentication(NETWORK_FOLDER, "openhabian", "openhabian");
 
             buildItems bi = new buildItems();
             buildThings bt = new buildThings();
@@ -35,31 +35,37 @@ public class smbSendFiles {
                 File fileSource = new File(LOCAL_SAMBA_BUILD_FILES_PATH + "apartment.items");
                 SmbFile smbFileTarget = new SmbFile(NETWORK_FOLDER_ITEMS, "apartment.items");
                 copyFiles(fileSource, smbFileTarget);
+                stat = true;
             }
 
             if(bt.buildThingsFile(LOCAL_SAMBA_BUILD_FILES_PATH)){
                 File fileSource = new File(LOCAL_SAMBA_BUILD_FILES_PATH + "apartment.things");
                 SmbFile smbFileTarget = new SmbFile(NETWORK_FOLDER_THINGS, "apartment.things");
                 copyFiles(fileSource, smbFileTarget);
+                stat = true;
             }
 
-            if(br.buildRulesFile(LOCAL_SAMBA_BUILD_FILES_PATH)){
-                File fileSource = new File(LOCAL_SAMBA_BUILD_FILES_PATH + "apartment.rules");
-                SmbFile smbFileTarget = new SmbFile(NETWORK_FOLDER_RULES, "apartment.rules");
-                copyFiles(fileSource, smbFileTarget);
+            if(HEATER_AVAILABLE == 1) {
+                if (br.buildRulesFile(LOCAL_SAMBA_BUILD_FILES_PATH)) {
+                    File fileSource = new File(LOCAL_SAMBA_BUILD_FILES_PATH + "apartment.rules");
+                    SmbFile smbFileTarget = new SmbFile(NETWORK_FOLDER_RULES, "apartment.rules");
+                    copyFiles(fileSource, smbFileTarget);
+                    stat = true;
+                }
             }
 
             if(bs.buildSitemapFile(LOCAL_SAMBA_BUILD_FILES_PATH)){
                 File fileSource = new File(LOCAL_SAMBA_BUILD_FILES_PATH + "apartment.sitemap");
                 SmbFile smbFileTarget = new SmbFile(NETWORK_FOLDER_SITEMAPS, "apartment.sitemap");
                 copyFiles(fileSource, smbFileTarget);
+                stat = true;
             }
 
-            return true;
+            return stat;
 
         } catch (MalformedURLException e) {
             e.printStackTrace();
-            return false;
+            return stat;
         }
 
     }

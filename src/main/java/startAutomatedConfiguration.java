@@ -13,12 +13,18 @@ public class startAutomatedConfiguration {
             logger.info("File transfer Failed!");
         }
 
+        /*
         if(sshCleanCache.sshConnectionExecute()) {
             logger.info("Cache is cleaned up");
         } else {
             logger.info("Cleaning Cache Failed!");
         }
 
+        if(startCmdPublisher.startPublisher()) {
+            logger.info("Publisher started!");
+        } else {
+            logger.info("Start Publisher Failed");
+        }*/
 
     }
 

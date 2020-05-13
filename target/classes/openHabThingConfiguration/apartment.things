@@ -39,4 +39,17 @@ Bridge mqtt:broker:myWohnraumBroker "myWohnraumBroker" [host="192.168.178.22", s
         Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment3/heater/setNewLevel/", min=0, max=5]
     }
 
+    // Thing Sensoren Wohnraum4
+    Thing topic wohnraumSensoren4 "Wohnraum4 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment4/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment4/humidity/"]
+    }
+
+    // Thing Actors Wohnraum4
+    Thing topic wohnraumActors4 "Wohnraum4 Actors" {
+    Channels:
+        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment4/heater/setNewLevel/", min=0, max=5]
+    }
+
 }

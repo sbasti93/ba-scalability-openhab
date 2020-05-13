@@ -3,13 +3,50 @@ import java.io.IOException;
 
 public class startCmdPublisher {
 
-    public static boolean startPublisher(int number){
+    private static int NUMBER_TEMPERATUR = Integer.parseInt(getConfigurations.getConfigs("perApartment", "temperature"));
+    private static int NUMBER_HUMIDITY = Integer.parseInt(getConfigurations.getConfigs("perApartment", "humidity"));
+    private static int NUMBER_ELECTRICITY = Integer.parseInt(getConfigurations.getConfigs("perApartment", "electricity"));
+    private static int NUMBER_HEATER = Integer.parseInt(getConfigurations.getConfigs("perApartment", "heater"));
+    private static int NUMBER_APARTMENTS = Integer.parseInt(getConfigurations.getConfigs("apartment", "number"));
 
-        ProcessBuilder pb = new ProcessBuilder("cmd", "/c", "startPublisher.bat " +  number);
-        File dir = new File("src/main/resources/windowsFiles");
-        pb.directory(dir);
+    private static File dir = new File("src/main/resources/PublisherAndSubscriber");
+
+    public static boolean startPublisher(){
+
         try {
-            Process p = pb.start();
+
+            if(NUMBER_TEMPERATUR > 0){
+                for(int i = 1; i <= NUMBER_APARTMENTS; i++) {
+                    ProcessBuilder pbTemp = new ProcessBuilder("cmd", "/c", "publishTemperature.bat " + i);
+                    pbTemp.directory(dir);
+                    pbTemp.start();
+                }
+            }
+
+            if(NUMBER_HUMIDITY > 0){
+                for(int i = 1; i <= NUMBER_APARTMENTS; i++) {
+                    ProcessBuilder pbHum = new ProcessBuilder("cmd", "/c", "publishHumidity.bat " + i);
+                    pbHum.directory(dir);
+                    pbHum.start();
+                }
+            }
+
+            if(NUMBER_ELECTRICITY > 0){
+                for(int i = 1; i <= NUMBER_APARTMENTS; i++) {
+                    ProcessBuilder pbElec = new ProcessBuilder("cmd", "/c", "publishElectricity.bat " + i);
+                    pbElec.directory(dir);
+                    pbElec.start();
+                }
+            }
+
+            if(NUMBER_HEATER > 0){
+                for(int i = 1; i <= NUMBER_APARTMENTS; i++) {
+                    ProcessBuilder pbHeat = new ProcessBuilder("cmd", "/c", "subscribeHeater.bat " + i);
+                    pbHeat.directory(dir);
+                    pbHeat.start();
+                }
+            }
+
             return true;
         } catch (IOException e) {
             e.printStackTrace();

@@ -33,6 +33,7 @@ public class buildThings {
         return bridgeString;
     }
 
+    //TODO Electricity
     private String buildThings(int num) {
         for(int i = 1; i <= num; i++) {
             thingString += "    // Thing Sensoren Wohnraum" + i + "\n" +
