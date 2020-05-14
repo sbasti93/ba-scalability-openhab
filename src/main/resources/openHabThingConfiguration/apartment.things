@@ -39,4 +39,95 @@ Bridge mqtt:broker:myWohnraumBroker "myWohnraumBroker" [host="192.168.178.22", s
         Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment3/heater/setNewLevel/", min=0, max=5]
     }
 
+    // Thing Sensoren Wohnraum4
+    Thing topic wohnraumSensoren4 "Wohnraum4 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment4/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment4/humidity/"]
+    }
+
+    // Thing Actors Wohnraum4
+    Thing topic wohnraumActors4 "Wohnraum4 Actors" {
+    Channels:
+        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment4/heater/setNewLevel/", min=0, max=5]
+    }
+
+    // Thing Sensoren Wohnraum5
+    Thing topic wohnraumSensoren5 "Wohnraum5 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment5/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment5/humidity/"]
+    }
+
+    // Thing Actors Wohnraum5
+    Thing topic wohnraumActors5 "Wohnraum5 Actors" {
+    Channels:
+        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment5/heater/setNewLevel/", min=0, max=5]
+    }
+
+    // Thing Sensoren Wohnraum6
+    Thing topic wohnraumSensoren6 "Wohnraum6 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment6/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment6/humidity/"]
+    }
+
+    // Thing Actors Wohnraum6
+    Thing topic wohnraumActors6 "Wohnraum6 Actors" {
+    Channels:
+        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment6/heater/setNewLevel/", min=0, max=5]
+    }
+
+    // Thing Sensoren Wohnraum7
+    Thing topic wohnraumSensoren7 "Wohnraum7 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment7/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment7/humidity/"]
+    }
+
+    // Thing Actors Wohnraum7
+    Thing topic wohnraumActors7 "Wohnraum7 Actors" {
+    Channels:
+        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment7/heater/setNewLevel/", min=0, max=5]
+    }
+
+    // Thing Sensoren Wohnraum8
+    Thing topic wohnraumSensoren8 "Wohnraum8 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment8/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment8/humidity/"]
+    }
+
+    // Thing Actors Wohnraum8
+    Thing topic wohnraumActors8 "Wohnraum8 Actors" {
+    Channels:
+        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment8/heater/setNewLevel/", min=0, max=5]
+    }
+
+    // Thing Sensoren Wohnraum9
+    Thing topic wohnraumSensoren9 "Wohnraum9 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment9/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment9/humidity/"]
+    }
+
+    // Thing Actors Wohnraum9
+    Thing topic wohnraumActors9 "Wohnraum9 Actors" {
+    Channels:
+        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment9/heater/setNewLevel/", min=0, max=5]
+    }
+
+    // Thing Sensoren Wohnraum10
+    Thing topic wohnraumSensoren10 "Wohnraum10 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment10/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment10/humidity/"]
+    }
+
+    // Thing Actors Wohnraum10
+    Thing topic wohnraumActors10 "Wohnraum10 Actors" {
+    Channels:
+        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment10/heater/setNewLevel/", min=0, max=5]
+    }
+
 }

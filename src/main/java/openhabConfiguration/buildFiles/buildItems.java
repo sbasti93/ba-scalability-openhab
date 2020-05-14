@@ -1,3 +1,7 @@
+package openhabConfiguration.buildFiles;
+
+import openhabConfiguration.getConfigurations;
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -33,7 +37,7 @@ public class buildItems {
         }
     }
 
-    private static String getGroupApartments(int number){
+    private String getGroupApartments(int number){
         groupApartments += "// Group per apartment\n";
         for(int i=1; i <= number; i++){
             groupApartments += "Group Wohnraum" + i + " (House)\n";
@@ -42,16 +46,16 @@ public class buildItems {
         return groupApartments;
     }
 
-    private static String getBuildApartments(int number, int temperature, int humidity, int heater, int electricity){
+    private String getBuildApartments(int number, int temperature, int humidity, int heater, int electricity){
         for(int i=1; i <= number; i++) {
             buildApartments += "// Wohnraum" + i + "\n";
             if(temperature==1) {
                 buildApartments += "Number Wohnraum" + i + "_Temperature    \"Temperatur [%.1f °C]\"          <temperature>   " +
-                        "(House, Wohnraum" + i + ")  {channel=\"mqtt:topic:myWohnraumBroker:wohnraumSensoren" + i + ":temperature\"}\n";
+                        "(House, Wohnraum" + i + ")  {channel=\"mqtt:topic:myWohnraumBroker:wohnraumSensoren" + i + ":temperature\"}\n\n";
             }
             if(humidity==1) {
                 buildApartments += "Number Wohnraum" + i + "_Humidity       \"Luftfeuchtigkeit [%.1f %%]\"    <humidity>      " +
-                        "(House, Wohnraum" + i + ")  {channel=\"mqtt:topic:myWohnraumBroker:wohnraumSensoren" + i + ":humidity\"}\n";
+                        "(House, Wohnraum" + i + ")  {channel=\"mqtt:topic:myWohnraumBroker:wohnraumSensoren" + i + ":humidity\"}\n\n";
             }
             if(heater==1) {
                 buildApartments += "Dimmer Wohnraum" + i + "_Heater         \"Heizungs Level\"                <heating>       " +

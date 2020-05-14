@@ -1,3 +1,7 @@
+package openhabConfiguration.buildFiles;
+
+import openhabConfiguration.getConfigurations;
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;

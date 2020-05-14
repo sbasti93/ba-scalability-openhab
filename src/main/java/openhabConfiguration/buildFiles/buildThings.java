@@ -1,3 +1,7 @@
+package openhabConfiguration.buildFiles;
+
+import openhabConfiguration.getConfigurations;
+
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
@@ -33,6 +37,7 @@ public class buildThings {
         return bridgeString;
     }
 
+    //TODO Electricity
     private String buildThings(int num) {
         for(int i = 1; i <= num; i++) {
             thingString += "    // Thing Sensoren Wohnraum" + i + "\n" +

@@ -14,16 +14,4 @@ sitemap wohnraeume label="Wohnräume" {
      Frame label="Wohnraum 4"{
         Group item=Wohnraum4
     }
-
-     Frame label="Wohnraum 5"{
-        Group item=Wohnraum5
-    }
-
-     Frame label="Wohnraum 6"{
-        Group item=Wohnraum6
-    }
-
-     Frame label="Wohnraum 7"{
-        Group item=Wohnraum7
-    }
 }
