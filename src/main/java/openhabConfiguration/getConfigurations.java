@@ -1,3 +1,5 @@
+package openhabConfiguration;
+
 import org.ini4j.Ini;
 
 import java.io.File;

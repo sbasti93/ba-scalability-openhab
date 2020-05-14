@@ -6,16 +6,60 @@ Group Wohnraum1 (House)
 Group Wohnraum2 (House)
 Group Wohnraum3 (House)
 Group Wohnraum4 (House)
+Group Wohnraum5 (House)
+Group Wohnraum6 (House)
+Group Wohnraum7 (House)
+Group Wohnraum8 (House)
+Group Wohnraum9 (House)
+Group Wohnraum10 (House)
 
 // Wohnraum1
 Number Wohnraum1_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum1)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren1:temperature"}
+
 Number Wohnraum1_Humidity       "Luftfeuchtigkeit [%.1f %%]"    <humidity>      (House, Wohnraum1)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren1:humidity"}
+
 // Wohnraum2
 Number Wohnraum2_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum2)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren2:temperature"}
+
 Number Wohnraum2_Humidity       "Luftfeuchtigkeit [%.1f %%]"    <humidity>      (House, Wohnraum2)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren2:humidity"}
+
 // Wohnraum3
 Number Wohnraum3_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum3)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren3:temperature"}
+
 Number Wohnraum3_Humidity       "Luftfeuchtigkeit [%.1f %%]"    <humidity>      (House, Wohnraum3)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren3:humidity"}
+
 // Wohnraum4
 Number Wohnraum4_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum4)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren4:temperature"}
+
 Number Wohnraum4_Humidity       "Luftfeuchtigkeit [%.1f %%]"    <humidity>      (House, Wohnraum4)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren4:humidity"}
+
+// Wohnraum5
+Number Wohnraum5_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum5)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren5:temperature"}
+
+Number Wohnraum5_Humidity       "Luftfeuchtigkeit [%.1f %%]"    <humidity>      (House, Wohnraum5)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren5:humidity"}
+
+// Wohnraum6
+Number Wohnraum6_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum6)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren6:temperature"}
+
+Number Wohnraum6_Humidity       "Luftfeuchtigkeit [%.1f %%]"    <humidity>      (House, Wohnraum6)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren6:humidity"}
+
+// Wohnraum7
+Number Wohnraum7_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum7)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren7:temperature"}
+
+Number Wohnraum7_Humidity       "Luftfeuchtigkeit [%.1f %%]"    <humidity>      (House, Wohnraum7)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren7:humidity"}
+
+// Wohnraum8
+Number Wohnraum8_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum8)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren8:temperature"}
+
+Number Wohnraum8_Humidity       "Luftfeuchtigkeit [%.1f %%]"    <humidity>      (House, Wohnraum8)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren8:humidity"}
+
+// Wohnraum9
+Number Wohnraum9_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum9)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren9:temperature"}
+
+Number Wohnraum9_Humidity       "Luftfeuchtigkeit [%.1f %%]"    <humidity>      (House, Wohnraum9)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren9:humidity"}
+
+// Wohnraum10
+Number Wohnraum10_Temperature    "Temperatur [%.1f °C]"          <temperature>   (House, Wohnraum10)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren10:temperature"}
+
+Number Wohnraum10_Humidity       "Luftfeuchtigkeit [%.1f %%]"    <humidity>      (House, Wohnraum10)  {channel="mqtt:topic:myWohnraumBroker:wohnraumSensoren10:humidity"}
+
