@@ -3,53 +3,801 @@ Bridge mqtt:broker:myWohnraumBroker "myWohnraumBroker" [host="192.168.178.22", s
     // Thing Sensoren Wohnraum1
     Thing topic wohnraumSensoren1 "Wohnraum1 Sensoren" {
     Channels:
-        Type number : temperature   "Temperatur"            [stateTopic="apartment1/temperature/"]
-        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment1/humidity/"]
-    }
-
-    // Thing Actors Wohnraum1
-    Thing topic wohnraumActors1 "Wohnraum1 Actors" {
-    Channels:
-        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment1/heater/setNewLevel/", min=0, max=5]
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
     }
 
     // Thing Sensoren Wohnraum2
     Thing topic wohnraumSensoren2 "Wohnraum2 Sensoren" {
     Channels:
-        Type number : temperature   "Temperatur"            [stateTopic="apartment2/temperature/"]
-        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment2/humidity/"]
-    }
-
-    // Thing Actors Wohnraum2
-    Thing topic wohnraumActors2 "Wohnraum2 Actors" {
-    Channels:
-        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment2/heater/setNewLevel/", min=0, max=5]
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
     }
 
     // Thing Sensoren Wohnraum3
     Thing topic wohnraumSensoren3 "Wohnraum3 Sensoren" {
     Channels:
-        Type number : temperature   "Temperatur"            [stateTopic="apartment3/temperature/"]
-        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment3/humidity/"]
-    }
-
-    // Thing Actors Wohnraum3
-    Thing topic wohnraumActors3 "Wohnraum3 Actors" {
-    Channels:
-        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment3/heater/setNewLevel/", min=0, max=5]
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
     }
 
     // Thing Sensoren Wohnraum4
     Thing topic wohnraumSensoren4 "Wohnraum4 Sensoren" {
     Channels:
-        Type number : temperature   "Temperatur"            [stateTopic="apartment4/temperature/"]
-        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment4/humidity/"]
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
     }
 
-    // Thing Actors Wohnraum4
-    Thing topic wohnraumActors4 "Wohnraum4 Actors" {
+    // Thing Sensoren Wohnraum5
+    Thing topic wohnraumSensoren5 "Wohnraum5 Sensoren" {
     Channels:
-        Type dimmer : setHeater     "Setzt Heizungs-Stufe"  [commandTopic="apartment4/heater/setNewLevel/", min=0, max=5]
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum6
+    Thing topic wohnraumSensoren6 "Wohnraum6 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum7
+    Thing topic wohnraumSensoren7 "Wohnraum7 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum8
+    Thing topic wohnraumSensoren8 "Wohnraum8 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum9
+    Thing topic wohnraumSensoren9 "Wohnraum9 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum10
+    Thing topic wohnraumSensoren10 "Wohnraum10 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum11
+    Thing topic wohnraumSensoren11 "Wohnraum11 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum12
+    Thing topic wohnraumSensoren12 "Wohnraum12 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum13
+    Thing topic wohnraumSensoren13 "Wohnraum13 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum14
+    Thing topic wohnraumSensoren14 "Wohnraum14 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum15
+    Thing topic wohnraumSensoren15 "Wohnraum15 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum16
+    Thing topic wohnraumSensoren16 "Wohnraum16 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum17
+    Thing topic wohnraumSensoren17 "Wohnraum17 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum18
+    Thing topic wohnraumSensoren18 "Wohnraum18 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum19
+    Thing topic wohnraumSensoren19 "Wohnraum19 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum20
+    Thing topic wohnraumSensoren20 "Wohnraum20 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum21
+    Thing topic wohnraumSensoren21 "Wohnraum21 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum22
+    Thing topic wohnraumSensoren22 "Wohnraum22 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum23
+    Thing topic wohnraumSensoren23 "Wohnraum23 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum24
+    Thing topic wohnraumSensoren24 "Wohnraum24 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum25
+    Thing topic wohnraumSensoren25 "Wohnraum25 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum26
+    Thing topic wohnraumSensoren26 "Wohnraum26 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum27
+    Thing topic wohnraumSensoren27 "Wohnraum27 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum28
+    Thing topic wohnraumSensoren28 "Wohnraum28 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum29
+    Thing topic wohnraumSensoren29 "Wohnraum29 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum30
+    Thing topic wohnraumSensoren30 "Wohnraum30 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum31
+    Thing topic wohnraumSensoren31 "Wohnraum31 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum32
+    Thing topic wohnraumSensoren32 "Wohnraum32 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum33
+    Thing topic wohnraumSensoren33 "Wohnraum33 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum34
+    Thing topic wohnraumSensoren34 "Wohnraum34 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum35
+    Thing topic wohnraumSensoren35 "Wohnraum35 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum36
+    Thing topic wohnraumSensoren36 "Wohnraum36 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum37
+    Thing topic wohnraumSensoren37 "Wohnraum37 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum38
+    Thing topic wohnraumSensoren38 "Wohnraum38 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum39
+    Thing topic wohnraumSensoren39 "Wohnraum39 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum40
+    Thing topic wohnraumSensoren40 "Wohnraum40 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum41
+    Thing topic wohnraumSensoren41 "Wohnraum41 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum42
+    Thing topic wohnraumSensoren42 "Wohnraum42 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum43
+    Thing topic wohnraumSensoren43 "Wohnraum43 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum44
+    Thing topic wohnraumSensoren44 "Wohnraum44 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum45
+    Thing topic wohnraumSensoren45 "Wohnraum45 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum46
+    Thing topic wohnraumSensoren46 "Wohnraum46 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum47
+    Thing topic wohnraumSensoren47 "Wohnraum47 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum48
+    Thing topic wohnraumSensoren48 "Wohnraum48 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum49
+    Thing topic wohnraumSensoren49 "Wohnraum49 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum50
+    Thing topic wohnraumSensoren50 "Wohnraum50 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum51
+    Thing topic wohnraumSensoren51 "Wohnraum51 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum52
+    Thing topic wohnraumSensoren52 "Wohnraum52 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum53
+    Thing topic wohnraumSensoren53 "Wohnraum53 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum54
+    Thing topic wohnraumSensoren54 "Wohnraum54 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum55
+    Thing topic wohnraumSensoren55 "Wohnraum55 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum56
+    Thing topic wohnraumSensoren56 "Wohnraum56 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum57
+    Thing topic wohnraumSensoren57 "Wohnraum57 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum58
+    Thing topic wohnraumSensoren58 "Wohnraum58 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum59
+    Thing topic wohnraumSensoren59 "Wohnraum59 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum60
+    Thing topic wohnraumSensoren60 "Wohnraum60 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum61
+    Thing topic wohnraumSensoren61 "Wohnraum61 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum62
+    Thing topic wohnraumSensoren62 "Wohnraum62 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum63
+    Thing topic wohnraumSensoren63 "Wohnraum63 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum64
+    Thing topic wohnraumSensoren64 "Wohnraum64 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum65
+    Thing topic wohnraumSensoren65 "Wohnraum65 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum66
+    Thing topic wohnraumSensoren66 "Wohnraum66 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum67
+    Thing topic wohnraumSensoren67 "Wohnraum67 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum68
+    Thing topic wohnraumSensoren68 "Wohnraum68 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum69
+    Thing topic wohnraumSensoren69 "Wohnraum69 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum70
+    Thing topic wohnraumSensoren70 "Wohnraum70 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum71
+    Thing topic wohnraumSensoren71 "Wohnraum71 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum72
+    Thing topic wohnraumSensoren72 "Wohnraum72 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum73
+    Thing topic wohnraumSensoren73 "Wohnraum73 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum74
+    Thing topic wohnraumSensoren74 "Wohnraum74 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum75
+    Thing topic wohnraumSensoren75 "Wohnraum75 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum76
+    Thing topic wohnraumSensoren76 "Wohnraum76 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum77
+    Thing topic wohnraumSensoren77 "Wohnraum77 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum78
+    Thing topic wohnraumSensoren78 "Wohnraum78 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum79
+    Thing topic wohnraumSensoren79 "Wohnraum79 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum80
+    Thing topic wohnraumSensoren80 "Wohnraum80 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum81
+    Thing topic wohnraumSensoren81 "Wohnraum81 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum82
+    Thing topic wohnraumSensoren82 "Wohnraum82 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum83
+    Thing topic wohnraumSensoren83 "Wohnraum83 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum84
+    Thing topic wohnraumSensoren84 "Wohnraum84 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum85
+    Thing topic wohnraumSensoren85 "Wohnraum85 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum86
+    Thing topic wohnraumSensoren86 "Wohnraum86 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum87
+    Thing topic wohnraumSensoren87 "Wohnraum87 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum88
+    Thing topic wohnraumSensoren88 "Wohnraum88 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum89
+    Thing topic wohnraumSensoren89 "Wohnraum89 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum90
+    Thing topic wohnraumSensoren90 "Wohnraum90 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum91
+    Thing topic wohnraumSensoren91 "Wohnraum91 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum92
+    Thing topic wohnraumSensoren92 "Wohnraum92 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum93
+    Thing topic wohnraumSensoren93 "Wohnraum93 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum94
+    Thing topic wohnraumSensoren94 "Wohnraum94 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum95
+    Thing topic wohnraumSensoren95 "Wohnraum95 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum96
+    Thing topic wohnraumSensoren96 "Wohnraum96 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum97
+    Thing topic wohnraumSensoren97 "Wohnraum97 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum98
+    Thing topic wohnraumSensoren98 "Wohnraum98 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum99
+    Thing topic wohnraumSensoren99 "Wohnraum99 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
+    }
+
+    // Thing Sensoren Wohnraum100
+    Thing topic wohnraumSensoren100 "Wohnraum100 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity/"]
     }
 
 }
