@@ -1,41 +1,3001 @@
-sitemap wohnraeume label="Wohnräume" {
+sitemap apartment label="Wohnräume" {
      Frame label="Wohnraum 1"{
-        Group item=Wohnraum1
+        Text item=Wohnraum1_Temperature
+        Text item=Wohnraum1_Humidity
+        Text item=Wohnraum1_Electricity
     }
 
      Frame label="Wohnraum 2"{
-        Group item=Wohnraum2
+        Text item=Wohnraum2_Temperature
+        Text item=Wohnraum2_Humidity
+        Text item=Wohnraum2_Electricity
     }
 
      Frame label="Wohnraum 3"{
-        Group item=Wohnraum3
+        Text item=Wohnraum3_Temperature
+        Text item=Wohnraum3_Humidity
+        Text item=Wohnraum3_Electricity
     }
 
      Frame label="Wohnraum 4"{
-        Group item=Wohnraum4
+        Text item=Wohnraum4_Temperature
+        Text item=Wohnraum4_Humidity
+        Text item=Wohnraum4_Electricity
     }
 
      Frame label="Wohnraum 5"{
-        Group item=Wohnraum5
+        Text item=Wohnraum5_Temperature
+        Text item=Wohnraum5_Humidity
+        Text item=Wohnraum5_Electricity
     }
 
      Frame label="Wohnraum 6"{
-        Group item=Wohnraum6
+        Text item=Wohnraum6_Temperature
+        Text item=Wohnraum6_Humidity
+        Text item=Wohnraum6_Electricity
     }
 
      Frame label="Wohnraum 7"{
-        Group item=Wohnraum7
+        Text item=Wohnraum7_Temperature
+        Text item=Wohnraum7_Humidity
+        Text item=Wohnraum7_Electricity
     }
 
      Frame label="Wohnraum 8"{
-        Group item=Wohnraum8
+        Text item=Wohnraum8_Temperature
+        Text item=Wohnraum8_Humidity
+        Text item=Wohnraum8_Electricity
     }
 
      Frame label="Wohnraum 9"{
-        Group item=Wohnraum9
+        Text item=Wohnraum9_Temperature
+        Text item=Wohnraum9_Humidity
+        Text item=Wohnraum9_Electricity
     }
 
      Frame label="Wohnraum 10"{
-        Group item=Wohnraum10
+        Text item=Wohnraum10_Temperature
+        Text item=Wohnraum10_Humidity
+        Text item=Wohnraum10_Electricity
+    }
+
+     Frame label="Wohnraum 11"{
+        Text item=Wohnraum11_Temperature
+        Text item=Wohnraum11_Humidity
+        Text item=Wohnraum11_Electricity
+    }
+
+     Frame label="Wohnraum 12"{
+        Text item=Wohnraum12_Temperature
+        Text item=Wohnraum12_Humidity
+        Text item=Wohnraum12_Electricity
+    }
+
+     Frame label="Wohnraum 13"{
+        Text item=Wohnraum13_Temperature
+        Text item=Wohnraum13_Humidity
+        Text item=Wohnraum13_Electricity
+    }
+
+     Frame label="Wohnraum 14"{
+        Text item=Wohnraum14_Temperature
+        Text item=Wohnraum14_Humidity
+        Text item=Wohnraum14_Electricity
+    }
+
+     Frame label="Wohnraum 15"{
+        Text item=Wohnraum15_Temperature
+        Text item=Wohnraum15_Humidity
+        Text item=Wohnraum15_Electricity
+    }
+
+     Frame label="Wohnraum 16"{
+        Text item=Wohnraum16_Temperature
+        Text item=Wohnraum16_Humidity
+        Text item=Wohnraum16_Electricity
+    }
+
+     Frame label="Wohnraum 17"{
+        Text item=Wohnraum17_Temperature
+        Text item=Wohnraum17_Humidity
+        Text item=Wohnraum17_Electricity
+    }
+
+     Frame label="Wohnraum 18"{
+        Text item=Wohnraum18_Temperature
+        Text item=Wohnraum18_Humidity
+        Text item=Wohnraum18_Electricity
+    }
+
+     Frame label="Wohnraum 19"{
+        Text item=Wohnraum19_Temperature
+        Text item=Wohnraum19_Humidity
+        Text item=Wohnraum19_Electricity
+    }
+
+     Frame label="Wohnraum 20"{
+        Text item=Wohnraum20_Temperature
+        Text item=Wohnraum20_Humidity
+        Text item=Wohnraum20_Electricity
+    }
+
+     Frame label="Wohnraum 21"{
+        Text item=Wohnraum21_Temperature
+        Text item=Wohnraum21_Humidity
+        Text item=Wohnraum21_Electricity
+    }
+
+     Frame label="Wohnraum 22"{
+        Text item=Wohnraum22_Temperature
+        Text item=Wohnraum22_Humidity
+        Text item=Wohnraum22_Electricity
+    }
+
+     Frame label="Wohnraum 23"{
+        Text item=Wohnraum23_Temperature
+        Text item=Wohnraum23_Humidity
+        Text item=Wohnraum23_Electricity
+    }
+
+     Frame label="Wohnraum 24"{
+        Text item=Wohnraum24_Temperature
+        Text item=Wohnraum24_Humidity
+        Text item=Wohnraum24_Electricity
+    }
+
+     Frame label="Wohnraum 25"{
+        Text item=Wohnraum25_Temperature
+        Text item=Wohnraum25_Humidity
+        Text item=Wohnraum25_Electricity
+    }
+
+     Frame label="Wohnraum 26"{
+        Text item=Wohnraum26_Temperature
+        Text item=Wohnraum26_Humidity
+        Text item=Wohnraum26_Electricity
+    }
+
+     Frame label="Wohnraum 27"{
+        Text item=Wohnraum27_Temperature
+        Text item=Wohnraum27_Humidity
+        Text item=Wohnraum27_Electricity
+    }
+
+     Frame label="Wohnraum 28"{
+        Text item=Wohnraum28_Temperature
+        Text item=Wohnraum28_Humidity
+        Text item=Wohnraum28_Electricity
+    }
+
+     Frame label="Wohnraum 29"{
+        Text item=Wohnraum29_Temperature
+        Text item=Wohnraum29_Humidity
+        Text item=Wohnraum29_Electricity
+    }
+
+     Frame label="Wohnraum 30"{
+        Text item=Wohnraum30_Temperature
+        Text item=Wohnraum30_Humidity
+        Text item=Wohnraum30_Electricity
+    }
+
+     Frame label="Wohnraum 31"{
+        Text item=Wohnraum31_Temperature
+        Text item=Wohnraum31_Humidity
+        Text item=Wohnraum31_Electricity
+    }
+
+     Frame label="Wohnraum 32"{
+        Text item=Wohnraum32_Temperature
+        Text item=Wohnraum32_Humidity
+        Text item=Wohnraum32_Electricity
+    }
+
+     Frame label="Wohnraum 33"{
+        Text item=Wohnraum33_Temperature
+        Text item=Wohnraum33_Humidity
+        Text item=Wohnraum33_Electricity
+    }
+
+     Frame label="Wohnraum 34"{
+        Text item=Wohnraum34_Temperature
+        Text item=Wohnraum34_Humidity
+        Text item=Wohnraum34_Electricity
+    }
+
+     Frame label="Wohnraum 35"{
+        Text item=Wohnraum35_Temperature
+        Text item=Wohnraum35_Humidity
+        Text item=Wohnraum35_Electricity
+    }
+
+     Frame label="Wohnraum 36"{
+        Text item=Wohnraum36_Temperature
+        Text item=Wohnraum36_Humidity
+        Text item=Wohnraum36_Electricity
+    }
+
+     Frame label="Wohnraum 37"{
+        Text item=Wohnraum37_Temperature
+        Text item=Wohnraum37_Humidity
+        Text item=Wohnraum37_Electricity
+    }
+
+     Frame label="Wohnraum 38"{
+        Text item=Wohnraum38_Temperature
+        Text item=Wohnraum38_Humidity
+        Text item=Wohnraum38_Electricity
+    }
+
+     Frame label="Wohnraum 39"{
+        Text item=Wohnraum39_Temperature
+        Text item=Wohnraum39_Humidity
+        Text item=Wohnraum39_Electricity
+    }
+
+     Frame label="Wohnraum 40"{
+        Text item=Wohnraum40_Temperature
+        Text item=Wohnraum40_Humidity
+        Text item=Wohnraum40_Electricity
+    }
+
+     Frame label="Wohnraum 41"{
+        Text item=Wohnraum41_Temperature
+        Text item=Wohnraum41_Humidity
+        Text item=Wohnraum41_Electricity
+    }
+
+     Frame label="Wohnraum 42"{
+        Text item=Wohnraum42_Temperature
+        Text item=Wohnraum42_Humidity
+        Text item=Wohnraum42_Electricity
+    }
+
+     Frame label="Wohnraum 43"{
+        Text item=Wohnraum43_Temperature
+        Text item=Wohnraum43_Humidity
+        Text item=Wohnraum43_Electricity
+    }
+
+     Frame label="Wohnraum 44"{
+        Text item=Wohnraum44_Temperature
+        Text item=Wohnraum44_Humidity
+        Text item=Wohnraum44_Electricity
+    }
+
+     Frame label="Wohnraum 45"{
+        Text item=Wohnraum45_Temperature
+        Text item=Wohnraum45_Humidity
+        Text item=Wohnraum45_Electricity
+    }
+
+     Frame label="Wohnraum 46"{
+        Text item=Wohnraum46_Temperature
+        Text item=Wohnraum46_Humidity
+        Text item=Wohnraum46_Electricity
+    }
+
+     Frame label="Wohnraum 47"{
+        Text item=Wohnraum47_Temperature
+        Text item=Wohnraum47_Humidity
+        Text item=Wohnraum47_Electricity
+    }
+
+     Frame label="Wohnraum 48"{
+        Text item=Wohnraum48_Temperature
+        Text item=Wohnraum48_Humidity
+        Text item=Wohnraum48_Electricity
+    }
+
+     Frame label="Wohnraum 49"{
+        Text item=Wohnraum49_Temperature
+        Text item=Wohnraum49_Humidity
+        Text item=Wohnraum49_Electricity
+    }
+
+     Frame label="Wohnraum 50"{
+        Text item=Wohnraum50_Temperature
+        Text item=Wohnraum50_Humidity
+        Text item=Wohnraum50_Electricity
+    }
+
+     Frame label="Wohnraum 51"{
+        Text item=Wohnraum51_Temperature
+        Text item=Wohnraum51_Humidity
+        Text item=Wohnraum51_Electricity
+    }
+
+     Frame label="Wohnraum 52"{
+        Text item=Wohnraum52_Temperature
+        Text item=Wohnraum52_Humidity
+        Text item=Wohnraum52_Electricity
+    }
+
+     Frame label="Wohnraum 53"{
+        Text item=Wohnraum53_Temperature
+        Text item=Wohnraum53_Humidity
+        Text item=Wohnraum53_Electricity
+    }
+
+     Frame label="Wohnraum 54"{
+        Text item=Wohnraum54_Temperature
+        Text item=Wohnraum54_Humidity
+        Text item=Wohnraum54_Electricity
+    }
+
+     Frame label="Wohnraum 55"{
+        Text item=Wohnraum55_Temperature
+        Text item=Wohnraum55_Humidity
+        Text item=Wohnraum55_Electricity
+    }
+
+     Frame label="Wohnraum 56"{
+        Text item=Wohnraum56_Temperature
+        Text item=Wohnraum56_Humidity
+        Text item=Wohnraum56_Electricity
+    }
+
+     Frame label="Wohnraum 57"{
+        Text item=Wohnraum57_Temperature
+        Text item=Wohnraum57_Humidity
+        Text item=Wohnraum57_Electricity
+    }
+
+     Frame label="Wohnraum 58"{
+        Text item=Wohnraum58_Temperature
+        Text item=Wohnraum58_Humidity
+        Text item=Wohnraum58_Electricity
+    }
+
+     Frame label="Wohnraum 59"{
+        Text item=Wohnraum59_Temperature
+        Text item=Wohnraum59_Humidity
+        Text item=Wohnraum59_Electricity
+    }
+
+     Frame label="Wohnraum 60"{
+        Text item=Wohnraum60_Temperature
+        Text item=Wohnraum60_Humidity
+        Text item=Wohnraum60_Electricity
+    }
+
+     Frame label="Wohnraum 61"{
+        Text item=Wohnraum61_Temperature
+        Text item=Wohnraum61_Humidity
+        Text item=Wohnraum61_Electricity
+    }
+
+     Frame label="Wohnraum 62"{
+        Text item=Wohnraum62_Temperature
+        Text item=Wohnraum62_Humidity
+        Text item=Wohnraum62_Electricity
+    }
+
+     Frame label="Wohnraum 63"{
+        Text item=Wohnraum63_Temperature
+        Text item=Wohnraum63_Humidity
+        Text item=Wohnraum63_Electricity
+    }
+
+     Frame label="Wohnraum 64"{
+        Text item=Wohnraum64_Temperature
+        Text item=Wohnraum64_Humidity
+        Text item=Wohnraum64_Electricity
+    }
+
+     Frame label="Wohnraum 65"{
+        Text item=Wohnraum65_Temperature
+        Text item=Wohnraum65_Humidity
+        Text item=Wohnraum65_Electricity
+    }
+
+     Frame label="Wohnraum 66"{
+        Text item=Wohnraum66_Temperature
+        Text item=Wohnraum66_Humidity
+        Text item=Wohnraum66_Electricity
+    }
+
+     Frame label="Wohnraum 67"{
+        Text item=Wohnraum67_Temperature
+        Text item=Wohnraum67_Humidity
+        Text item=Wohnraum67_Electricity
+    }
+
+     Frame label="Wohnraum 68"{
+        Text item=Wohnraum68_Temperature
+        Text item=Wohnraum68_Humidity
+        Text item=Wohnraum68_Electricity
+    }
+
+     Frame label="Wohnraum 69"{
+        Text item=Wohnraum69_Temperature
+        Text item=Wohnraum69_Humidity
+        Text item=Wohnraum69_Electricity
+    }
+
+     Frame label="Wohnraum 70"{
+        Text item=Wohnraum70_Temperature
+        Text item=Wohnraum70_Humidity
+        Text item=Wohnraum70_Electricity
+    }
+
+     Frame label="Wohnraum 71"{
+        Text item=Wohnraum71_Temperature
+        Text item=Wohnraum71_Humidity
+        Text item=Wohnraum71_Electricity
+    }
+
+     Frame label="Wohnraum 72"{
+        Text item=Wohnraum72_Temperature
+        Text item=Wohnraum72_Humidity
+        Text item=Wohnraum72_Electricity
+    }
+
+     Frame label="Wohnraum 73"{
+        Text item=Wohnraum73_Temperature
+        Text item=Wohnraum73_Humidity
+        Text item=Wohnraum73_Electricity
+    }
+
+     Frame label="Wohnraum 74"{
+        Text item=Wohnraum74_Temperature
+        Text item=Wohnraum74_Humidity
+        Text item=Wohnraum74_Electricity
+    }
+
+     Frame label="Wohnraum 75"{
+        Text item=Wohnraum75_Temperature
+        Text item=Wohnraum75_Humidity
+        Text item=Wohnraum75_Electricity
+    }
+
+     Frame label="Wohnraum 76"{
+        Text item=Wohnraum76_Temperature
+        Text item=Wohnraum76_Humidity
+        Text item=Wohnraum76_Electricity
+    }
+
+     Frame label="Wohnraum 77"{
+        Text item=Wohnraum77_Temperature
+        Text item=Wohnraum77_Humidity
+        Text item=Wohnraum77_Electricity
+    }
+
+     Frame label="Wohnraum 78"{
+        Text item=Wohnraum78_Temperature
+        Text item=Wohnraum78_Humidity
+        Text item=Wohnraum78_Electricity
+    }
+
+     Frame label="Wohnraum 79"{
+        Text item=Wohnraum79_Temperature
+        Text item=Wohnraum79_Humidity
+        Text item=Wohnraum79_Electricity
+    }
+
+     Frame label="Wohnraum 80"{
+        Text item=Wohnraum80_Temperature
+        Text item=Wohnraum80_Humidity
+        Text item=Wohnraum80_Electricity
+    }
+
+     Frame label="Wohnraum 81"{
+        Text item=Wohnraum81_Temperature
+        Text item=Wohnraum81_Humidity
+        Text item=Wohnraum81_Electricity
+    }
+
+     Frame label="Wohnraum 82"{
+        Text item=Wohnraum82_Temperature
+        Text item=Wohnraum82_Humidity
+        Text item=Wohnraum82_Electricity
+    }
+
+     Frame label="Wohnraum 83"{
+        Text item=Wohnraum83_Temperature
+        Text item=Wohnraum83_Humidity
+        Text item=Wohnraum83_Electricity
+    }
+
+     Frame label="Wohnraum 84"{
+        Text item=Wohnraum84_Temperature
+        Text item=Wohnraum84_Humidity
+        Text item=Wohnraum84_Electricity
+    }
+
+     Frame label="Wohnraum 85"{
+        Text item=Wohnraum85_Temperature
+        Text item=Wohnraum85_Humidity
+        Text item=Wohnraum85_Electricity
+    }
+
+     Frame label="Wohnraum 86"{
+        Text item=Wohnraum86_Temperature
+        Text item=Wohnraum86_Humidity
+        Text item=Wohnraum86_Electricity
+    }
+
+     Frame label="Wohnraum 87"{
+        Text item=Wohnraum87_Temperature
+        Text item=Wohnraum87_Humidity
+        Text item=Wohnraum87_Electricity
+    }
+
+     Frame label="Wohnraum 88"{
+        Text item=Wohnraum88_Temperature
+        Text item=Wohnraum88_Humidity
+        Text item=Wohnraum88_Electricity
+    }
+
+     Frame label="Wohnraum 89"{
+        Text item=Wohnraum89_Temperature
+        Text item=Wohnraum89_Humidity
+        Text item=Wohnraum89_Electricity
+    }
+
+     Frame label="Wohnraum 90"{
+        Text item=Wohnraum90_Temperature
+        Text item=Wohnraum90_Humidity
+        Text item=Wohnraum90_Electricity
+    }
+
+     Frame label="Wohnraum 91"{
+        Text item=Wohnraum91_Temperature
+        Text item=Wohnraum91_Humidity
+        Text item=Wohnraum91_Electricity
+    }
+
+     Frame label="Wohnraum 92"{
+        Text item=Wohnraum92_Temperature
+        Text item=Wohnraum92_Humidity
+        Text item=Wohnraum92_Electricity
+    }
+
+     Frame label="Wohnraum 93"{
+        Text item=Wohnraum93_Temperature
+        Text item=Wohnraum93_Humidity
+        Text item=Wohnraum93_Electricity
+    }
+
+     Frame label="Wohnraum 94"{
+        Text item=Wohnraum94_Temperature
+        Text item=Wohnraum94_Humidity
+        Text item=Wohnraum94_Electricity
+    }
+
+     Frame label="Wohnraum 95"{
+        Text item=Wohnraum95_Temperature
+        Text item=Wohnraum95_Humidity
+        Text item=Wohnraum95_Electricity
+    }
+
+     Frame label="Wohnraum 96"{
+        Text item=Wohnraum96_Temperature
+        Text item=Wohnraum96_Humidity
+        Text item=Wohnraum96_Electricity
+    }
+
+     Frame label="Wohnraum 97"{
+        Text item=Wohnraum97_Temperature
+        Text item=Wohnraum97_Humidity
+        Text item=Wohnraum97_Electricity
+    }
+
+     Frame label="Wohnraum 98"{
+        Text item=Wohnraum98_Temperature
+        Text item=Wohnraum98_Humidity
+        Text item=Wohnraum98_Electricity
+    }
+
+     Frame label="Wohnraum 99"{
+        Text item=Wohnraum99_Temperature
+        Text item=Wohnraum99_Humidity
+        Text item=Wohnraum99_Electricity
+    }
+
+     Frame label="Wohnraum 100"{
+        Text item=Wohnraum100_Temperature
+        Text item=Wohnraum100_Humidity
+        Text item=Wohnraum100_Electricity
+    }
+
+     Frame label="Wohnraum 101"{
+        Text item=Wohnraum101_Temperature
+        Text item=Wohnraum101_Humidity
+        Text item=Wohnraum101_Electricity
+    }
+
+     Frame label="Wohnraum 102"{
+        Text item=Wohnraum102_Temperature
+        Text item=Wohnraum102_Humidity
+        Text item=Wohnraum102_Electricity
+    }
+
+     Frame label="Wohnraum 103"{
+        Text item=Wohnraum103_Temperature
+        Text item=Wohnraum103_Humidity
+        Text item=Wohnraum103_Electricity
+    }
+
+     Frame label="Wohnraum 104"{
+        Text item=Wohnraum104_Temperature
+        Text item=Wohnraum104_Humidity
+        Text item=Wohnraum104_Electricity
+    }
+
+     Frame label="Wohnraum 105"{
+        Text item=Wohnraum105_Temperature
+        Text item=Wohnraum105_Humidity
+        Text item=Wohnraum105_Electricity
+    }
+
+     Frame label="Wohnraum 106"{
+        Text item=Wohnraum106_Temperature
+        Text item=Wohnraum106_Humidity
+        Text item=Wohnraum106_Electricity
+    }
+
+     Frame label="Wohnraum 107"{
+        Text item=Wohnraum107_Temperature
+        Text item=Wohnraum107_Humidity
+        Text item=Wohnraum107_Electricity
+    }
+
+     Frame label="Wohnraum 108"{
+        Text item=Wohnraum108_Temperature
+        Text item=Wohnraum108_Humidity
+        Text item=Wohnraum108_Electricity
+    }
+
+     Frame label="Wohnraum 109"{
+        Text item=Wohnraum109_Temperature
+        Text item=Wohnraum109_Humidity
+        Text item=Wohnraum109_Electricity
+    }
+
+     Frame label="Wohnraum 110"{
+        Text item=Wohnraum110_Temperature
+        Text item=Wohnraum110_Humidity
+        Text item=Wohnraum110_Electricity
+    }
+
+     Frame label="Wohnraum 111"{
+        Text item=Wohnraum111_Temperature
+        Text item=Wohnraum111_Humidity
+        Text item=Wohnraum111_Electricity
+    }
+
+     Frame label="Wohnraum 112"{
+        Text item=Wohnraum112_Temperature
+        Text item=Wohnraum112_Humidity
+        Text item=Wohnraum112_Electricity
+    }
+
+     Frame label="Wohnraum 113"{
+        Text item=Wohnraum113_Temperature
+        Text item=Wohnraum113_Humidity
+        Text item=Wohnraum113_Electricity
+    }
+
+     Frame label="Wohnraum 114"{
+        Text item=Wohnraum114_Temperature
+        Text item=Wohnraum114_Humidity
+        Text item=Wohnraum114_Electricity
+    }
+
+     Frame label="Wohnraum 115"{
+        Text item=Wohnraum115_Temperature
+        Text item=Wohnraum115_Humidity
+        Text item=Wohnraum115_Electricity
+    }
+
+     Frame label="Wohnraum 116"{
+        Text item=Wohnraum116_Temperature
+        Text item=Wohnraum116_Humidity
+        Text item=Wohnraum116_Electricity
+    }
+
+     Frame label="Wohnraum 117"{
+        Text item=Wohnraum117_Temperature
+        Text item=Wohnraum117_Humidity
+        Text item=Wohnraum117_Electricity
+    }
+
+     Frame label="Wohnraum 118"{
+        Text item=Wohnraum118_Temperature
+        Text item=Wohnraum118_Humidity
+        Text item=Wohnraum118_Electricity
+    }
+
+     Frame label="Wohnraum 119"{
+        Text item=Wohnraum119_Temperature
+        Text item=Wohnraum119_Humidity
+        Text item=Wohnraum119_Electricity
+    }
+
+     Frame label="Wohnraum 120"{
+        Text item=Wohnraum120_Temperature
+        Text item=Wohnraum120_Humidity
+        Text item=Wohnraum120_Electricity
+    }
+
+     Frame label="Wohnraum 121"{
+        Text item=Wohnraum121_Temperature
+        Text item=Wohnraum121_Humidity
+        Text item=Wohnraum121_Electricity
+    }
+
+     Frame label="Wohnraum 122"{
+        Text item=Wohnraum122_Temperature
+        Text item=Wohnraum122_Humidity
+        Text item=Wohnraum122_Electricity
+    }
+
+     Frame label="Wohnraum 123"{
+        Text item=Wohnraum123_Temperature
+        Text item=Wohnraum123_Humidity
+        Text item=Wohnraum123_Electricity
+    }
+
+     Frame label="Wohnraum 124"{
+        Text item=Wohnraum124_Temperature
+        Text item=Wohnraum124_Humidity
+        Text item=Wohnraum124_Electricity
+    }
+
+     Frame label="Wohnraum 125"{
+        Text item=Wohnraum125_Temperature
+        Text item=Wohnraum125_Humidity
+        Text item=Wohnraum125_Electricity
+    }
+
+     Frame label="Wohnraum 126"{
+        Text item=Wohnraum126_Temperature
+        Text item=Wohnraum126_Humidity
+        Text item=Wohnraum126_Electricity
+    }
+
+     Frame label="Wohnraum 127"{
+        Text item=Wohnraum127_Temperature
+        Text item=Wohnraum127_Humidity
+        Text item=Wohnraum127_Electricity
+    }
+
+     Frame label="Wohnraum 128"{
+        Text item=Wohnraum128_Temperature
+        Text item=Wohnraum128_Humidity
+        Text item=Wohnraum128_Electricity
+    }
+
+     Frame label="Wohnraum 129"{
+        Text item=Wohnraum129_Temperature
+        Text item=Wohnraum129_Humidity
+        Text item=Wohnraum129_Electricity
+    }
+
+     Frame label="Wohnraum 130"{
+        Text item=Wohnraum130_Temperature
+        Text item=Wohnraum130_Humidity
+        Text item=Wohnraum130_Electricity
+    }
+
+     Frame label="Wohnraum 131"{
+        Text item=Wohnraum131_Temperature
+        Text item=Wohnraum131_Humidity
+        Text item=Wohnraum131_Electricity
+    }
+
+     Frame label="Wohnraum 132"{
+        Text item=Wohnraum132_Temperature
+        Text item=Wohnraum132_Humidity
+        Text item=Wohnraum132_Electricity
+    }
+
+     Frame label="Wohnraum 133"{
+        Text item=Wohnraum133_Temperature
+        Text item=Wohnraum133_Humidity
+        Text item=Wohnraum133_Electricity
+    }
+
+     Frame label="Wohnraum 134"{
+        Text item=Wohnraum134_Temperature
+        Text item=Wohnraum134_Humidity
+        Text item=Wohnraum134_Electricity
+    }
+
+     Frame label="Wohnraum 135"{
+        Text item=Wohnraum135_Temperature
+        Text item=Wohnraum135_Humidity
+        Text item=Wohnraum135_Electricity
+    }
+
+     Frame label="Wohnraum 136"{
+        Text item=Wohnraum136_Temperature
+        Text item=Wohnraum136_Humidity
+        Text item=Wohnraum136_Electricity
+    }
+
+     Frame label="Wohnraum 137"{
+        Text item=Wohnraum137_Temperature
+        Text item=Wohnraum137_Humidity
+        Text item=Wohnraum137_Electricity
+    }
+
+     Frame label="Wohnraum 138"{
+        Text item=Wohnraum138_Temperature
+        Text item=Wohnraum138_Humidity
+        Text item=Wohnraum138_Electricity
+    }
+
+     Frame label="Wohnraum 139"{
+        Text item=Wohnraum139_Temperature
+        Text item=Wohnraum139_Humidity
+        Text item=Wohnraum139_Electricity
+    }
+
+     Frame label="Wohnraum 140"{
+        Text item=Wohnraum140_Temperature
+        Text item=Wohnraum140_Humidity
+        Text item=Wohnraum140_Electricity
+    }
+
+     Frame label="Wohnraum 141"{
+        Text item=Wohnraum141_Temperature
+        Text item=Wohnraum141_Humidity
+        Text item=Wohnraum141_Electricity
+    }
+
+     Frame label="Wohnraum 142"{
+        Text item=Wohnraum142_Temperature
+        Text item=Wohnraum142_Humidity
+        Text item=Wohnraum142_Electricity
+    }
+
+     Frame label="Wohnraum 143"{
+        Text item=Wohnraum143_Temperature
+        Text item=Wohnraum143_Humidity
+        Text item=Wohnraum143_Electricity
+    }
+
+     Frame label="Wohnraum 144"{
+        Text item=Wohnraum144_Temperature
+        Text item=Wohnraum144_Humidity
+        Text item=Wohnraum144_Electricity
+    }
+
+     Frame label="Wohnraum 145"{
+        Text item=Wohnraum145_Temperature
+        Text item=Wohnraum145_Humidity
+        Text item=Wohnraum145_Electricity
+    }
+
+     Frame label="Wohnraum 146"{
+        Text item=Wohnraum146_Temperature
+        Text item=Wohnraum146_Humidity
+        Text item=Wohnraum146_Electricity
+    }
+
+     Frame label="Wohnraum 147"{
+        Text item=Wohnraum147_Temperature
+        Text item=Wohnraum147_Humidity
+        Text item=Wohnraum147_Electricity
+    }
+
+     Frame label="Wohnraum 148"{
+        Text item=Wohnraum148_Temperature
+        Text item=Wohnraum148_Humidity
+        Text item=Wohnraum148_Electricity
+    }
+
+     Frame label="Wohnraum 149"{
+        Text item=Wohnraum149_Temperature
+        Text item=Wohnraum149_Humidity
+        Text item=Wohnraum149_Electricity
+    }
+
+     Frame label="Wohnraum 150"{
+        Text item=Wohnraum150_Temperature
+        Text item=Wohnraum150_Humidity
+        Text item=Wohnraum150_Electricity
+    }
+
+     Frame label="Wohnraum 151"{
+        Text item=Wohnraum151_Temperature
+        Text item=Wohnraum151_Humidity
+        Text item=Wohnraum151_Electricity
+    }
+
+     Frame label="Wohnraum 152"{
+        Text item=Wohnraum152_Temperature
+        Text item=Wohnraum152_Humidity
+        Text item=Wohnraum152_Electricity
+    }
+
+     Frame label="Wohnraum 153"{
+        Text item=Wohnraum153_Temperature
+        Text item=Wohnraum153_Humidity
+        Text item=Wohnraum153_Electricity
+    }
+
+     Frame label="Wohnraum 154"{
+        Text item=Wohnraum154_Temperature
+        Text item=Wohnraum154_Humidity
+        Text item=Wohnraum154_Electricity
+    }
+
+     Frame label="Wohnraum 155"{
+        Text item=Wohnraum155_Temperature
+        Text item=Wohnraum155_Humidity
+        Text item=Wohnraum155_Electricity
+    }
+
+     Frame label="Wohnraum 156"{
+        Text item=Wohnraum156_Temperature
+        Text item=Wohnraum156_Humidity
+        Text item=Wohnraum156_Electricity
+    }
+
+     Frame label="Wohnraum 157"{
+        Text item=Wohnraum157_Temperature
+        Text item=Wohnraum157_Humidity
+        Text item=Wohnraum157_Electricity
+    }
+
+     Frame label="Wohnraum 158"{
+        Text item=Wohnraum158_Temperature
+        Text item=Wohnraum158_Humidity
+        Text item=Wohnraum158_Electricity
+    }
+
+     Frame label="Wohnraum 159"{
+        Text item=Wohnraum159_Temperature
+        Text item=Wohnraum159_Humidity
+        Text item=Wohnraum159_Electricity
+    }
+
+     Frame label="Wohnraum 160"{
+        Text item=Wohnraum160_Temperature
+        Text item=Wohnraum160_Humidity
+        Text item=Wohnraum160_Electricity
+    }
+
+     Frame label="Wohnraum 161"{
+        Text item=Wohnraum161_Temperature
+        Text item=Wohnraum161_Humidity
+        Text item=Wohnraum161_Electricity
+    }
+
+     Frame label="Wohnraum 162"{
+        Text item=Wohnraum162_Temperature
+        Text item=Wohnraum162_Humidity
+        Text item=Wohnraum162_Electricity
+    }
+
+     Frame label="Wohnraum 163"{
+        Text item=Wohnraum163_Temperature
+        Text item=Wohnraum163_Humidity
+        Text item=Wohnraum163_Electricity
+    }
+
+     Frame label="Wohnraum 164"{
+        Text item=Wohnraum164_Temperature
+        Text item=Wohnraum164_Humidity
+        Text item=Wohnraum164_Electricity
+    }
+
+     Frame label="Wohnraum 165"{
+        Text item=Wohnraum165_Temperature
+        Text item=Wohnraum165_Humidity
+        Text item=Wohnraum165_Electricity
+    }
+
+     Frame label="Wohnraum 166"{
+        Text item=Wohnraum166_Temperature
+        Text item=Wohnraum166_Humidity
+        Text item=Wohnraum166_Electricity
+    }
+
+     Frame label="Wohnraum 167"{
+        Text item=Wohnraum167_Temperature
+        Text item=Wohnraum167_Humidity
+        Text item=Wohnraum167_Electricity
+    }
+
+     Frame label="Wohnraum 168"{
+        Text item=Wohnraum168_Temperature
+        Text item=Wohnraum168_Humidity
+        Text item=Wohnraum168_Electricity
+    }
+
+     Frame label="Wohnraum 169"{
+        Text item=Wohnraum169_Temperature
+        Text item=Wohnraum169_Humidity
+        Text item=Wohnraum169_Electricity
+    }
+
+     Frame label="Wohnraum 170"{
+        Text item=Wohnraum170_Temperature
+        Text item=Wohnraum170_Humidity
+        Text item=Wohnraum170_Electricity
+    }
+
+     Frame label="Wohnraum 171"{
+        Text item=Wohnraum171_Temperature
+        Text item=Wohnraum171_Humidity
+        Text item=Wohnraum171_Electricity
+    }
+
+     Frame label="Wohnraum 172"{
+        Text item=Wohnraum172_Temperature
+        Text item=Wohnraum172_Humidity
+        Text item=Wohnraum172_Electricity
+    }
+
+     Frame label="Wohnraum 173"{
+        Text item=Wohnraum173_Temperature
+        Text item=Wohnraum173_Humidity
+        Text item=Wohnraum173_Electricity
+    }
+
+     Frame label="Wohnraum 174"{
+        Text item=Wohnraum174_Temperature
+        Text item=Wohnraum174_Humidity
+        Text item=Wohnraum174_Electricity
+    }
+
+     Frame label="Wohnraum 175"{
+        Text item=Wohnraum175_Temperature
+        Text item=Wohnraum175_Humidity
+        Text item=Wohnraum175_Electricity
+    }
+
+     Frame label="Wohnraum 176"{
+        Text item=Wohnraum176_Temperature
+        Text item=Wohnraum176_Humidity
+        Text item=Wohnraum176_Electricity
+    }
+
+     Frame label="Wohnraum 177"{
+        Text item=Wohnraum177_Temperature
+        Text item=Wohnraum177_Humidity
+        Text item=Wohnraum177_Electricity
+    }
+
+     Frame label="Wohnraum 178"{
+        Text item=Wohnraum178_Temperature
+        Text item=Wohnraum178_Humidity
+        Text item=Wohnraum178_Electricity
+    }
+
+     Frame label="Wohnraum 179"{
+        Text item=Wohnraum179_Temperature
+        Text item=Wohnraum179_Humidity
+        Text item=Wohnraum179_Electricity
+    }
+
+     Frame label="Wohnraum 180"{
+        Text item=Wohnraum180_Temperature
+        Text item=Wohnraum180_Humidity
+        Text item=Wohnraum180_Electricity
+    }
+
+     Frame label="Wohnraum 181"{
+        Text item=Wohnraum181_Temperature
+        Text item=Wohnraum181_Humidity
+        Text item=Wohnraum181_Electricity
+    }
+
+     Frame label="Wohnraum 182"{
+        Text item=Wohnraum182_Temperature
+        Text item=Wohnraum182_Humidity
+        Text item=Wohnraum182_Electricity
+    }
+
+     Frame label="Wohnraum 183"{
+        Text item=Wohnraum183_Temperature
+        Text item=Wohnraum183_Humidity
+        Text item=Wohnraum183_Electricity
+    }
+
+     Frame label="Wohnraum 184"{
+        Text item=Wohnraum184_Temperature
+        Text item=Wohnraum184_Humidity
+        Text item=Wohnraum184_Electricity
+    }
+
+     Frame label="Wohnraum 185"{
+        Text item=Wohnraum185_Temperature
+        Text item=Wohnraum185_Humidity
+        Text item=Wohnraum185_Electricity
+    }
+
+     Frame label="Wohnraum 186"{
+        Text item=Wohnraum186_Temperature
+        Text item=Wohnraum186_Humidity
+        Text item=Wohnraum186_Electricity
+    }
+
+     Frame label="Wohnraum 187"{
+        Text item=Wohnraum187_Temperature
+        Text item=Wohnraum187_Humidity
+        Text item=Wohnraum187_Electricity
+    }
+
+     Frame label="Wohnraum 188"{
+        Text item=Wohnraum188_Temperature
+        Text item=Wohnraum188_Humidity
+        Text item=Wohnraum188_Electricity
+    }
+
+     Frame label="Wohnraum 189"{
+        Text item=Wohnraum189_Temperature
+        Text item=Wohnraum189_Humidity
+        Text item=Wohnraum189_Electricity
+    }
+
+     Frame label="Wohnraum 190"{
+        Text item=Wohnraum190_Temperature
+        Text item=Wohnraum190_Humidity
+        Text item=Wohnraum190_Electricity
+    }
+
+     Frame label="Wohnraum 191"{
+        Text item=Wohnraum191_Temperature
+        Text item=Wohnraum191_Humidity
+        Text item=Wohnraum191_Electricity
+    }
+
+     Frame label="Wohnraum 192"{
+        Text item=Wohnraum192_Temperature
+        Text item=Wohnraum192_Humidity
+        Text item=Wohnraum192_Electricity
+    }
+
+     Frame label="Wohnraum 193"{
+        Text item=Wohnraum193_Temperature
+        Text item=Wohnraum193_Humidity
+        Text item=Wohnraum193_Electricity
+    }
+
+     Frame label="Wohnraum 194"{
+        Text item=Wohnraum194_Temperature
+        Text item=Wohnraum194_Humidity
+        Text item=Wohnraum194_Electricity
+    }
+
+     Frame label="Wohnraum 195"{
+        Text item=Wohnraum195_Temperature
+        Text item=Wohnraum195_Humidity
+        Text item=Wohnraum195_Electricity
+    }
+
+     Frame label="Wohnraum 196"{
+        Text item=Wohnraum196_Temperature
+        Text item=Wohnraum196_Humidity
+        Text item=Wohnraum196_Electricity
+    }
+
+     Frame label="Wohnraum 197"{
+        Text item=Wohnraum197_Temperature
+        Text item=Wohnraum197_Humidity
+        Text item=Wohnraum197_Electricity
+    }
+
+     Frame label="Wohnraum 198"{
+        Text item=Wohnraum198_Temperature
+        Text item=Wohnraum198_Humidity
+        Text item=Wohnraum198_Electricity
+    }
+
+     Frame label="Wohnraum 199"{
+        Text item=Wohnraum199_Temperature
+        Text item=Wohnraum199_Humidity
+        Text item=Wohnraum199_Electricity
+    }
+
+     Frame label="Wohnraum 200"{
+        Text item=Wohnraum200_Temperature
+        Text item=Wohnraum200_Humidity
+        Text item=Wohnraum200_Electricity
+    }
+
+     Frame label="Wohnraum 201"{
+        Text item=Wohnraum201_Temperature
+        Text item=Wohnraum201_Humidity
+        Text item=Wohnraum201_Electricity
+    }
+
+     Frame label="Wohnraum 202"{
+        Text item=Wohnraum202_Temperature
+        Text item=Wohnraum202_Humidity
+        Text item=Wohnraum202_Electricity
+    }
+
+     Frame label="Wohnraum 203"{
+        Text item=Wohnraum203_Temperature
+        Text item=Wohnraum203_Humidity
+        Text item=Wohnraum203_Electricity
+    }
+
+     Frame label="Wohnraum 204"{
+        Text item=Wohnraum204_Temperature
+        Text item=Wohnraum204_Humidity
+        Text item=Wohnraum204_Electricity
+    }
+
+     Frame label="Wohnraum 205"{
+        Text item=Wohnraum205_Temperature
+        Text item=Wohnraum205_Humidity
+        Text item=Wohnraum205_Electricity
+    }
+
+     Frame label="Wohnraum 206"{
+        Text item=Wohnraum206_Temperature
+        Text item=Wohnraum206_Humidity
+        Text item=Wohnraum206_Electricity
+    }
+
+     Frame label="Wohnraum 207"{
+        Text item=Wohnraum207_Temperature
+        Text item=Wohnraum207_Humidity
+        Text item=Wohnraum207_Electricity
+    }
+
+     Frame label="Wohnraum 208"{
+        Text item=Wohnraum208_Temperature
+        Text item=Wohnraum208_Humidity
+        Text item=Wohnraum208_Electricity
+    }
+
+     Frame label="Wohnraum 209"{
+        Text item=Wohnraum209_Temperature
+        Text item=Wohnraum209_Humidity
+        Text item=Wohnraum209_Electricity
+    }
+
+     Frame label="Wohnraum 210"{
+        Text item=Wohnraum210_Temperature
+        Text item=Wohnraum210_Humidity
+        Text item=Wohnraum210_Electricity
+    }
+
+     Frame label="Wohnraum 211"{
+        Text item=Wohnraum211_Temperature
+        Text item=Wohnraum211_Humidity
+        Text item=Wohnraum211_Electricity
+    }
+
+     Frame label="Wohnraum 212"{
+        Text item=Wohnraum212_Temperature
+        Text item=Wohnraum212_Humidity
+        Text item=Wohnraum212_Electricity
+    }
+
+     Frame label="Wohnraum 213"{
+        Text item=Wohnraum213_Temperature
+        Text item=Wohnraum213_Humidity
+        Text item=Wohnraum213_Electricity
+    }
+
+     Frame label="Wohnraum 214"{
+        Text item=Wohnraum214_Temperature
+        Text item=Wohnraum214_Humidity
+        Text item=Wohnraum214_Electricity
+    }
+
+     Frame label="Wohnraum 215"{
+        Text item=Wohnraum215_Temperature
+        Text item=Wohnraum215_Humidity
+        Text item=Wohnraum215_Electricity
+    }
+
+     Frame label="Wohnraum 216"{
+        Text item=Wohnraum216_Temperature
+        Text item=Wohnraum216_Humidity
+        Text item=Wohnraum216_Electricity
+    }
+
+     Frame label="Wohnraum 217"{
+        Text item=Wohnraum217_Temperature
+        Text item=Wohnraum217_Humidity
+        Text item=Wohnraum217_Electricity
+    }
+
+     Frame label="Wohnraum 218"{
+        Text item=Wohnraum218_Temperature
+        Text item=Wohnraum218_Humidity
+        Text item=Wohnraum218_Electricity
+    }
+
+     Frame label="Wohnraum 219"{
+        Text item=Wohnraum219_Temperature
+        Text item=Wohnraum219_Humidity
+        Text item=Wohnraum219_Electricity
+    }
+
+     Frame label="Wohnraum 220"{
+        Text item=Wohnraum220_Temperature
+        Text item=Wohnraum220_Humidity
+        Text item=Wohnraum220_Electricity
+    }
+
+     Frame label="Wohnraum 221"{
+        Text item=Wohnraum221_Temperature
+        Text item=Wohnraum221_Humidity
+        Text item=Wohnraum221_Electricity
+    }
+
+     Frame label="Wohnraum 222"{
+        Text item=Wohnraum222_Temperature
+        Text item=Wohnraum222_Humidity
+        Text item=Wohnraum222_Electricity
+    }
+
+     Frame label="Wohnraum 223"{
+        Text item=Wohnraum223_Temperature
+        Text item=Wohnraum223_Humidity
+        Text item=Wohnraum223_Electricity
+    }
+
+     Frame label="Wohnraum 224"{
+        Text item=Wohnraum224_Temperature
+        Text item=Wohnraum224_Humidity
+        Text item=Wohnraum224_Electricity
+    }
+
+     Frame label="Wohnraum 225"{
+        Text item=Wohnraum225_Temperature
+        Text item=Wohnraum225_Humidity
+        Text item=Wohnraum225_Electricity
+    }
+
+     Frame label="Wohnraum 226"{
+        Text item=Wohnraum226_Temperature
+        Text item=Wohnraum226_Humidity
+        Text item=Wohnraum226_Electricity
+    }
+
+     Frame label="Wohnraum 227"{
+        Text item=Wohnraum227_Temperature
+        Text item=Wohnraum227_Humidity
+        Text item=Wohnraum227_Electricity
+    }
+
+     Frame label="Wohnraum 228"{
+        Text item=Wohnraum228_Temperature
+        Text item=Wohnraum228_Humidity
+        Text item=Wohnraum228_Electricity
+    }
+
+     Frame label="Wohnraum 229"{
+        Text item=Wohnraum229_Temperature
+        Text item=Wohnraum229_Humidity
+        Text item=Wohnraum229_Electricity
+    }
+
+     Frame label="Wohnraum 230"{
+        Text item=Wohnraum230_Temperature
+        Text item=Wohnraum230_Humidity
+        Text item=Wohnraum230_Electricity
+    }
+
+     Frame label="Wohnraum 231"{
+        Text item=Wohnraum231_Temperature
+        Text item=Wohnraum231_Humidity
+        Text item=Wohnraum231_Electricity
+    }
+
+     Frame label="Wohnraum 232"{
+        Text item=Wohnraum232_Temperature
+        Text item=Wohnraum232_Humidity
+        Text item=Wohnraum232_Electricity
+    }
+
+     Frame label="Wohnraum 233"{
+        Text item=Wohnraum233_Temperature
+        Text item=Wohnraum233_Humidity
+        Text item=Wohnraum233_Electricity
+    }
+
+     Frame label="Wohnraum 234"{
+        Text item=Wohnraum234_Temperature
+        Text item=Wohnraum234_Humidity
+        Text item=Wohnraum234_Electricity
+    }
+
+     Frame label="Wohnraum 235"{
+        Text item=Wohnraum235_Temperature
+        Text item=Wohnraum235_Humidity
+        Text item=Wohnraum235_Electricity
+    }
+
+     Frame label="Wohnraum 236"{
+        Text item=Wohnraum236_Temperature
+        Text item=Wohnraum236_Humidity
+        Text item=Wohnraum236_Electricity
+    }
+
+     Frame label="Wohnraum 237"{
+        Text item=Wohnraum237_Temperature
+        Text item=Wohnraum237_Humidity
+        Text item=Wohnraum237_Electricity
+    }
+
+     Frame label="Wohnraum 238"{
+        Text item=Wohnraum238_Temperature
+        Text item=Wohnraum238_Humidity
+        Text item=Wohnraum238_Electricity
+    }
+
+     Frame label="Wohnraum 239"{
+        Text item=Wohnraum239_Temperature
+        Text item=Wohnraum239_Humidity
+        Text item=Wohnraum239_Electricity
+    }
+
+     Frame label="Wohnraum 240"{
+        Text item=Wohnraum240_Temperature
+        Text item=Wohnraum240_Humidity
+        Text item=Wohnraum240_Electricity
+    }
+
+     Frame label="Wohnraum 241"{
+        Text item=Wohnraum241_Temperature
+        Text item=Wohnraum241_Humidity
+        Text item=Wohnraum241_Electricity
+    }
+
+     Frame label="Wohnraum 242"{
+        Text item=Wohnraum242_Temperature
+        Text item=Wohnraum242_Humidity
+        Text item=Wohnraum242_Electricity
+    }
+
+     Frame label="Wohnraum 243"{
+        Text item=Wohnraum243_Temperature
+        Text item=Wohnraum243_Humidity
+        Text item=Wohnraum243_Electricity
+    }
+
+     Frame label="Wohnraum 244"{
+        Text item=Wohnraum244_Temperature
+        Text item=Wohnraum244_Humidity
+        Text item=Wohnraum244_Electricity
+    }
+
+     Frame label="Wohnraum 245"{
+        Text item=Wohnraum245_Temperature
+        Text item=Wohnraum245_Humidity
+        Text item=Wohnraum245_Electricity
+    }
+
+     Frame label="Wohnraum 246"{
+        Text item=Wohnraum246_Temperature
+        Text item=Wohnraum246_Humidity
+        Text item=Wohnraum246_Electricity
+    }
+
+     Frame label="Wohnraum 247"{
+        Text item=Wohnraum247_Temperature
+        Text item=Wohnraum247_Humidity
+        Text item=Wohnraum247_Electricity
+    }
+
+     Frame label="Wohnraum 248"{
+        Text item=Wohnraum248_Temperature
+        Text item=Wohnraum248_Humidity
+        Text item=Wohnraum248_Electricity
+    }
+
+     Frame label="Wohnraum 249"{
+        Text item=Wohnraum249_Temperature
+        Text item=Wohnraum249_Humidity
+        Text item=Wohnraum249_Electricity
+    }
+
+     Frame label="Wohnraum 250"{
+        Text item=Wohnraum250_Temperature
+        Text item=Wohnraum250_Humidity
+        Text item=Wohnraum250_Electricity
+    }
+
+     Frame label="Wohnraum 251"{
+        Text item=Wohnraum251_Temperature
+        Text item=Wohnraum251_Humidity
+        Text item=Wohnraum251_Electricity
+    }
+
+     Frame label="Wohnraum 252"{
+        Text item=Wohnraum252_Temperature
+        Text item=Wohnraum252_Humidity
+        Text item=Wohnraum252_Electricity
+    }
+
+     Frame label="Wohnraum 253"{
+        Text item=Wohnraum253_Temperature
+        Text item=Wohnraum253_Humidity
+        Text item=Wohnraum253_Electricity
+    }
+
+     Frame label="Wohnraum 254"{
+        Text item=Wohnraum254_Temperature
+        Text item=Wohnraum254_Humidity
+        Text item=Wohnraum254_Electricity
+    }
+
+     Frame label="Wohnraum 255"{
+        Text item=Wohnraum255_Temperature
+        Text item=Wohnraum255_Humidity
+        Text item=Wohnraum255_Electricity
+    }
+
+     Frame label="Wohnraum 256"{
+        Text item=Wohnraum256_Temperature
+        Text item=Wohnraum256_Humidity
+        Text item=Wohnraum256_Electricity
+    }
+
+     Frame label="Wohnraum 257"{
+        Text item=Wohnraum257_Temperature
+        Text item=Wohnraum257_Humidity
+        Text item=Wohnraum257_Electricity
+    }
+
+     Frame label="Wohnraum 258"{
+        Text item=Wohnraum258_Temperature
+        Text item=Wohnraum258_Humidity
+        Text item=Wohnraum258_Electricity
+    }
+
+     Frame label="Wohnraum 259"{
+        Text item=Wohnraum259_Temperature
+        Text item=Wohnraum259_Humidity
+        Text item=Wohnraum259_Electricity
+    }
+
+     Frame label="Wohnraum 260"{
+        Text item=Wohnraum260_Temperature
+        Text item=Wohnraum260_Humidity
+        Text item=Wohnraum260_Electricity
+    }
+
+     Frame label="Wohnraum 261"{
+        Text item=Wohnraum261_Temperature
+        Text item=Wohnraum261_Humidity
+        Text item=Wohnraum261_Electricity
+    }
+
+     Frame label="Wohnraum 262"{
+        Text item=Wohnraum262_Temperature
+        Text item=Wohnraum262_Humidity
+        Text item=Wohnraum262_Electricity
+    }
+
+     Frame label="Wohnraum 263"{
+        Text item=Wohnraum263_Temperature
+        Text item=Wohnraum263_Humidity
+        Text item=Wohnraum263_Electricity
+    }
+
+     Frame label="Wohnraum 264"{
+        Text item=Wohnraum264_Temperature
+        Text item=Wohnraum264_Humidity
+        Text item=Wohnraum264_Electricity
+    }
+
+     Frame label="Wohnraum 265"{
+        Text item=Wohnraum265_Temperature
+        Text item=Wohnraum265_Humidity
+        Text item=Wohnraum265_Electricity
+    }
+
+     Frame label="Wohnraum 266"{
+        Text item=Wohnraum266_Temperature
+        Text item=Wohnraum266_Humidity
+        Text item=Wohnraum266_Electricity
+    }
+
+     Frame label="Wohnraum 267"{
+        Text item=Wohnraum267_Temperature
+        Text item=Wohnraum267_Humidity
+        Text item=Wohnraum267_Electricity
+    }
+
+     Frame label="Wohnraum 268"{
+        Text item=Wohnraum268_Temperature
+        Text item=Wohnraum268_Humidity
+        Text item=Wohnraum268_Electricity
+    }
+
+     Frame label="Wohnraum 269"{
+        Text item=Wohnraum269_Temperature
+        Text item=Wohnraum269_Humidity
+        Text item=Wohnraum269_Electricity
+    }
+
+     Frame label="Wohnraum 270"{
+        Text item=Wohnraum270_Temperature
+        Text item=Wohnraum270_Humidity
+        Text item=Wohnraum270_Electricity
+    }
+
+     Frame label="Wohnraum 271"{
+        Text item=Wohnraum271_Temperature
+        Text item=Wohnraum271_Humidity
+        Text item=Wohnraum271_Electricity
+    }
+
+     Frame label="Wohnraum 272"{
+        Text item=Wohnraum272_Temperature
+        Text item=Wohnraum272_Humidity
+        Text item=Wohnraum272_Electricity
+    }
+
+     Frame label="Wohnraum 273"{
+        Text item=Wohnraum273_Temperature
+        Text item=Wohnraum273_Humidity
+        Text item=Wohnraum273_Electricity
+    }
+
+     Frame label="Wohnraum 274"{
+        Text item=Wohnraum274_Temperature
+        Text item=Wohnraum274_Humidity
+        Text item=Wohnraum274_Electricity
+    }
+
+     Frame label="Wohnraum 275"{
+        Text item=Wohnraum275_Temperature
+        Text item=Wohnraum275_Humidity
+        Text item=Wohnraum275_Electricity
+    }
+
+     Frame label="Wohnraum 276"{
+        Text item=Wohnraum276_Temperature
+        Text item=Wohnraum276_Humidity
+        Text item=Wohnraum276_Electricity
+    }
+
+     Frame label="Wohnraum 277"{
+        Text item=Wohnraum277_Temperature
+        Text item=Wohnraum277_Humidity
+        Text item=Wohnraum277_Electricity
+    }
+
+     Frame label="Wohnraum 278"{
+        Text item=Wohnraum278_Temperature
+        Text item=Wohnraum278_Humidity
+        Text item=Wohnraum278_Electricity
+    }
+
+     Frame label="Wohnraum 279"{
+        Text item=Wohnraum279_Temperature
+        Text item=Wohnraum279_Humidity
+        Text item=Wohnraum279_Electricity
+    }
+
+     Frame label="Wohnraum 280"{
+        Text item=Wohnraum280_Temperature
+        Text item=Wohnraum280_Humidity
+        Text item=Wohnraum280_Electricity
+    }
+
+     Frame label="Wohnraum 281"{
+        Text item=Wohnraum281_Temperature
+        Text item=Wohnraum281_Humidity
+        Text item=Wohnraum281_Electricity
+    }
+
+     Frame label="Wohnraum 282"{
+        Text item=Wohnraum282_Temperature
+        Text item=Wohnraum282_Humidity
+        Text item=Wohnraum282_Electricity
+    }
+
+     Frame label="Wohnraum 283"{
+        Text item=Wohnraum283_Temperature
+        Text item=Wohnraum283_Humidity
+        Text item=Wohnraum283_Electricity
+    }
+
+     Frame label="Wohnraum 284"{
+        Text item=Wohnraum284_Temperature
+        Text item=Wohnraum284_Humidity
+        Text item=Wohnraum284_Electricity
+    }
+
+     Frame label="Wohnraum 285"{
+        Text item=Wohnraum285_Temperature
+        Text item=Wohnraum285_Humidity
+        Text item=Wohnraum285_Electricity
+    }
+
+     Frame label="Wohnraum 286"{
+        Text item=Wohnraum286_Temperature
+        Text item=Wohnraum286_Humidity
+        Text item=Wohnraum286_Electricity
+    }
+
+     Frame label="Wohnraum 287"{
+        Text item=Wohnraum287_Temperature
+        Text item=Wohnraum287_Humidity
+        Text item=Wohnraum287_Electricity
+    }
+
+     Frame label="Wohnraum 288"{
+        Text item=Wohnraum288_Temperature
+        Text item=Wohnraum288_Humidity
+        Text item=Wohnraum288_Electricity
+    }
+
+     Frame label="Wohnraum 289"{
+        Text item=Wohnraum289_Temperature
+        Text item=Wohnraum289_Humidity
+        Text item=Wohnraum289_Electricity
+    }
+
+     Frame label="Wohnraum 290"{
+        Text item=Wohnraum290_Temperature
+        Text item=Wohnraum290_Humidity
+        Text item=Wohnraum290_Electricity
+    }
+
+     Frame label="Wohnraum 291"{
+        Text item=Wohnraum291_Temperature
+        Text item=Wohnraum291_Humidity
+        Text item=Wohnraum291_Electricity
+    }
+
+     Frame label="Wohnraum 292"{
+        Text item=Wohnraum292_Temperature
+        Text item=Wohnraum292_Humidity
+        Text item=Wohnraum292_Electricity
+    }
+
+     Frame label="Wohnraum 293"{
+        Text item=Wohnraum293_Temperature
+        Text item=Wohnraum293_Humidity
+        Text item=Wohnraum293_Electricity
+    }
+
+     Frame label="Wohnraum 294"{
+        Text item=Wohnraum294_Temperature
+        Text item=Wohnraum294_Humidity
+        Text item=Wohnraum294_Electricity
+    }
+
+     Frame label="Wohnraum 295"{
+        Text item=Wohnraum295_Temperature
+        Text item=Wohnraum295_Humidity
+        Text item=Wohnraum295_Electricity
+    }
+
+     Frame label="Wohnraum 296"{
+        Text item=Wohnraum296_Temperature
+        Text item=Wohnraum296_Humidity
+        Text item=Wohnraum296_Electricity
+    }
+
+     Frame label="Wohnraum 297"{
+        Text item=Wohnraum297_Temperature
+        Text item=Wohnraum297_Humidity
+        Text item=Wohnraum297_Electricity
+    }
+
+     Frame label="Wohnraum 298"{
+        Text item=Wohnraum298_Temperature
+        Text item=Wohnraum298_Humidity
+        Text item=Wohnraum298_Electricity
+    }
+
+     Frame label="Wohnraum 299"{
+        Text item=Wohnraum299_Temperature
+        Text item=Wohnraum299_Humidity
+        Text item=Wohnraum299_Electricity
+    }
+
+     Frame label="Wohnraum 300"{
+        Text item=Wohnraum300_Temperature
+        Text item=Wohnraum300_Humidity
+        Text item=Wohnraum300_Electricity
+    }
+
+     Frame label="Wohnraum 301"{
+        Text item=Wohnraum301_Temperature
+        Text item=Wohnraum301_Humidity
+        Text item=Wohnraum301_Electricity
+    }
+
+     Frame label="Wohnraum 302"{
+        Text item=Wohnraum302_Temperature
+        Text item=Wohnraum302_Humidity
+        Text item=Wohnraum302_Electricity
+    }
+
+     Frame label="Wohnraum 303"{
+        Text item=Wohnraum303_Temperature
+        Text item=Wohnraum303_Humidity
+        Text item=Wohnraum303_Electricity
+    }
+
+     Frame label="Wohnraum 304"{
+        Text item=Wohnraum304_Temperature
+        Text item=Wohnraum304_Humidity
+        Text item=Wohnraum304_Electricity
+    }
+
+     Frame label="Wohnraum 305"{
+        Text item=Wohnraum305_Temperature
+        Text item=Wohnraum305_Humidity
+        Text item=Wohnraum305_Electricity
+    }
+
+     Frame label="Wohnraum 306"{
+        Text item=Wohnraum306_Temperature
+        Text item=Wohnraum306_Humidity
+        Text item=Wohnraum306_Electricity
+    }
+
+     Frame label="Wohnraum 307"{
+        Text item=Wohnraum307_Temperature
+        Text item=Wohnraum307_Humidity
+        Text item=Wohnraum307_Electricity
+    }
+
+     Frame label="Wohnraum 308"{
+        Text item=Wohnraum308_Temperature
+        Text item=Wohnraum308_Humidity
+        Text item=Wohnraum308_Electricity
+    }
+
+     Frame label="Wohnraum 309"{
+        Text item=Wohnraum309_Temperature
+        Text item=Wohnraum309_Humidity
+        Text item=Wohnraum309_Electricity
+    }
+
+     Frame label="Wohnraum 310"{
+        Text item=Wohnraum310_Temperature
+        Text item=Wohnraum310_Humidity
+        Text item=Wohnraum310_Electricity
+    }
+
+     Frame label="Wohnraum 311"{
+        Text item=Wohnraum311_Temperature
+        Text item=Wohnraum311_Humidity
+        Text item=Wohnraum311_Electricity
+    }
+
+     Frame label="Wohnraum 312"{
+        Text item=Wohnraum312_Temperature
+        Text item=Wohnraum312_Humidity
+        Text item=Wohnraum312_Electricity
+    }
+
+     Frame label="Wohnraum 313"{
+        Text item=Wohnraum313_Temperature
+        Text item=Wohnraum313_Humidity
+        Text item=Wohnraum313_Electricity
+    }
+
+     Frame label="Wohnraum 314"{
+        Text item=Wohnraum314_Temperature
+        Text item=Wohnraum314_Humidity
+        Text item=Wohnraum314_Electricity
+    }
+
+     Frame label="Wohnraum 315"{
+        Text item=Wohnraum315_Temperature
+        Text item=Wohnraum315_Humidity
+        Text item=Wohnraum315_Electricity
+    }
+
+     Frame label="Wohnraum 316"{
+        Text item=Wohnraum316_Temperature
+        Text item=Wohnraum316_Humidity
+        Text item=Wohnraum316_Electricity
+    }
+
+     Frame label="Wohnraum 317"{
+        Text item=Wohnraum317_Temperature
+        Text item=Wohnraum317_Humidity
+        Text item=Wohnraum317_Electricity
+    }
+
+     Frame label="Wohnraum 318"{
+        Text item=Wohnraum318_Temperature
+        Text item=Wohnraum318_Humidity
+        Text item=Wohnraum318_Electricity
+    }
+
+     Frame label="Wohnraum 319"{
+        Text item=Wohnraum319_Temperature
+        Text item=Wohnraum319_Humidity
+        Text item=Wohnraum319_Electricity
+    }
+
+     Frame label="Wohnraum 320"{
+        Text item=Wohnraum320_Temperature
+        Text item=Wohnraum320_Humidity
+        Text item=Wohnraum320_Electricity
+    }
+
+     Frame label="Wohnraum 321"{
+        Text item=Wohnraum321_Temperature
+        Text item=Wohnraum321_Humidity
+        Text item=Wohnraum321_Electricity
+    }
+
+     Frame label="Wohnraum 322"{
+        Text item=Wohnraum322_Temperature
+        Text item=Wohnraum322_Humidity
+        Text item=Wohnraum322_Electricity
+    }
+
+     Frame label="Wohnraum 323"{
+        Text item=Wohnraum323_Temperature
+        Text item=Wohnraum323_Humidity
+        Text item=Wohnraum323_Electricity
+    }
+
+     Frame label="Wohnraum 324"{
+        Text item=Wohnraum324_Temperature
+        Text item=Wohnraum324_Humidity
+        Text item=Wohnraum324_Electricity
+    }
+
+     Frame label="Wohnraum 325"{
+        Text item=Wohnraum325_Temperature
+        Text item=Wohnraum325_Humidity
+        Text item=Wohnraum325_Electricity
+    }
+
+     Frame label="Wohnraum 326"{
+        Text item=Wohnraum326_Temperature
+        Text item=Wohnraum326_Humidity
+        Text item=Wohnraum326_Electricity
+    }
+
+     Frame label="Wohnraum 327"{
+        Text item=Wohnraum327_Temperature
+        Text item=Wohnraum327_Humidity
+        Text item=Wohnraum327_Electricity
+    }
+
+     Frame label="Wohnraum 328"{
+        Text item=Wohnraum328_Temperature
+        Text item=Wohnraum328_Humidity
+        Text item=Wohnraum328_Electricity
+    }
+
+     Frame label="Wohnraum 329"{
+        Text item=Wohnraum329_Temperature
+        Text item=Wohnraum329_Humidity
+        Text item=Wohnraum329_Electricity
+    }
+
+     Frame label="Wohnraum 330"{
+        Text item=Wohnraum330_Temperature
+        Text item=Wohnraum330_Humidity
+        Text item=Wohnraum330_Electricity
+    }
+
+     Frame label="Wohnraum 331"{
+        Text item=Wohnraum331_Temperature
+        Text item=Wohnraum331_Humidity
+        Text item=Wohnraum331_Electricity
+    }
+
+     Frame label="Wohnraum 332"{
+        Text item=Wohnraum332_Temperature
+        Text item=Wohnraum332_Humidity
+        Text item=Wohnraum332_Electricity
+    }
+
+     Frame label="Wohnraum 333"{
+        Text item=Wohnraum333_Temperature
+        Text item=Wohnraum333_Humidity
+        Text item=Wohnraum333_Electricity
+    }
+
+     Frame label="Wohnraum 334"{
+        Text item=Wohnraum334_Temperature
+        Text item=Wohnraum334_Humidity
+        Text item=Wohnraum334_Electricity
+    }
+
+     Frame label="Wohnraum 335"{
+        Text item=Wohnraum335_Temperature
+        Text item=Wohnraum335_Humidity
+        Text item=Wohnraum335_Electricity
+    }
+
+     Frame label="Wohnraum 336"{
+        Text item=Wohnraum336_Temperature
+        Text item=Wohnraum336_Humidity
+        Text item=Wohnraum336_Electricity
+    }
+
+     Frame label="Wohnraum 337"{
+        Text item=Wohnraum337_Temperature
+        Text item=Wohnraum337_Humidity
+        Text item=Wohnraum337_Electricity
+    }
+
+     Frame label="Wohnraum 338"{
+        Text item=Wohnraum338_Temperature
+        Text item=Wohnraum338_Humidity
+        Text item=Wohnraum338_Electricity
+    }
+
+     Frame label="Wohnraum 339"{
+        Text item=Wohnraum339_Temperature
+        Text item=Wohnraum339_Humidity
+        Text item=Wohnraum339_Electricity
+    }
+
+     Frame label="Wohnraum 340"{
+        Text item=Wohnraum340_Temperature
+        Text item=Wohnraum340_Humidity
+        Text item=Wohnraum340_Electricity
+    }
+
+     Frame label="Wohnraum 341"{
+        Text item=Wohnraum341_Temperature
+        Text item=Wohnraum341_Humidity
+        Text item=Wohnraum341_Electricity
+    }
+
+     Frame label="Wohnraum 342"{
+        Text item=Wohnraum342_Temperature
+        Text item=Wohnraum342_Humidity
+        Text item=Wohnraum342_Electricity
+    }
+
+     Frame label="Wohnraum 343"{
+        Text item=Wohnraum343_Temperature
+        Text item=Wohnraum343_Humidity
+        Text item=Wohnraum343_Electricity
+    }
+
+     Frame label="Wohnraum 344"{
+        Text item=Wohnraum344_Temperature
+        Text item=Wohnraum344_Humidity
+        Text item=Wohnraum344_Electricity
+    }
+
+     Frame label="Wohnraum 345"{
+        Text item=Wohnraum345_Temperature
+        Text item=Wohnraum345_Humidity
+        Text item=Wohnraum345_Electricity
+    }
+
+     Frame label="Wohnraum 346"{
+        Text item=Wohnraum346_Temperature
+        Text item=Wohnraum346_Humidity
+        Text item=Wohnraum346_Electricity
+    }
+
+     Frame label="Wohnraum 347"{
+        Text item=Wohnraum347_Temperature
+        Text item=Wohnraum347_Humidity
+        Text item=Wohnraum347_Electricity
+    }
+
+     Frame label="Wohnraum 348"{
+        Text item=Wohnraum348_Temperature
+        Text item=Wohnraum348_Humidity
+        Text item=Wohnraum348_Electricity
+    }
+
+     Frame label="Wohnraum 349"{
+        Text item=Wohnraum349_Temperature
+        Text item=Wohnraum349_Humidity
+        Text item=Wohnraum349_Electricity
+    }
+
+     Frame label="Wohnraum 350"{
+        Text item=Wohnraum350_Temperature
+        Text item=Wohnraum350_Humidity
+        Text item=Wohnraum350_Electricity
+    }
+
+     Frame label="Wohnraum 351"{
+        Text item=Wohnraum351_Temperature
+        Text item=Wohnraum351_Humidity
+        Text item=Wohnraum351_Electricity
+    }
+
+     Frame label="Wohnraum 352"{
+        Text item=Wohnraum352_Temperature
+        Text item=Wohnraum352_Humidity
+        Text item=Wohnraum352_Electricity
+    }
+
+     Frame label="Wohnraum 353"{
+        Text item=Wohnraum353_Temperature
+        Text item=Wohnraum353_Humidity
+        Text item=Wohnraum353_Electricity
+    }
+
+     Frame label="Wohnraum 354"{
+        Text item=Wohnraum354_Temperature
+        Text item=Wohnraum354_Humidity
+        Text item=Wohnraum354_Electricity
+    }
+
+     Frame label="Wohnraum 355"{
+        Text item=Wohnraum355_Temperature
+        Text item=Wohnraum355_Humidity
+        Text item=Wohnraum355_Electricity
+    }
+
+     Frame label="Wohnraum 356"{
+        Text item=Wohnraum356_Temperature
+        Text item=Wohnraum356_Humidity
+        Text item=Wohnraum356_Electricity
+    }
+
+     Frame label="Wohnraum 357"{
+        Text item=Wohnraum357_Temperature
+        Text item=Wohnraum357_Humidity
+        Text item=Wohnraum357_Electricity
+    }
+
+     Frame label="Wohnraum 358"{
+        Text item=Wohnraum358_Temperature
+        Text item=Wohnraum358_Humidity
+        Text item=Wohnraum358_Electricity
+    }
+
+     Frame label="Wohnraum 359"{
+        Text item=Wohnraum359_Temperature
+        Text item=Wohnraum359_Humidity
+        Text item=Wohnraum359_Electricity
+    }
+
+     Frame label="Wohnraum 360"{
+        Text item=Wohnraum360_Temperature
+        Text item=Wohnraum360_Humidity
+        Text item=Wohnraum360_Electricity
+    }
+
+     Frame label="Wohnraum 361"{
+        Text item=Wohnraum361_Temperature
+        Text item=Wohnraum361_Humidity
+        Text item=Wohnraum361_Electricity
+    }
+
+     Frame label="Wohnraum 362"{
+        Text item=Wohnraum362_Temperature
+        Text item=Wohnraum362_Humidity
+        Text item=Wohnraum362_Electricity
+    }
+
+     Frame label="Wohnraum 363"{
+        Text item=Wohnraum363_Temperature
+        Text item=Wohnraum363_Humidity
+        Text item=Wohnraum363_Electricity
+    }
+
+     Frame label="Wohnraum 364"{
+        Text item=Wohnraum364_Temperature
+        Text item=Wohnraum364_Humidity
+        Text item=Wohnraum364_Electricity
+    }
+
+     Frame label="Wohnraum 365"{
+        Text item=Wohnraum365_Temperature
+        Text item=Wohnraum365_Humidity
+        Text item=Wohnraum365_Electricity
+    }
+
+     Frame label="Wohnraum 366"{
+        Text item=Wohnraum366_Temperature
+        Text item=Wohnraum366_Humidity
+        Text item=Wohnraum366_Electricity
+    }
+
+     Frame label="Wohnraum 367"{
+        Text item=Wohnraum367_Temperature
+        Text item=Wohnraum367_Humidity
+        Text item=Wohnraum367_Electricity
+    }
+
+     Frame label="Wohnraum 368"{
+        Text item=Wohnraum368_Temperature
+        Text item=Wohnraum368_Humidity
+        Text item=Wohnraum368_Electricity
+    }
+
+     Frame label="Wohnraum 369"{
+        Text item=Wohnraum369_Temperature
+        Text item=Wohnraum369_Humidity
+        Text item=Wohnraum369_Electricity
+    }
+
+     Frame label="Wohnraum 370"{
+        Text item=Wohnraum370_Temperature
+        Text item=Wohnraum370_Humidity
+        Text item=Wohnraum370_Electricity
+    }
+
+     Frame label="Wohnraum 371"{
+        Text item=Wohnraum371_Temperature
+        Text item=Wohnraum371_Humidity
+        Text item=Wohnraum371_Electricity
+    }
+
+     Frame label="Wohnraum 372"{
+        Text item=Wohnraum372_Temperature
+        Text item=Wohnraum372_Humidity
+        Text item=Wohnraum372_Electricity
+    }
+
+     Frame label="Wohnraum 373"{
+        Text item=Wohnraum373_Temperature
+        Text item=Wohnraum373_Humidity
+        Text item=Wohnraum373_Electricity
+    }
+
+     Frame label="Wohnraum 374"{
+        Text item=Wohnraum374_Temperature
+        Text item=Wohnraum374_Humidity
+        Text item=Wohnraum374_Electricity
+    }
+
+     Frame label="Wohnraum 375"{
+        Text item=Wohnraum375_Temperature
+        Text item=Wohnraum375_Humidity
+        Text item=Wohnraum375_Electricity
+    }
+
+     Frame label="Wohnraum 376"{
+        Text item=Wohnraum376_Temperature
+        Text item=Wohnraum376_Humidity
+        Text item=Wohnraum376_Electricity
+    }
+
+     Frame label="Wohnraum 377"{
+        Text item=Wohnraum377_Temperature
+        Text item=Wohnraum377_Humidity
+        Text item=Wohnraum377_Electricity
+    }
+
+     Frame label="Wohnraum 378"{
+        Text item=Wohnraum378_Temperature
+        Text item=Wohnraum378_Humidity
+        Text item=Wohnraum378_Electricity
+    }
+
+     Frame label="Wohnraum 379"{
+        Text item=Wohnraum379_Temperature
+        Text item=Wohnraum379_Humidity
+        Text item=Wohnraum379_Electricity
+    }
+
+     Frame label="Wohnraum 380"{
+        Text item=Wohnraum380_Temperature
+        Text item=Wohnraum380_Humidity
+        Text item=Wohnraum380_Electricity
+    }
+
+     Frame label="Wohnraum 381"{
+        Text item=Wohnraum381_Temperature
+        Text item=Wohnraum381_Humidity
+        Text item=Wohnraum381_Electricity
+    }
+
+     Frame label="Wohnraum 382"{
+        Text item=Wohnraum382_Temperature
+        Text item=Wohnraum382_Humidity
+        Text item=Wohnraum382_Electricity
+    }
+
+     Frame label="Wohnraum 383"{
+        Text item=Wohnraum383_Temperature
+        Text item=Wohnraum383_Humidity
+        Text item=Wohnraum383_Electricity
+    }
+
+     Frame label="Wohnraum 384"{
+        Text item=Wohnraum384_Temperature
+        Text item=Wohnraum384_Humidity
+        Text item=Wohnraum384_Electricity
+    }
+
+     Frame label="Wohnraum 385"{
+        Text item=Wohnraum385_Temperature
+        Text item=Wohnraum385_Humidity
+        Text item=Wohnraum385_Electricity
+    }
+
+     Frame label="Wohnraum 386"{
+        Text item=Wohnraum386_Temperature
+        Text item=Wohnraum386_Humidity
+        Text item=Wohnraum386_Electricity
+    }
+
+     Frame label="Wohnraum 387"{
+        Text item=Wohnraum387_Temperature
+        Text item=Wohnraum387_Humidity
+        Text item=Wohnraum387_Electricity
+    }
+
+     Frame label="Wohnraum 388"{
+        Text item=Wohnraum388_Temperature
+        Text item=Wohnraum388_Humidity
+        Text item=Wohnraum388_Electricity
+    }
+
+     Frame label="Wohnraum 389"{
+        Text item=Wohnraum389_Temperature
+        Text item=Wohnraum389_Humidity
+        Text item=Wohnraum389_Electricity
+    }
+
+     Frame label="Wohnraum 390"{
+        Text item=Wohnraum390_Temperature
+        Text item=Wohnraum390_Humidity
+        Text item=Wohnraum390_Electricity
+    }
+
+     Frame label="Wohnraum 391"{
+        Text item=Wohnraum391_Temperature
+        Text item=Wohnraum391_Humidity
+        Text item=Wohnraum391_Electricity
+    }
+
+     Frame label="Wohnraum 392"{
+        Text item=Wohnraum392_Temperature
+        Text item=Wohnraum392_Humidity
+        Text item=Wohnraum392_Electricity
+    }
+
+     Frame label="Wohnraum 393"{
+        Text item=Wohnraum393_Temperature
+        Text item=Wohnraum393_Humidity
+        Text item=Wohnraum393_Electricity
+    }
+
+     Frame label="Wohnraum 394"{
+        Text item=Wohnraum394_Temperature
+        Text item=Wohnraum394_Humidity
+        Text item=Wohnraum394_Electricity
+    }
+
+     Frame label="Wohnraum 395"{
+        Text item=Wohnraum395_Temperature
+        Text item=Wohnraum395_Humidity
+        Text item=Wohnraum395_Electricity
+    }
+
+     Frame label="Wohnraum 396"{
+        Text item=Wohnraum396_Temperature
+        Text item=Wohnraum396_Humidity
+        Text item=Wohnraum396_Electricity
+    }
+
+     Frame label="Wohnraum 397"{
+        Text item=Wohnraum397_Temperature
+        Text item=Wohnraum397_Humidity
+        Text item=Wohnraum397_Electricity
+    }
+
+     Frame label="Wohnraum 398"{
+        Text item=Wohnraum398_Temperature
+        Text item=Wohnraum398_Humidity
+        Text item=Wohnraum398_Electricity
+    }
+
+     Frame label="Wohnraum 399"{
+        Text item=Wohnraum399_Temperature
+        Text item=Wohnraum399_Humidity
+        Text item=Wohnraum399_Electricity
+    }
+
+     Frame label="Wohnraum 400"{
+        Text item=Wohnraum400_Temperature
+        Text item=Wohnraum400_Humidity
+        Text item=Wohnraum400_Electricity
+    }
+
+     Frame label="Wohnraum 401"{
+        Text item=Wohnraum401_Temperature
+        Text item=Wohnraum401_Humidity
+        Text item=Wohnraum401_Electricity
+    }
+
+     Frame label="Wohnraum 402"{
+        Text item=Wohnraum402_Temperature
+        Text item=Wohnraum402_Humidity
+        Text item=Wohnraum402_Electricity
+    }
+
+     Frame label="Wohnraum 403"{
+        Text item=Wohnraum403_Temperature
+        Text item=Wohnraum403_Humidity
+        Text item=Wohnraum403_Electricity
+    }
+
+     Frame label="Wohnraum 404"{
+        Text item=Wohnraum404_Temperature
+        Text item=Wohnraum404_Humidity
+        Text item=Wohnraum404_Electricity
+    }
+
+     Frame label="Wohnraum 405"{
+        Text item=Wohnraum405_Temperature
+        Text item=Wohnraum405_Humidity
+        Text item=Wohnraum405_Electricity
+    }
+
+     Frame label="Wohnraum 406"{
+        Text item=Wohnraum406_Temperature
+        Text item=Wohnraum406_Humidity
+        Text item=Wohnraum406_Electricity
+    }
+
+     Frame label="Wohnraum 407"{
+        Text item=Wohnraum407_Temperature
+        Text item=Wohnraum407_Humidity
+        Text item=Wohnraum407_Electricity
+    }
+
+     Frame label="Wohnraum 408"{
+        Text item=Wohnraum408_Temperature
+        Text item=Wohnraum408_Humidity
+        Text item=Wohnraum408_Electricity
+    }
+
+     Frame label="Wohnraum 409"{
+        Text item=Wohnraum409_Temperature
+        Text item=Wohnraum409_Humidity
+        Text item=Wohnraum409_Electricity
+    }
+
+     Frame label="Wohnraum 410"{
+        Text item=Wohnraum410_Temperature
+        Text item=Wohnraum410_Humidity
+        Text item=Wohnraum410_Electricity
+    }
+
+     Frame label="Wohnraum 411"{
+        Text item=Wohnraum411_Temperature
+        Text item=Wohnraum411_Humidity
+        Text item=Wohnraum411_Electricity
+    }
+
+     Frame label="Wohnraum 412"{
+        Text item=Wohnraum412_Temperature
+        Text item=Wohnraum412_Humidity
+        Text item=Wohnraum412_Electricity
+    }
+
+     Frame label="Wohnraum 413"{
+        Text item=Wohnraum413_Temperature
+        Text item=Wohnraum413_Humidity
+        Text item=Wohnraum413_Electricity
+    }
+
+     Frame label="Wohnraum 414"{
+        Text item=Wohnraum414_Temperature
+        Text item=Wohnraum414_Humidity
+        Text item=Wohnraum414_Electricity
+    }
+
+     Frame label="Wohnraum 415"{
+        Text item=Wohnraum415_Temperature
+        Text item=Wohnraum415_Humidity
+        Text item=Wohnraum415_Electricity
+    }
+
+     Frame label="Wohnraum 416"{
+        Text item=Wohnraum416_Temperature
+        Text item=Wohnraum416_Humidity
+        Text item=Wohnraum416_Electricity
+    }
+
+     Frame label="Wohnraum 417"{
+        Text item=Wohnraum417_Temperature
+        Text item=Wohnraum417_Humidity
+        Text item=Wohnraum417_Electricity
+    }
+
+     Frame label="Wohnraum 418"{
+        Text item=Wohnraum418_Temperature
+        Text item=Wohnraum418_Humidity
+        Text item=Wohnraum418_Electricity
+    }
+
+     Frame label="Wohnraum 419"{
+        Text item=Wohnraum419_Temperature
+        Text item=Wohnraum419_Humidity
+        Text item=Wohnraum419_Electricity
+    }
+
+     Frame label="Wohnraum 420"{
+        Text item=Wohnraum420_Temperature
+        Text item=Wohnraum420_Humidity
+        Text item=Wohnraum420_Electricity
+    }
+
+     Frame label="Wohnraum 421"{
+        Text item=Wohnraum421_Temperature
+        Text item=Wohnraum421_Humidity
+        Text item=Wohnraum421_Electricity
+    }
+
+     Frame label="Wohnraum 422"{
+        Text item=Wohnraum422_Temperature
+        Text item=Wohnraum422_Humidity
+        Text item=Wohnraum422_Electricity
+    }
+
+     Frame label="Wohnraum 423"{
+        Text item=Wohnraum423_Temperature
+        Text item=Wohnraum423_Humidity
+        Text item=Wohnraum423_Electricity
+    }
+
+     Frame label="Wohnraum 424"{
+        Text item=Wohnraum424_Temperature
+        Text item=Wohnraum424_Humidity
+        Text item=Wohnraum424_Electricity
+    }
+
+     Frame label="Wohnraum 425"{
+        Text item=Wohnraum425_Temperature
+        Text item=Wohnraum425_Humidity
+        Text item=Wohnraum425_Electricity
+    }
+
+     Frame label="Wohnraum 426"{
+        Text item=Wohnraum426_Temperature
+        Text item=Wohnraum426_Humidity
+        Text item=Wohnraum426_Electricity
+    }
+
+     Frame label="Wohnraum 427"{
+        Text item=Wohnraum427_Temperature
+        Text item=Wohnraum427_Humidity
+        Text item=Wohnraum427_Electricity
+    }
+
+     Frame label="Wohnraum 428"{
+        Text item=Wohnraum428_Temperature
+        Text item=Wohnraum428_Humidity
+        Text item=Wohnraum428_Electricity
+    }
+
+     Frame label="Wohnraum 429"{
+        Text item=Wohnraum429_Temperature
+        Text item=Wohnraum429_Humidity
+        Text item=Wohnraum429_Electricity
+    }
+
+     Frame label="Wohnraum 430"{
+        Text item=Wohnraum430_Temperature
+        Text item=Wohnraum430_Humidity
+        Text item=Wohnraum430_Electricity
+    }
+
+     Frame label="Wohnraum 431"{
+        Text item=Wohnraum431_Temperature
+        Text item=Wohnraum431_Humidity
+        Text item=Wohnraum431_Electricity
+    }
+
+     Frame label="Wohnraum 432"{
+        Text item=Wohnraum432_Temperature
+        Text item=Wohnraum432_Humidity
+        Text item=Wohnraum432_Electricity
+    }
+
+     Frame label="Wohnraum 433"{
+        Text item=Wohnraum433_Temperature
+        Text item=Wohnraum433_Humidity
+        Text item=Wohnraum433_Electricity
+    }
+
+     Frame label="Wohnraum 434"{
+        Text item=Wohnraum434_Temperature
+        Text item=Wohnraum434_Humidity
+        Text item=Wohnraum434_Electricity
+    }
+
+     Frame label="Wohnraum 435"{
+        Text item=Wohnraum435_Temperature
+        Text item=Wohnraum435_Humidity
+        Text item=Wohnraum435_Electricity
+    }
+
+     Frame label="Wohnraum 436"{
+        Text item=Wohnraum436_Temperature
+        Text item=Wohnraum436_Humidity
+        Text item=Wohnraum436_Electricity
+    }
+
+     Frame label="Wohnraum 437"{
+        Text item=Wohnraum437_Temperature
+        Text item=Wohnraum437_Humidity
+        Text item=Wohnraum437_Electricity
+    }
+
+     Frame label="Wohnraum 438"{
+        Text item=Wohnraum438_Temperature
+        Text item=Wohnraum438_Humidity
+        Text item=Wohnraum438_Electricity
+    }
+
+     Frame label="Wohnraum 439"{
+        Text item=Wohnraum439_Temperature
+        Text item=Wohnraum439_Humidity
+        Text item=Wohnraum439_Electricity
+    }
+
+     Frame label="Wohnraum 440"{
+        Text item=Wohnraum440_Temperature
+        Text item=Wohnraum440_Humidity
+        Text item=Wohnraum440_Electricity
+    }
+
+     Frame label="Wohnraum 441"{
+        Text item=Wohnraum441_Temperature
+        Text item=Wohnraum441_Humidity
+        Text item=Wohnraum441_Electricity
+    }
+
+     Frame label="Wohnraum 442"{
+        Text item=Wohnraum442_Temperature
+        Text item=Wohnraum442_Humidity
+        Text item=Wohnraum442_Electricity
+    }
+
+     Frame label="Wohnraum 443"{
+        Text item=Wohnraum443_Temperature
+        Text item=Wohnraum443_Humidity
+        Text item=Wohnraum443_Electricity
+    }
+
+     Frame label="Wohnraum 444"{
+        Text item=Wohnraum444_Temperature
+        Text item=Wohnraum444_Humidity
+        Text item=Wohnraum444_Electricity
+    }
+
+     Frame label="Wohnraum 445"{
+        Text item=Wohnraum445_Temperature
+        Text item=Wohnraum445_Humidity
+        Text item=Wohnraum445_Electricity
+    }
+
+     Frame label="Wohnraum 446"{
+        Text item=Wohnraum446_Temperature
+        Text item=Wohnraum446_Humidity
+        Text item=Wohnraum446_Electricity
+    }
+
+     Frame label="Wohnraum 447"{
+        Text item=Wohnraum447_Temperature
+        Text item=Wohnraum447_Humidity
+        Text item=Wohnraum447_Electricity
+    }
+
+     Frame label="Wohnraum 448"{
+        Text item=Wohnraum448_Temperature
+        Text item=Wohnraum448_Humidity
+        Text item=Wohnraum448_Electricity
+    }
+
+     Frame label="Wohnraum 449"{
+        Text item=Wohnraum449_Temperature
+        Text item=Wohnraum449_Humidity
+        Text item=Wohnraum449_Electricity
+    }
+
+     Frame label="Wohnraum 450"{
+        Text item=Wohnraum450_Temperature
+        Text item=Wohnraum450_Humidity
+        Text item=Wohnraum450_Electricity
+    }
+
+     Frame label="Wohnraum 451"{
+        Text item=Wohnraum451_Temperature
+        Text item=Wohnraum451_Humidity
+        Text item=Wohnraum451_Electricity
+    }
+
+     Frame label="Wohnraum 452"{
+        Text item=Wohnraum452_Temperature
+        Text item=Wohnraum452_Humidity
+        Text item=Wohnraum452_Electricity
+    }
+
+     Frame label="Wohnraum 453"{
+        Text item=Wohnraum453_Temperature
+        Text item=Wohnraum453_Humidity
+        Text item=Wohnraum453_Electricity
+    }
+
+     Frame label="Wohnraum 454"{
+        Text item=Wohnraum454_Temperature
+        Text item=Wohnraum454_Humidity
+        Text item=Wohnraum454_Electricity
+    }
+
+     Frame label="Wohnraum 455"{
+        Text item=Wohnraum455_Temperature
+        Text item=Wohnraum455_Humidity
+        Text item=Wohnraum455_Electricity
+    }
+
+     Frame label="Wohnraum 456"{
+        Text item=Wohnraum456_Temperature
+        Text item=Wohnraum456_Humidity
+        Text item=Wohnraum456_Electricity
+    }
+
+     Frame label="Wohnraum 457"{
+        Text item=Wohnraum457_Temperature
+        Text item=Wohnraum457_Humidity
+        Text item=Wohnraum457_Electricity
+    }
+
+     Frame label="Wohnraum 458"{
+        Text item=Wohnraum458_Temperature
+        Text item=Wohnraum458_Humidity
+        Text item=Wohnraum458_Electricity
+    }
+
+     Frame label="Wohnraum 459"{
+        Text item=Wohnraum459_Temperature
+        Text item=Wohnraum459_Humidity
+        Text item=Wohnraum459_Electricity
+    }
+
+     Frame label="Wohnraum 460"{
+        Text item=Wohnraum460_Temperature
+        Text item=Wohnraum460_Humidity
+        Text item=Wohnraum460_Electricity
+    }
+
+     Frame label="Wohnraum 461"{
+        Text item=Wohnraum461_Temperature
+        Text item=Wohnraum461_Humidity
+        Text item=Wohnraum461_Electricity
+    }
+
+     Frame label="Wohnraum 462"{
+        Text item=Wohnraum462_Temperature
+        Text item=Wohnraum462_Humidity
+        Text item=Wohnraum462_Electricity
+    }
+
+     Frame label="Wohnraum 463"{
+        Text item=Wohnraum463_Temperature
+        Text item=Wohnraum463_Humidity
+        Text item=Wohnraum463_Electricity
+    }
+
+     Frame label="Wohnraum 464"{
+        Text item=Wohnraum464_Temperature
+        Text item=Wohnraum464_Humidity
+        Text item=Wohnraum464_Electricity
+    }
+
+     Frame label="Wohnraum 465"{
+        Text item=Wohnraum465_Temperature
+        Text item=Wohnraum465_Humidity
+        Text item=Wohnraum465_Electricity
+    }
+
+     Frame label="Wohnraum 466"{
+        Text item=Wohnraum466_Temperature
+        Text item=Wohnraum466_Humidity
+        Text item=Wohnraum466_Electricity
+    }
+
+     Frame label="Wohnraum 467"{
+        Text item=Wohnraum467_Temperature
+        Text item=Wohnraum467_Humidity
+        Text item=Wohnraum467_Electricity
+    }
+
+     Frame label="Wohnraum 468"{
+        Text item=Wohnraum468_Temperature
+        Text item=Wohnraum468_Humidity
+        Text item=Wohnraum468_Electricity
+    }
+
+     Frame label="Wohnraum 469"{
+        Text item=Wohnraum469_Temperature
+        Text item=Wohnraum469_Humidity
+        Text item=Wohnraum469_Electricity
+    }
+
+     Frame label="Wohnraum 470"{
+        Text item=Wohnraum470_Temperature
+        Text item=Wohnraum470_Humidity
+        Text item=Wohnraum470_Electricity
+    }
+
+     Frame label="Wohnraum 471"{
+        Text item=Wohnraum471_Temperature
+        Text item=Wohnraum471_Humidity
+        Text item=Wohnraum471_Electricity
+    }
+
+     Frame label="Wohnraum 472"{
+        Text item=Wohnraum472_Temperature
+        Text item=Wohnraum472_Humidity
+        Text item=Wohnraum472_Electricity
+    }
+
+     Frame label="Wohnraum 473"{
+        Text item=Wohnraum473_Temperature
+        Text item=Wohnraum473_Humidity
+        Text item=Wohnraum473_Electricity
+    }
+
+     Frame label="Wohnraum 474"{
+        Text item=Wohnraum474_Temperature
+        Text item=Wohnraum474_Humidity
+        Text item=Wohnraum474_Electricity
+    }
+
+     Frame label="Wohnraum 475"{
+        Text item=Wohnraum475_Temperature
+        Text item=Wohnraum475_Humidity
+        Text item=Wohnraum475_Electricity
+    }
+
+     Frame label="Wohnraum 476"{
+        Text item=Wohnraum476_Temperature
+        Text item=Wohnraum476_Humidity
+        Text item=Wohnraum476_Electricity
+    }
+
+     Frame label="Wohnraum 477"{
+        Text item=Wohnraum477_Temperature
+        Text item=Wohnraum477_Humidity
+        Text item=Wohnraum477_Electricity
+    }
+
+     Frame label="Wohnraum 478"{
+        Text item=Wohnraum478_Temperature
+        Text item=Wohnraum478_Humidity
+        Text item=Wohnraum478_Electricity
+    }
+
+     Frame label="Wohnraum 479"{
+        Text item=Wohnraum479_Temperature
+        Text item=Wohnraum479_Humidity
+        Text item=Wohnraum479_Electricity
+    }
+
+     Frame label="Wohnraum 480"{
+        Text item=Wohnraum480_Temperature
+        Text item=Wohnraum480_Humidity
+        Text item=Wohnraum480_Electricity
+    }
+
+     Frame label="Wohnraum 481"{
+        Text item=Wohnraum481_Temperature
+        Text item=Wohnraum481_Humidity
+        Text item=Wohnraum481_Electricity
+    }
+
+     Frame label="Wohnraum 482"{
+        Text item=Wohnraum482_Temperature
+        Text item=Wohnraum482_Humidity
+        Text item=Wohnraum482_Electricity
+    }
+
+     Frame label="Wohnraum 483"{
+        Text item=Wohnraum483_Temperature
+        Text item=Wohnraum483_Humidity
+        Text item=Wohnraum483_Electricity
+    }
+
+     Frame label="Wohnraum 484"{
+        Text item=Wohnraum484_Temperature
+        Text item=Wohnraum484_Humidity
+        Text item=Wohnraum484_Electricity
+    }
+
+     Frame label="Wohnraum 485"{
+        Text item=Wohnraum485_Temperature
+        Text item=Wohnraum485_Humidity
+        Text item=Wohnraum485_Electricity
+    }
+
+     Frame label="Wohnraum 486"{
+        Text item=Wohnraum486_Temperature
+        Text item=Wohnraum486_Humidity
+        Text item=Wohnraum486_Electricity
+    }
+
+     Frame label="Wohnraum 487"{
+        Text item=Wohnraum487_Temperature
+        Text item=Wohnraum487_Humidity
+        Text item=Wohnraum487_Electricity
+    }
+
+     Frame label="Wohnraum 488"{
+        Text item=Wohnraum488_Temperature
+        Text item=Wohnraum488_Humidity
+        Text item=Wohnraum488_Electricity
+    }
+
+     Frame label="Wohnraum 489"{
+        Text item=Wohnraum489_Temperature
+        Text item=Wohnraum489_Humidity
+        Text item=Wohnraum489_Electricity
+    }
+
+     Frame label="Wohnraum 490"{
+        Text item=Wohnraum490_Temperature
+        Text item=Wohnraum490_Humidity
+        Text item=Wohnraum490_Electricity
+    }
+
+     Frame label="Wohnraum 491"{
+        Text item=Wohnraum491_Temperature
+        Text item=Wohnraum491_Humidity
+        Text item=Wohnraum491_Electricity
+    }
+
+     Frame label="Wohnraum 492"{
+        Text item=Wohnraum492_Temperature
+        Text item=Wohnraum492_Humidity
+        Text item=Wohnraum492_Electricity
+    }
+
+     Frame label="Wohnraum 493"{
+        Text item=Wohnraum493_Temperature
+        Text item=Wohnraum493_Humidity
+        Text item=Wohnraum493_Electricity
+    }
+
+     Frame label="Wohnraum 494"{
+        Text item=Wohnraum494_Temperature
+        Text item=Wohnraum494_Humidity
+        Text item=Wohnraum494_Electricity
+    }
+
+     Frame label="Wohnraum 495"{
+        Text item=Wohnraum495_Temperature
+        Text item=Wohnraum495_Humidity
+        Text item=Wohnraum495_Electricity
+    }
+
+     Frame label="Wohnraum 496"{
+        Text item=Wohnraum496_Temperature
+        Text item=Wohnraum496_Humidity
+        Text item=Wohnraum496_Electricity
+    }
+
+     Frame label="Wohnraum 497"{
+        Text item=Wohnraum497_Temperature
+        Text item=Wohnraum497_Humidity
+        Text item=Wohnraum497_Electricity
+    }
+
+     Frame label="Wohnraum 498"{
+        Text item=Wohnraum498_Temperature
+        Text item=Wohnraum498_Humidity
+        Text item=Wohnraum498_Electricity
+    }
+
+     Frame label="Wohnraum 499"{
+        Text item=Wohnraum499_Temperature
+        Text item=Wohnraum499_Humidity
+        Text item=Wohnraum499_Electricity
+    }
+
+     Frame label="Wohnraum 500"{
+        Text item=Wohnraum500_Temperature
+        Text item=Wohnraum500_Humidity
+        Text item=Wohnraum500_Electricity
     }
 }

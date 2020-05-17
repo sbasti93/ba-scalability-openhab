@@ -10,7 +10,7 @@ public class startAutomatedConfiguration {
     public static void main(String args[]) throws IOException {
 
         if(smbSendFiles.sendFiles()){
-            logger.info("Files are transfered to " + getConfigurations.getConfigs("properties", "smb_path"));
+            logger.info("Files are transfered to " + getConfigurations.getConfigs("properties", "conf_folder"));
         } else {
             logger.info("File transfer Failed!");
         }
@@ -21,11 +21,11 @@ public class startAutomatedConfiguration {
             logger.info("Cleaning Cache Failed!");
         }
 
-        if(openhabConfiguration.startCmdPublisher.startPublisher()) {
+        /*if(openhabConfiguration.startCmdPublisher.startPublisher()) {
             logger.info("Publisher started!");
         } else {
             logger.info("Start Publisher Failed");
-        }
+        }*/
 
     }
 

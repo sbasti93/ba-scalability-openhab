@@ -25,7 +25,7 @@ public class smbSendFiles {
     private static final String PASSWORD = getConfigurations.getConfigs("properties", "openhab_login_pwd");
     private static final String HOST = getConfigurations.getConfigs("properties", "openhab_host");
     private static final String NETWORK_FOLDER = getConfigurations.getConfigs("properties", "conf_folder");
-    private static final int HEATER_AVAILABLE = Integer.parseInt(getConfigurations.getConfigs("perApartment", "heater"));
+    private static final boolean HEATER_AVAILABLE = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "heater"));
     private static final String NETWORK_FOLDER_ITEMS = "items\\";
     private static final String NETWORK_FOLDER_THINGS = "things\\";
     private static final String NETWORK_FOLDER_RULES = "rules\\";
@@ -60,7 +60,7 @@ public class smbSendFiles {
                 }
             }
 
-            if(HEATER_AVAILABLE==1) {
+            if(HEATER_AVAILABLE) {
                 if (br.buildRulesFile(LOCAL_SAMBA_BUILD_FILES_PATH)) {
                     try (DiskShare shareRules = (DiskShare) Objects.requireNonNull(session).connectShare(NETWORK_FOLDER)) {
                         File source = new File(LOCAL_SAMBA_BUILD_FILES_PATH + "apartment.rules");

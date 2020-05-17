@@ -9,10 +9,12 @@ import net.schmizz.sshj.transport.verification.PromiscuousVerifier;
 import java.io.Console;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
+import java.util.logging.Logger;
 
 public class sshCleanCache {
 
     private static final Console con = System.console();
+    private static Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
     public static boolean sshConnectionExecute() throws IOException {
 
@@ -34,23 +36,21 @@ public class sshCleanCache {
                     "                echo \"stopping openHab2...\"\n" +
                     "                sudo /bin/systemctl stop openhab2.service &\n" +
                     "                wait\n" +
-                    "                echo \"openHab2 is stopped!\"\n" +
+                    /*"                echo \"openHab2 is stopped!\"\n" +
                     "                echo \"Cache is cleaning...\"\n" +
                     "                yes | sudo openhab-cli clean-cache &\n" +
                     "                wait\n" +
-                    "                echo \"Cache is clean!\"\n" +
+                    "                echo \"Cache is clean!\"\n" +*/
                     "                echo \"Start openHab2\"\n" +
                     "                sudo /bin/systemctl start openhab2.service &\n" +
                     "                wait\n" +
                     "                echo \"openHab2 started!\"\n" +
                     "        else\n" +
                     "                echo \"openHab2 is not running!\"\n" +
-                    "                sudo /bin/systemctl start openhab2.service &\n" +
-                    "                wait\n" +
-                    "                echo \"Now openHab2 is started\"\n" +
                     "fi\n" +
                     "rm isRunning.txt");
             String text = IOUtils.readFully(cmd.getInputStream()).toString();
+            logger.info(text);
             cmd.join(5, TimeUnit.SECONDS);
             return true;
         } finally {
