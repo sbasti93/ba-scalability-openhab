@@ -27,32 +27,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bdb0d886-0c38-4429-a85b-c7937e1c75a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/openhabConfiguration/buildFiles/buildItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/openhabConfiguration/buildFiles/buildItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/openhabConfiguration/buildFiles/buildSitemap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/openhabConfiguration/buildFiles/buildSitemap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/openhabConfiguration/buildFiles/buildThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/openhabConfiguration/buildFiles/buildThings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/openhabConfiguration/smbSendFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/openhabConfiguration/smbSendFiles.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/openhabConfiguration/sshCleanCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/openhabConfiguration/sshCleanCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/openhabConfiguration/startAutomatedConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/openhabConfiguration/startAutomatedConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/openhabConfiguration/startCmdPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/openhabConfiguration/startCmdPublisher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration/apartment.items" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration/apartment.items" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration/apartment.sitemap" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration/apartment.sitemap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration/apartment.things" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/openHabThingConfiguration/apartment.things" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/windowsFiles/openHab.ini" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/windowsFiles/openHab.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/ba-scalability-openhab.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.items" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.items" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.rules" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.rules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.sitemap" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.sitemap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.things" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openHabThingConfiguration/apartment.things" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openhabConfiguration/buildFiles/buildItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openhabConfiguration/buildFiles/buildItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openhabConfiguration/buildFiles/buildSitemap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openhabConfiguration/buildFiles/buildSitemap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openhabConfiguration/buildFiles/buildThings.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openhabConfiguration/buildFiles/buildThings.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openhabConfiguration/publish.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openhabConfiguration/smbSendFiles.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openhabConfiguration/smbSendFiles.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openhabConfiguration/sshCleanCache.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openhabConfiguration/sshCleanCache.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openhabConfiguration/startAutomatedConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openhabConfiguration/startAutomatedConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/openhabConfiguration/startCmdPublisher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/openhabConfiguration/startCmdPublisher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/windowsFiles/openHab.ini" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/windowsFiles/openHab.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/backlog/ftpSetThings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/openhabConfiguration/startCmdPublisher.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/PublisherAndSubscriber/publishElectricity.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/PublisherAndSubscriber/publishHumidity.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/PublisherAndSubscriber/publishTemperature.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/PublisherAndSubscriber/subscribeHeater.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/windowsFiles/startPublisher.bat" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
