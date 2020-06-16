@@ -14,7 +14,7 @@ public class buildSitemap {
     private static int num = Integer.parseInt(getConfigurations.getConfigs("apartment", "number"));
     private static boolean TEMP = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "temperature"));
     private static boolean HUM = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "humidity"));
-    private static boolean HEATER = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "heater"));
+    private static boolean CO2 = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "co2"));
     private static boolean ELEC = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "electricity"));
 
     public boolean buildSitemapFile(String path) {
@@ -43,21 +43,16 @@ public class buildSitemap {
 
     private String buildLables(int num) {
         for(int i = 1; i <= num; i++) {
-            stringLables += "\n     Frame label=\"Wohnraum " + i + "\"{\n";
-            if(TEMP){
-                stringLables += "        Text item=Wohnraum" + i + "_Temperature\n";
+            stringLables +=
+                    "\n     Frame label=\"Wohnraum " + i + "\"{\n" +
+                    "        Text item=Wohnraum" + i + "_Temperature\n" +
+                    "        Text item=Wohnraum" + i + "_Humidity\n" +
+                    "        Text item=Wohnraum" + i + "_Electricity\n" +
+                    "        Text item=Wohnraum" + i + "_CO2\n" +
+                    "        Text item=Wohnraum" + i + "_Cost\n" +
+                    "        Text item=Wohnraum" + i + "_Fire\n" +
+                    "    }\n";
             }
-            if(HUM){
-                stringLables += "        Text item=Wohnraum" + i + "_Humidity\n";
-            }
-            if(ELEC){
-                stringLables += "        Text item=Wohnraum" + i + "_Electricity\n";
-            }
-            if(HEATER){
-                stringLables += "        Text item=Wohnraum" + i + "_Heater\n";
-            }
-            stringLables += "    }\n";
-        }
         return stringLables;
     }
 }
