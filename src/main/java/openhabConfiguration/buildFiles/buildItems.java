@@ -15,7 +15,7 @@ public class buildItems {
     private static int NUM = Integer.parseInt(getConfigurations.getConfigs("apartment", "number"));
     private static boolean TEMP = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "temperature"));
     private static boolean HUM = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "humidity"));
-    private static boolean HEATER = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "heater"));
+    private static boolean CO2 = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "co2"));
     private static boolean ELEC = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "electricity"));
 
     public boolean buildItemsFile(String path) {
@@ -48,23 +48,26 @@ public class buildItems {
 
     private String getBuildApartments(){
         for(int i=1; i <= NUM; i++) {
-            buildApartments += "\n// Wohnraum" + i + "\n";
-            if(TEMP) {
-                buildApartments += "Number Wohnraum" + i + "_Temperature    \"Temperatur [%.1f °C]\"          <temperature>   " +
-                        "(House, Wohnraum" + i + ")  {channel=\"mqtt:topic:myWohnraumBroker:wohnraumSensoren" + i + ":temperature\"}\n";
-            }
-            if(HUM) {
-                buildApartments += "Number Wohnraum" + i + "_Humidity       \"Luftfeuchtigkeit [%.1f %%]\"    <humidity>      " +
-                        "(House, Wohnraum" + i + ")  {channel=\"mqtt:topic:myWohnraumBroker:wohnraumSensoren" + i + ":humidity\"}\n";
-            }
-            if(ELEC) {
-                buildApartments += "Number Wohnraum" + i + "_Electricity    \"Stromzähler [%.1f kWH]\"        <energy>        " +
-                        "(House, Wohnraum" + i + ")  {channel=\"mqtt:topic:myWohnraumBroker:wohnraumSensoren" + i + ":electricity\"}\n";
-            }
-            if(HEATER) {
-                buildApartments += "Dimmer Wohnraum" + i + "_Heater         \"Heizungs Level\"                <heating>       " +
-                        "(House, Wohnraum" + i + ")  {channel=\"mqtt:topic:myWohnraumBroker:wohnraumActors" + i + ":setHeater\"}\n\n";
-            }
+            buildApartments +=
+                    "\n// Wohnraum" + i + "\n" +
+
+                    "Number Wohnraum" + i + "_Temperature    \"Temperatur [%.1f °C]\"                               <temperature>   " +
+                        "(House, Wohnraum" + i + ")  {channel=\"mqtt:topic:myWohnraumBroker:wohnraumSensoren" + i + ":temperature\"}\n" +
+
+                    "Number Wohnraum" + i + "_Humidity       \"Luftfeuchtigkeit [%.1f %%]\"                         <humidity>      " +
+                        "(House, Wohnraum" + i + ")  {channel=\"mqtt:topic:myWohnraumBroker:wohnraumSensoren" + i + ":humidity\"}\n" +
+
+                    "Number Wohnraum" + i + "_Electricity    \"Stromzähler [%.1f kWH]\"                             <energy>        " +
+                        "(House, Wohnraum" + i + ")  {channel=\"mqtt:topic:myWohnraumBroker:wohnraumSensoren" + i + ":electricity\"}\n" +
+
+                    "Number Wohnraum" + i + "_CO2            \"Kohlsenstoffdioxidgehalt [%.1f ppm]\"                <carbondioxide>       " +
+                        "(House, Wohnraum" + i + ")  {channel=\"mqtt:topic:myWohnraumBroker:wohnraumSensoren" + i + ":kohlenstoffdioxid\"}\n" +
+
+                    "Number Wohnraum" + i + "_Cost           \"Stromkosten [%.2f €]\"                               <price>             " +
+                        "(House, Wohnraum" + i + ")  \n" +
+
+                    "String Wohnraum" + i + "_Fire           \"Feueralarm: [%s]\"                                   <siren>             " +
+                        "(House, Wohnraum" + i + ")\n\n";
         }
         return  buildApartments;
     }

@@ -30,26 +30,27 @@ public class buildRules {
     }
 
     private String buildRules(int num) {
-        for(int i = 1; i <= num; i++) {
-            stringRules += "var Number office_group_counter" + i +"=0\n";
-        }
-        stringRules += "\n" +
-                "rule \"> 23° Heizung aus\"\n" +
-                "when\n";
-        for(int i = 1; i <= num; i++) {
-            stringRules += "    Item Wohnraum" + i + "_Temperature received update\n";
-        }
-        stringRules += "then\n";
-        for(int i = 1; i <= num; i++) {
-            stringRules += "\n    if(Wohnraum" + i + "_Temperature.state>23 && office_group_counter==0){\n" +
-                    "        Wohnraum" + i + "_Heater.sendCommand(0)\n" +
-                    "        office_group_counter=" + i + "\n" +
+
+        for(int i = 1; i<=num;i++){
+            stringRules+=
+                    "rule \"CalculateElectricityCosts" + i + "\"\n" +
+                    "when\n" +
+                    "    Item Wohnraum" + i + "_Electricity received update\n" +
+                    "then\n" +
+                    "    Wohnraum" + i + "_Cost.sendCommand(Wohnraum" + i + "_Electricity.state as DecimalType * 0.3)\n" +
+                    "end\n\n";
+
+            stringRules +=
+                    "rule \"Burning-Alarm" + i + "\"\n" +
+                    "when\n" +
+                    "    Item Wohnraum" + i + "_CO2 received update\n" +
+                    "then\n" +
+                    "    if(Wohnraum" + i + "_CO2.state as DecimalType > 9 && Wohnraum" + i + "_Temperature.state as DecimalType > 35){\n" +
+                    "        Wohnraum" + i + "_Fire.sendCommand(\"Feuer\")\n" +
                     "    }\n" +
-                    "    else if(Wohnraum" + i + "_Temperature.state<23 && office_group_counter==" + i + "){\n" +
-                    "        office_group_counter" + i +"=0\n" +
-                    "    }\n";
+                    "end\n\n";
         }
-        stringRules += "end\n";
+
 
         return stringRules;
     }

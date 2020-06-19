@@ -15,17 +15,11 @@ public class startAutomatedConfiguration {
             logger.info("File transfer Failed!");
         }
 
-        if(openhabConfiguration.sshCleanCache.sshConnectionExecute()) {
-            logger.info("Cache is cleaned up");
+        if(sshRestartOpenhab.sshConnectionExecute()) {
+            logger.info("openHAB restart successfull");
         } else {
-            logger.info("Cleaning Cache Failed!");
+            logger.info("openHAB restart Failed!");
         }
-
-        /*if(openhabConfiguration.startCmdPublisher.startPublisher()) {
-            logger.info("Publisher started!");
-        } else {
-            logger.info("Start Publisher Failed");
-        }*/
 
     }
 

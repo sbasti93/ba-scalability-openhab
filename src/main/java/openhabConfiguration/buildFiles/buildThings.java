@@ -14,8 +14,10 @@ public class buildThings {
     private static int num = Integer.parseInt(getConfigurations.getConfigs("apartment", "number"));
     private static boolean temp = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "temperature"));
     private static boolean hum = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "humidity"));
-    private static boolean heat = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "heater"));
+    private static boolean co2 = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "co2"));
     private static boolean elec = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "electricity"));
+    private static String ip = getConfigurations.getConfigs("properties", "openhab_host");
+    private static int qos = Integer.parseInt(getConfigurations.getConfigs("properties", "qos"));
 
     public boolean buildThingsFile(String path) {
         PrintWriter pWriter = null;
@@ -34,11 +36,15 @@ public class buildThings {
         }
     }
 
+
     private String buildBridge() {
-        bridgeString += "Bridge mqtt:broker:myWohnraumBroker \"myWohnraumBroker\" [host=\"192.168.178.22\", secure=false] \n{\n";
-        bridgeString += buildThings(num);
-        bridgeString += "}";
-        return bridgeString;
+        if(qos==0 || qos==1 || qos==2){
+            bridgeString += "Bridge mqtt:broker:myWohnraumBroker \"myWohnraumBroker\" [host=\"" + ip +"\", secure=false, qos="+ qos +"] \n{\n";
+            bridgeString += buildThings(num);
+            bridgeString += "}";
+            return bridgeString;
+        }
+        else return null;
     }
 
     private String buildThings(int num) {
@@ -47,22 +53,18 @@ public class buildThings {
                     "    Thing topic wohnraumSensoren" + i + " \"Wohnraum" + i + " Sensoren\" {\n" +
                     "    Channels:\n";
             if(temp) {
-                thingString += "        Type number : temperature   \"Temperatur\"            [stateTopic=\"apartment/temperature/\"]\n";
+                thingString += "        Type number : temperature   \"Temperatur\"            [stateTopic=\"apartment/temperature" + i + "/\"]\n";
             }
             if(hum) {
-                thingString += "        Type number : humidity      \"Luftfeuchtigkeit\"      [stateTopic=\"apartment/humidity/\"]\n";
+                thingString += "        Type number : humidity      \"Luftfeuchtigkeit\"      [stateTopic=\"apartment/humidity" + i + "/\"]\n";
             }
             if(elec){
-                thingString += "        Type number : electricity   \"Stromzähler\"           [stateTopic=\"apartment/electricity/\"]\n";
+                thingString += "        Type number : electricity   \"Stromzähler\"           [stateTopic=\"apartment/electricity" + i + "/\"]\n";
+            }
+            if(co2){
+                thingString += "        Type number : kohlenstoffdioxid   \"Kolhelnstoffdioxid\"           [stateTopic=\"apartment/kohlenstoffdioxid" + i + "/\"]\n";
             }
             thingString +=        "    }\n\n";
-            if(heat) {
-                thingString += "    // Thing Actors Wohnraum" + i + "\n" +
-                        "    Thing topic wohnraumActors" + i + " \"Wohnraum" + i + " Actors\" {\n" +
-                        "    Channels:\n" +
-                        "        Type dimmer : setHeater     \"Setzt Heizungs-Stufe\"  [commandTopic=\"apartment/heater/setNewLevel/\", min=0, max=5]\n" +
-                        "    }\n\n";
-            }
         }
         return thingString;
     }
