@@ -1,0 +1,4800 @@
+rule "CalculateElectricityCosts1"
+when
+    Item Wohnraum1_Electricity received update
+then
+    Wohnraum1_Cost.sendCommand(Wohnraum1_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm1"
+when
+    Item Wohnraum1_CO2 received update
+then
+    if(Wohnraum1_CO2.state as DecimalType > 9 && Wohnraum1_Temperature.state as DecimalType > 35){
+        Wohnraum1_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts2"
+when
+    Item Wohnraum2_Electricity received update
+then
+    Wohnraum2_Cost.sendCommand(Wohnraum2_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm2"
+when
+    Item Wohnraum2_CO2 received update
+then
+    if(Wohnraum2_CO2.state as DecimalType > 9 && Wohnraum2_Temperature.state as DecimalType > 35){
+        Wohnraum2_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts3"
+when
+    Item Wohnraum3_Electricity received update
+then
+    Wohnraum3_Cost.sendCommand(Wohnraum3_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm3"
+when
+    Item Wohnraum3_CO2 received update
+then
+    if(Wohnraum3_CO2.state as DecimalType > 9 && Wohnraum3_Temperature.state as DecimalType > 35){
+        Wohnraum3_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts4"
+when
+    Item Wohnraum4_Electricity received update
+then
+    Wohnraum4_Cost.sendCommand(Wohnraum4_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm4"
+when
+    Item Wohnraum4_CO2 received update
+then
+    if(Wohnraum4_CO2.state as DecimalType > 9 && Wohnraum4_Temperature.state as DecimalType > 35){
+        Wohnraum4_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts5"
+when
+    Item Wohnraum5_Electricity received update
+then
+    Wohnraum5_Cost.sendCommand(Wohnraum5_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm5"
+when
+    Item Wohnraum5_CO2 received update
+then
+    if(Wohnraum5_CO2.state as DecimalType > 9 && Wohnraum5_Temperature.state as DecimalType > 35){
+        Wohnraum5_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts6"
+when
+    Item Wohnraum6_Electricity received update
+then
+    Wohnraum6_Cost.sendCommand(Wohnraum6_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm6"
+when
+    Item Wohnraum6_CO2 received update
+then
+    if(Wohnraum6_CO2.state as DecimalType > 9 && Wohnraum6_Temperature.state as DecimalType > 35){
+        Wohnraum6_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts7"
+when
+    Item Wohnraum7_Electricity received update
+then
+    Wohnraum7_Cost.sendCommand(Wohnraum7_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm7"
+when
+    Item Wohnraum7_CO2 received update
+then
+    if(Wohnraum7_CO2.state as DecimalType > 9 && Wohnraum7_Temperature.state as DecimalType > 35){
+        Wohnraum7_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts8"
+when
+    Item Wohnraum8_Electricity received update
+then
+    Wohnraum8_Cost.sendCommand(Wohnraum8_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm8"
+when
+    Item Wohnraum8_CO2 received update
+then
+    if(Wohnraum8_CO2.state as DecimalType > 9 && Wohnraum8_Temperature.state as DecimalType > 35){
+        Wohnraum8_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts9"
+when
+    Item Wohnraum9_Electricity received update
+then
+    Wohnraum9_Cost.sendCommand(Wohnraum9_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm9"
+when
+    Item Wohnraum9_CO2 received update
+then
+    if(Wohnraum9_CO2.state as DecimalType > 9 && Wohnraum9_Temperature.state as DecimalType > 35){
+        Wohnraum9_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts10"
+when
+    Item Wohnraum10_Electricity received update
+then
+    Wohnraum10_Cost.sendCommand(Wohnraum10_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm10"
+when
+    Item Wohnraum10_CO2 received update
+then
+    if(Wohnraum10_CO2.state as DecimalType > 9 && Wohnraum10_Temperature.state as DecimalType > 35){
+        Wohnraum10_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts11"
+when
+    Item Wohnraum11_Electricity received update
+then
+    Wohnraum11_Cost.sendCommand(Wohnraum11_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm11"
+when
+    Item Wohnraum11_CO2 received update
+then
+    if(Wohnraum11_CO2.state as DecimalType > 9 && Wohnraum11_Temperature.state as DecimalType > 35){
+        Wohnraum11_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts12"
+when
+    Item Wohnraum12_Electricity received update
+then
+    Wohnraum12_Cost.sendCommand(Wohnraum12_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm12"
+when
+    Item Wohnraum12_CO2 received update
+then
+    if(Wohnraum12_CO2.state as DecimalType > 9 && Wohnraum12_Temperature.state as DecimalType > 35){
+        Wohnraum12_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts13"
+when
+    Item Wohnraum13_Electricity received update
+then
+    Wohnraum13_Cost.sendCommand(Wohnraum13_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm13"
+when
+    Item Wohnraum13_CO2 received update
+then
+    if(Wohnraum13_CO2.state as DecimalType > 9 && Wohnraum13_Temperature.state as DecimalType > 35){
+        Wohnraum13_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts14"
+when
+    Item Wohnraum14_Electricity received update
+then
+    Wohnraum14_Cost.sendCommand(Wohnraum14_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm14"
+when
+    Item Wohnraum14_CO2 received update
+then
+    if(Wohnraum14_CO2.state as DecimalType > 9 && Wohnraum14_Temperature.state as DecimalType > 35){
+        Wohnraum14_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts15"
+when
+    Item Wohnraum15_Electricity received update
+then
+    Wohnraum15_Cost.sendCommand(Wohnraum15_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm15"
+when
+    Item Wohnraum15_CO2 received update
+then
+    if(Wohnraum15_CO2.state as DecimalType > 9 && Wohnraum15_Temperature.state as DecimalType > 35){
+        Wohnraum15_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts16"
+when
+    Item Wohnraum16_Electricity received update
+then
+    Wohnraum16_Cost.sendCommand(Wohnraum16_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm16"
+when
+    Item Wohnraum16_CO2 received update
+then
+    if(Wohnraum16_CO2.state as DecimalType > 9 && Wohnraum16_Temperature.state as DecimalType > 35){
+        Wohnraum16_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts17"
+when
+    Item Wohnraum17_Electricity received update
+then
+    Wohnraum17_Cost.sendCommand(Wohnraum17_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm17"
+when
+    Item Wohnraum17_CO2 received update
+then
+    if(Wohnraum17_CO2.state as DecimalType > 9 && Wohnraum17_Temperature.state as DecimalType > 35){
+        Wohnraum17_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts18"
+when
+    Item Wohnraum18_Electricity received update
+then
+    Wohnraum18_Cost.sendCommand(Wohnraum18_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm18"
+when
+    Item Wohnraum18_CO2 received update
+then
+    if(Wohnraum18_CO2.state as DecimalType > 9 && Wohnraum18_Temperature.state as DecimalType > 35){
+        Wohnraum18_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts19"
+when
+    Item Wohnraum19_Electricity received update
+then
+    Wohnraum19_Cost.sendCommand(Wohnraum19_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm19"
+when
+    Item Wohnraum19_CO2 received update
+then
+    if(Wohnraum19_CO2.state as DecimalType > 9 && Wohnraum19_Temperature.state as DecimalType > 35){
+        Wohnraum19_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts20"
+when
+    Item Wohnraum20_Electricity received update
+then
+    Wohnraum20_Cost.sendCommand(Wohnraum20_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm20"
+when
+    Item Wohnraum20_CO2 received update
+then
+    if(Wohnraum20_CO2.state as DecimalType > 9 && Wohnraum20_Temperature.state as DecimalType > 35){
+        Wohnraum20_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts21"
+when
+    Item Wohnraum21_Electricity received update
+then
+    Wohnraum21_Cost.sendCommand(Wohnraum21_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm21"
+when
+    Item Wohnraum21_CO2 received update
+then
+    if(Wohnraum21_CO2.state as DecimalType > 9 && Wohnraum21_Temperature.state as DecimalType > 35){
+        Wohnraum21_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts22"
+when
+    Item Wohnraum22_Electricity received update
+then
+    Wohnraum22_Cost.sendCommand(Wohnraum22_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm22"
+when
+    Item Wohnraum22_CO2 received update
+then
+    if(Wohnraum22_CO2.state as DecimalType > 9 && Wohnraum22_Temperature.state as DecimalType > 35){
+        Wohnraum22_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts23"
+when
+    Item Wohnraum23_Electricity received update
+then
+    Wohnraum23_Cost.sendCommand(Wohnraum23_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm23"
+when
+    Item Wohnraum23_CO2 received update
+then
+    if(Wohnraum23_CO2.state as DecimalType > 9 && Wohnraum23_Temperature.state as DecimalType > 35){
+        Wohnraum23_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts24"
+when
+    Item Wohnraum24_Electricity received update
+then
+    Wohnraum24_Cost.sendCommand(Wohnraum24_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm24"
+when
+    Item Wohnraum24_CO2 received update
+then
+    if(Wohnraum24_CO2.state as DecimalType > 9 && Wohnraum24_Temperature.state as DecimalType > 35){
+        Wohnraum24_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts25"
+when
+    Item Wohnraum25_Electricity received update
+then
+    Wohnraum25_Cost.sendCommand(Wohnraum25_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm25"
+when
+    Item Wohnraum25_CO2 received update
+then
+    if(Wohnraum25_CO2.state as DecimalType > 9 && Wohnraum25_Temperature.state as DecimalType > 35){
+        Wohnraum25_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts26"
+when
+    Item Wohnraum26_Electricity received update
+then
+    Wohnraum26_Cost.sendCommand(Wohnraum26_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm26"
+when
+    Item Wohnraum26_CO2 received update
+then
+    if(Wohnraum26_CO2.state as DecimalType > 9 && Wohnraum26_Temperature.state as DecimalType > 35){
+        Wohnraum26_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts27"
+when
+    Item Wohnraum27_Electricity received update
+then
+    Wohnraum27_Cost.sendCommand(Wohnraum27_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm27"
+when
+    Item Wohnraum27_CO2 received update
+then
+    if(Wohnraum27_CO2.state as DecimalType > 9 && Wohnraum27_Temperature.state as DecimalType > 35){
+        Wohnraum27_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts28"
+when
+    Item Wohnraum28_Electricity received update
+then
+    Wohnraum28_Cost.sendCommand(Wohnraum28_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm28"
+when
+    Item Wohnraum28_CO2 received update
+then
+    if(Wohnraum28_CO2.state as DecimalType > 9 && Wohnraum28_Temperature.state as DecimalType > 35){
+        Wohnraum28_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts29"
+when
+    Item Wohnraum29_Electricity received update
+then
+    Wohnraum29_Cost.sendCommand(Wohnraum29_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm29"
+when
+    Item Wohnraum29_CO2 received update
+then
+    if(Wohnraum29_CO2.state as DecimalType > 9 && Wohnraum29_Temperature.state as DecimalType > 35){
+        Wohnraum29_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts30"
+when
+    Item Wohnraum30_Electricity received update
+then
+    Wohnraum30_Cost.sendCommand(Wohnraum30_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm30"
+when
+    Item Wohnraum30_CO2 received update
+then
+    if(Wohnraum30_CO2.state as DecimalType > 9 && Wohnraum30_Temperature.state as DecimalType > 35){
+        Wohnraum30_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts31"
+when
+    Item Wohnraum31_Electricity received update
+then
+    Wohnraum31_Cost.sendCommand(Wohnraum31_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm31"
+when
+    Item Wohnraum31_CO2 received update
+then
+    if(Wohnraum31_CO2.state as DecimalType > 9 && Wohnraum31_Temperature.state as DecimalType > 35){
+        Wohnraum31_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts32"
+when
+    Item Wohnraum32_Electricity received update
+then
+    Wohnraum32_Cost.sendCommand(Wohnraum32_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm32"
+when
+    Item Wohnraum32_CO2 received update
+then
+    if(Wohnraum32_CO2.state as DecimalType > 9 && Wohnraum32_Temperature.state as DecimalType > 35){
+        Wohnraum32_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts33"
+when
+    Item Wohnraum33_Electricity received update
+then
+    Wohnraum33_Cost.sendCommand(Wohnraum33_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm33"
+when
+    Item Wohnraum33_CO2 received update
+then
+    if(Wohnraum33_CO2.state as DecimalType > 9 && Wohnraum33_Temperature.state as DecimalType > 35){
+        Wohnraum33_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts34"
+when
+    Item Wohnraum34_Electricity received update
+then
+    Wohnraum34_Cost.sendCommand(Wohnraum34_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm34"
+when
+    Item Wohnraum34_CO2 received update
+then
+    if(Wohnraum34_CO2.state as DecimalType > 9 && Wohnraum34_Temperature.state as DecimalType > 35){
+        Wohnraum34_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts35"
+when
+    Item Wohnraum35_Electricity received update
+then
+    Wohnraum35_Cost.sendCommand(Wohnraum35_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm35"
+when
+    Item Wohnraum35_CO2 received update
+then
+    if(Wohnraum35_CO2.state as DecimalType > 9 && Wohnraum35_Temperature.state as DecimalType > 35){
+        Wohnraum35_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts36"
+when
+    Item Wohnraum36_Electricity received update
+then
+    Wohnraum36_Cost.sendCommand(Wohnraum36_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm36"
+when
+    Item Wohnraum36_CO2 received update
+then
+    if(Wohnraum36_CO2.state as DecimalType > 9 && Wohnraum36_Temperature.state as DecimalType > 35){
+        Wohnraum36_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts37"
+when
+    Item Wohnraum37_Electricity received update
+then
+    Wohnraum37_Cost.sendCommand(Wohnraum37_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm37"
+when
+    Item Wohnraum37_CO2 received update
+then
+    if(Wohnraum37_CO2.state as DecimalType > 9 && Wohnraum37_Temperature.state as DecimalType > 35){
+        Wohnraum37_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts38"
+when
+    Item Wohnraum38_Electricity received update
+then
+    Wohnraum38_Cost.sendCommand(Wohnraum38_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm38"
+when
+    Item Wohnraum38_CO2 received update
+then
+    if(Wohnraum38_CO2.state as DecimalType > 9 && Wohnraum38_Temperature.state as DecimalType > 35){
+        Wohnraum38_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts39"
+when
+    Item Wohnraum39_Electricity received update
+then
+    Wohnraum39_Cost.sendCommand(Wohnraum39_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm39"
+when
+    Item Wohnraum39_CO2 received update
+then
+    if(Wohnraum39_CO2.state as DecimalType > 9 && Wohnraum39_Temperature.state as DecimalType > 35){
+        Wohnraum39_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts40"
+when
+    Item Wohnraum40_Electricity received update
+then
+    Wohnraum40_Cost.sendCommand(Wohnraum40_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm40"
+when
+    Item Wohnraum40_CO2 received update
+then
+    if(Wohnraum40_CO2.state as DecimalType > 9 && Wohnraum40_Temperature.state as DecimalType > 35){
+        Wohnraum40_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts41"
+when
+    Item Wohnraum41_Electricity received update
+then
+    Wohnraum41_Cost.sendCommand(Wohnraum41_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm41"
+when
+    Item Wohnraum41_CO2 received update
+then
+    if(Wohnraum41_CO2.state as DecimalType > 9 && Wohnraum41_Temperature.state as DecimalType > 35){
+        Wohnraum41_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts42"
+when
+    Item Wohnraum42_Electricity received update
+then
+    Wohnraum42_Cost.sendCommand(Wohnraum42_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm42"
+when
+    Item Wohnraum42_CO2 received update
+then
+    if(Wohnraum42_CO2.state as DecimalType > 9 && Wohnraum42_Temperature.state as DecimalType > 35){
+        Wohnraum42_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts43"
+when
+    Item Wohnraum43_Electricity received update
+then
+    Wohnraum43_Cost.sendCommand(Wohnraum43_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm43"
+when
+    Item Wohnraum43_CO2 received update
+then
+    if(Wohnraum43_CO2.state as DecimalType > 9 && Wohnraum43_Temperature.state as DecimalType > 35){
+        Wohnraum43_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts44"
+when
+    Item Wohnraum44_Electricity received update
+then
+    Wohnraum44_Cost.sendCommand(Wohnraum44_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm44"
+when
+    Item Wohnraum44_CO2 received update
+then
+    if(Wohnraum44_CO2.state as DecimalType > 9 && Wohnraum44_Temperature.state as DecimalType > 35){
+        Wohnraum44_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts45"
+when
+    Item Wohnraum45_Electricity received update
+then
+    Wohnraum45_Cost.sendCommand(Wohnraum45_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm45"
+when
+    Item Wohnraum45_CO2 received update
+then
+    if(Wohnraum45_CO2.state as DecimalType > 9 && Wohnraum45_Temperature.state as DecimalType > 35){
+        Wohnraum45_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts46"
+when
+    Item Wohnraum46_Electricity received update
+then
+    Wohnraum46_Cost.sendCommand(Wohnraum46_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm46"
+when
+    Item Wohnraum46_CO2 received update
+then
+    if(Wohnraum46_CO2.state as DecimalType > 9 && Wohnraum46_Temperature.state as DecimalType > 35){
+        Wohnraum46_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts47"
+when
+    Item Wohnraum47_Electricity received update
+then
+    Wohnraum47_Cost.sendCommand(Wohnraum47_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm47"
+when
+    Item Wohnraum47_CO2 received update
+then
+    if(Wohnraum47_CO2.state as DecimalType > 9 && Wohnraum47_Temperature.state as DecimalType > 35){
+        Wohnraum47_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts48"
+when
+    Item Wohnraum48_Electricity received update
+then
+    Wohnraum48_Cost.sendCommand(Wohnraum48_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm48"
+when
+    Item Wohnraum48_CO2 received update
+then
+    if(Wohnraum48_CO2.state as DecimalType > 9 && Wohnraum48_Temperature.state as DecimalType > 35){
+        Wohnraum48_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts49"
+when
+    Item Wohnraum49_Electricity received update
+then
+    Wohnraum49_Cost.sendCommand(Wohnraum49_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm49"
+when
+    Item Wohnraum49_CO2 received update
+then
+    if(Wohnraum49_CO2.state as DecimalType > 9 && Wohnraum49_Temperature.state as DecimalType > 35){
+        Wohnraum49_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts50"
+when
+    Item Wohnraum50_Electricity received update
+then
+    Wohnraum50_Cost.sendCommand(Wohnraum50_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm50"
+when
+    Item Wohnraum50_CO2 received update
+then
+    if(Wohnraum50_CO2.state as DecimalType > 9 && Wohnraum50_Temperature.state as DecimalType > 35){
+        Wohnraum50_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts51"
+when
+    Item Wohnraum51_Electricity received update
+then
+    Wohnraum51_Cost.sendCommand(Wohnraum51_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm51"
+when
+    Item Wohnraum51_CO2 received update
+then
+    if(Wohnraum51_CO2.state as DecimalType > 9 && Wohnraum51_Temperature.state as DecimalType > 35){
+        Wohnraum51_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts52"
+when
+    Item Wohnraum52_Electricity received update
+then
+    Wohnraum52_Cost.sendCommand(Wohnraum52_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm52"
+when
+    Item Wohnraum52_CO2 received update
+then
+    if(Wohnraum52_CO2.state as DecimalType > 9 && Wohnraum52_Temperature.state as DecimalType > 35){
+        Wohnraum52_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts53"
+when
+    Item Wohnraum53_Electricity received update
+then
+    Wohnraum53_Cost.sendCommand(Wohnraum53_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm53"
+when
+    Item Wohnraum53_CO2 received update
+then
+    if(Wohnraum53_CO2.state as DecimalType > 9 && Wohnraum53_Temperature.state as DecimalType > 35){
+        Wohnraum53_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts54"
+when
+    Item Wohnraum54_Electricity received update
+then
+    Wohnraum54_Cost.sendCommand(Wohnraum54_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm54"
+when
+    Item Wohnraum54_CO2 received update
+then
+    if(Wohnraum54_CO2.state as DecimalType > 9 && Wohnraum54_Temperature.state as DecimalType > 35){
+        Wohnraum54_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts55"
+when
+    Item Wohnraum55_Electricity received update
+then
+    Wohnraum55_Cost.sendCommand(Wohnraum55_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm55"
+when
+    Item Wohnraum55_CO2 received update
+then
+    if(Wohnraum55_CO2.state as DecimalType > 9 && Wohnraum55_Temperature.state as DecimalType > 35){
+        Wohnraum55_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts56"
+when
+    Item Wohnraum56_Electricity received update
+then
+    Wohnraum56_Cost.sendCommand(Wohnraum56_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm56"
+when
+    Item Wohnraum56_CO2 received update
+then
+    if(Wohnraum56_CO2.state as DecimalType > 9 && Wohnraum56_Temperature.state as DecimalType > 35){
+        Wohnraum56_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts57"
+when
+    Item Wohnraum57_Electricity received update
+then
+    Wohnraum57_Cost.sendCommand(Wohnraum57_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm57"
+when
+    Item Wohnraum57_CO2 received update
+then
+    if(Wohnraum57_CO2.state as DecimalType > 9 && Wohnraum57_Temperature.state as DecimalType > 35){
+        Wohnraum57_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts58"
+when
+    Item Wohnraum58_Electricity received update
+then
+    Wohnraum58_Cost.sendCommand(Wohnraum58_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm58"
+when
+    Item Wohnraum58_CO2 received update
+then
+    if(Wohnraum58_CO2.state as DecimalType > 9 && Wohnraum58_Temperature.state as DecimalType > 35){
+        Wohnraum58_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts59"
+when
+    Item Wohnraum59_Electricity received update
+then
+    Wohnraum59_Cost.sendCommand(Wohnraum59_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm59"
+when
+    Item Wohnraum59_CO2 received update
+then
+    if(Wohnraum59_CO2.state as DecimalType > 9 && Wohnraum59_Temperature.state as DecimalType > 35){
+        Wohnraum59_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts60"
+when
+    Item Wohnraum60_Electricity received update
+then
+    Wohnraum60_Cost.sendCommand(Wohnraum60_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm60"
+when
+    Item Wohnraum60_CO2 received update
+then
+    if(Wohnraum60_CO2.state as DecimalType > 9 && Wohnraum60_Temperature.state as DecimalType > 35){
+        Wohnraum60_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts61"
+when
+    Item Wohnraum61_Electricity received update
+then
+    Wohnraum61_Cost.sendCommand(Wohnraum61_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm61"
+when
+    Item Wohnraum61_CO2 received update
+then
+    if(Wohnraum61_CO2.state as DecimalType > 9 && Wohnraum61_Temperature.state as DecimalType > 35){
+        Wohnraum61_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts62"
+when
+    Item Wohnraum62_Electricity received update
+then
+    Wohnraum62_Cost.sendCommand(Wohnraum62_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm62"
+when
+    Item Wohnraum62_CO2 received update
+then
+    if(Wohnraum62_CO2.state as DecimalType > 9 && Wohnraum62_Temperature.state as DecimalType > 35){
+        Wohnraum62_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts63"
+when
+    Item Wohnraum63_Electricity received update
+then
+    Wohnraum63_Cost.sendCommand(Wohnraum63_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm63"
+when
+    Item Wohnraum63_CO2 received update
+then
+    if(Wohnraum63_CO2.state as DecimalType > 9 && Wohnraum63_Temperature.state as DecimalType > 35){
+        Wohnraum63_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts64"
+when
+    Item Wohnraum64_Electricity received update
+then
+    Wohnraum64_Cost.sendCommand(Wohnraum64_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm64"
+when
+    Item Wohnraum64_CO2 received update
+then
+    if(Wohnraum64_CO2.state as DecimalType > 9 && Wohnraum64_Temperature.state as DecimalType > 35){
+        Wohnraum64_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts65"
+when
+    Item Wohnraum65_Electricity received update
+then
+    Wohnraum65_Cost.sendCommand(Wohnraum65_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm65"
+when
+    Item Wohnraum65_CO2 received update
+then
+    if(Wohnraum65_CO2.state as DecimalType > 9 && Wohnraum65_Temperature.state as DecimalType > 35){
+        Wohnraum65_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts66"
+when
+    Item Wohnraum66_Electricity received update
+then
+    Wohnraum66_Cost.sendCommand(Wohnraum66_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm66"
+when
+    Item Wohnraum66_CO2 received update
+then
+    if(Wohnraum66_CO2.state as DecimalType > 9 && Wohnraum66_Temperature.state as DecimalType > 35){
+        Wohnraum66_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts67"
+when
+    Item Wohnraum67_Electricity received update
+then
+    Wohnraum67_Cost.sendCommand(Wohnraum67_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm67"
+when
+    Item Wohnraum67_CO2 received update
+then
+    if(Wohnraum67_CO2.state as DecimalType > 9 && Wohnraum67_Temperature.state as DecimalType > 35){
+        Wohnraum67_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts68"
+when
+    Item Wohnraum68_Electricity received update
+then
+    Wohnraum68_Cost.sendCommand(Wohnraum68_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm68"
+when
+    Item Wohnraum68_CO2 received update
+then
+    if(Wohnraum68_CO2.state as DecimalType > 9 && Wohnraum68_Temperature.state as DecimalType > 35){
+        Wohnraum68_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts69"
+when
+    Item Wohnraum69_Electricity received update
+then
+    Wohnraum69_Cost.sendCommand(Wohnraum69_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm69"
+when
+    Item Wohnraum69_CO2 received update
+then
+    if(Wohnraum69_CO2.state as DecimalType > 9 && Wohnraum69_Temperature.state as DecimalType > 35){
+        Wohnraum69_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts70"
+when
+    Item Wohnraum70_Electricity received update
+then
+    Wohnraum70_Cost.sendCommand(Wohnraum70_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm70"
+when
+    Item Wohnraum70_CO2 received update
+then
+    if(Wohnraum70_CO2.state as DecimalType > 9 && Wohnraum70_Temperature.state as DecimalType > 35){
+        Wohnraum70_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts71"
+when
+    Item Wohnraum71_Electricity received update
+then
+    Wohnraum71_Cost.sendCommand(Wohnraum71_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm71"
+when
+    Item Wohnraum71_CO2 received update
+then
+    if(Wohnraum71_CO2.state as DecimalType > 9 && Wohnraum71_Temperature.state as DecimalType > 35){
+        Wohnraum71_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts72"
+when
+    Item Wohnraum72_Electricity received update
+then
+    Wohnraum72_Cost.sendCommand(Wohnraum72_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm72"
+when
+    Item Wohnraum72_CO2 received update
+then
+    if(Wohnraum72_CO2.state as DecimalType > 9 && Wohnraum72_Temperature.state as DecimalType > 35){
+        Wohnraum72_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts73"
+when
+    Item Wohnraum73_Electricity received update
+then
+    Wohnraum73_Cost.sendCommand(Wohnraum73_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm73"
+when
+    Item Wohnraum73_CO2 received update
+then
+    if(Wohnraum73_CO2.state as DecimalType > 9 && Wohnraum73_Temperature.state as DecimalType > 35){
+        Wohnraum73_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts74"
+when
+    Item Wohnraum74_Electricity received update
+then
+    Wohnraum74_Cost.sendCommand(Wohnraum74_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm74"
+when
+    Item Wohnraum74_CO2 received update
+then
+    if(Wohnraum74_CO2.state as DecimalType > 9 && Wohnraum74_Temperature.state as DecimalType > 35){
+        Wohnraum74_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts75"
+when
+    Item Wohnraum75_Electricity received update
+then
+    Wohnraum75_Cost.sendCommand(Wohnraum75_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm75"
+when
+    Item Wohnraum75_CO2 received update
+then
+    if(Wohnraum75_CO2.state as DecimalType > 9 && Wohnraum75_Temperature.state as DecimalType > 35){
+        Wohnraum75_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts76"
+when
+    Item Wohnraum76_Electricity received update
+then
+    Wohnraum76_Cost.sendCommand(Wohnraum76_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm76"
+when
+    Item Wohnraum76_CO2 received update
+then
+    if(Wohnraum76_CO2.state as DecimalType > 9 && Wohnraum76_Temperature.state as DecimalType > 35){
+        Wohnraum76_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts77"
+when
+    Item Wohnraum77_Electricity received update
+then
+    Wohnraum77_Cost.sendCommand(Wohnraum77_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm77"
+when
+    Item Wohnraum77_CO2 received update
+then
+    if(Wohnraum77_CO2.state as DecimalType > 9 && Wohnraum77_Temperature.state as DecimalType > 35){
+        Wohnraum77_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts78"
+when
+    Item Wohnraum78_Electricity received update
+then
+    Wohnraum78_Cost.sendCommand(Wohnraum78_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm78"
+when
+    Item Wohnraum78_CO2 received update
+then
+    if(Wohnraum78_CO2.state as DecimalType > 9 && Wohnraum78_Temperature.state as DecimalType > 35){
+        Wohnraum78_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts79"
+when
+    Item Wohnraum79_Electricity received update
+then
+    Wohnraum79_Cost.sendCommand(Wohnraum79_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm79"
+when
+    Item Wohnraum79_CO2 received update
+then
+    if(Wohnraum79_CO2.state as DecimalType > 9 && Wohnraum79_Temperature.state as DecimalType > 35){
+        Wohnraum79_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts80"
+when
+    Item Wohnraum80_Electricity received update
+then
+    Wohnraum80_Cost.sendCommand(Wohnraum80_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm80"
+when
+    Item Wohnraum80_CO2 received update
+then
+    if(Wohnraum80_CO2.state as DecimalType > 9 && Wohnraum80_Temperature.state as DecimalType > 35){
+        Wohnraum80_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts81"
+when
+    Item Wohnraum81_Electricity received update
+then
+    Wohnraum81_Cost.sendCommand(Wohnraum81_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm81"
+when
+    Item Wohnraum81_CO2 received update
+then
+    if(Wohnraum81_CO2.state as DecimalType > 9 && Wohnraum81_Temperature.state as DecimalType > 35){
+        Wohnraum81_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts82"
+when
+    Item Wohnraum82_Electricity received update
+then
+    Wohnraum82_Cost.sendCommand(Wohnraum82_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm82"
+when
+    Item Wohnraum82_CO2 received update
+then
+    if(Wohnraum82_CO2.state as DecimalType > 9 && Wohnraum82_Temperature.state as DecimalType > 35){
+        Wohnraum82_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts83"
+when
+    Item Wohnraum83_Electricity received update
+then
+    Wohnraum83_Cost.sendCommand(Wohnraum83_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm83"
+when
+    Item Wohnraum83_CO2 received update
+then
+    if(Wohnraum83_CO2.state as DecimalType > 9 && Wohnraum83_Temperature.state as DecimalType > 35){
+        Wohnraum83_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts84"
+when
+    Item Wohnraum84_Electricity received update
+then
+    Wohnraum84_Cost.sendCommand(Wohnraum84_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm84"
+when
+    Item Wohnraum84_CO2 received update
+then
+    if(Wohnraum84_CO2.state as DecimalType > 9 && Wohnraum84_Temperature.state as DecimalType > 35){
+        Wohnraum84_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts85"
+when
+    Item Wohnraum85_Electricity received update
+then
+    Wohnraum85_Cost.sendCommand(Wohnraum85_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm85"
+when
+    Item Wohnraum85_CO2 received update
+then
+    if(Wohnraum85_CO2.state as DecimalType > 9 && Wohnraum85_Temperature.state as DecimalType > 35){
+        Wohnraum85_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts86"
+when
+    Item Wohnraum86_Electricity received update
+then
+    Wohnraum86_Cost.sendCommand(Wohnraum86_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm86"
+when
+    Item Wohnraum86_CO2 received update
+then
+    if(Wohnraum86_CO2.state as DecimalType > 9 && Wohnraum86_Temperature.state as DecimalType > 35){
+        Wohnraum86_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts87"
+when
+    Item Wohnraum87_Electricity received update
+then
+    Wohnraum87_Cost.sendCommand(Wohnraum87_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm87"
+when
+    Item Wohnraum87_CO2 received update
+then
+    if(Wohnraum87_CO2.state as DecimalType > 9 && Wohnraum87_Temperature.state as DecimalType > 35){
+        Wohnraum87_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts88"
+when
+    Item Wohnraum88_Electricity received update
+then
+    Wohnraum88_Cost.sendCommand(Wohnraum88_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm88"
+when
+    Item Wohnraum88_CO2 received update
+then
+    if(Wohnraum88_CO2.state as DecimalType > 9 && Wohnraum88_Temperature.state as DecimalType > 35){
+        Wohnraum88_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts89"
+when
+    Item Wohnraum89_Electricity received update
+then
+    Wohnraum89_Cost.sendCommand(Wohnraum89_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm89"
+when
+    Item Wohnraum89_CO2 received update
+then
+    if(Wohnraum89_CO2.state as DecimalType > 9 && Wohnraum89_Temperature.state as DecimalType > 35){
+        Wohnraum89_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts90"
+when
+    Item Wohnraum90_Electricity received update
+then
+    Wohnraum90_Cost.sendCommand(Wohnraum90_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm90"
+when
+    Item Wohnraum90_CO2 received update
+then
+    if(Wohnraum90_CO2.state as DecimalType > 9 && Wohnraum90_Temperature.state as DecimalType > 35){
+        Wohnraum90_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts91"
+when
+    Item Wohnraum91_Electricity received update
+then
+    Wohnraum91_Cost.sendCommand(Wohnraum91_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm91"
+when
+    Item Wohnraum91_CO2 received update
+then
+    if(Wohnraum91_CO2.state as DecimalType > 9 && Wohnraum91_Temperature.state as DecimalType > 35){
+        Wohnraum91_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts92"
+when
+    Item Wohnraum92_Electricity received update
+then
+    Wohnraum92_Cost.sendCommand(Wohnraum92_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm92"
+when
+    Item Wohnraum92_CO2 received update
+then
+    if(Wohnraum92_CO2.state as DecimalType > 9 && Wohnraum92_Temperature.state as DecimalType > 35){
+        Wohnraum92_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts93"
+when
+    Item Wohnraum93_Electricity received update
+then
+    Wohnraum93_Cost.sendCommand(Wohnraum93_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm93"
+when
+    Item Wohnraum93_CO2 received update
+then
+    if(Wohnraum93_CO2.state as DecimalType > 9 && Wohnraum93_Temperature.state as DecimalType > 35){
+        Wohnraum93_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts94"
+when
+    Item Wohnraum94_Electricity received update
+then
+    Wohnraum94_Cost.sendCommand(Wohnraum94_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm94"
+when
+    Item Wohnraum94_CO2 received update
+then
+    if(Wohnraum94_CO2.state as DecimalType > 9 && Wohnraum94_Temperature.state as DecimalType > 35){
+        Wohnraum94_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts95"
+when
+    Item Wohnraum95_Electricity received update
+then
+    Wohnraum95_Cost.sendCommand(Wohnraum95_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm95"
+when
+    Item Wohnraum95_CO2 received update
+then
+    if(Wohnraum95_CO2.state as DecimalType > 9 && Wohnraum95_Temperature.state as DecimalType > 35){
+        Wohnraum95_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts96"
+when
+    Item Wohnraum96_Electricity received update
+then
+    Wohnraum96_Cost.sendCommand(Wohnraum96_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm96"
+when
+    Item Wohnraum96_CO2 received update
+then
+    if(Wohnraum96_CO2.state as DecimalType > 9 && Wohnraum96_Temperature.state as DecimalType > 35){
+        Wohnraum96_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts97"
+when
+    Item Wohnraum97_Electricity received update
+then
+    Wohnraum97_Cost.sendCommand(Wohnraum97_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm97"
+when
+    Item Wohnraum97_CO2 received update
+then
+    if(Wohnraum97_CO2.state as DecimalType > 9 && Wohnraum97_Temperature.state as DecimalType > 35){
+        Wohnraum97_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts98"
+when
+    Item Wohnraum98_Electricity received update
+then
+    Wohnraum98_Cost.sendCommand(Wohnraum98_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm98"
+when
+    Item Wohnraum98_CO2 received update
+then
+    if(Wohnraum98_CO2.state as DecimalType > 9 && Wohnraum98_Temperature.state as DecimalType > 35){
+        Wohnraum98_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts99"
+when
+    Item Wohnraum99_Electricity received update
+then
+    Wohnraum99_Cost.sendCommand(Wohnraum99_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm99"
+when
+    Item Wohnraum99_CO2 received update
+then
+    if(Wohnraum99_CO2.state as DecimalType > 9 && Wohnraum99_Temperature.state as DecimalType > 35){
+        Wohnraum99_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts100"
+when
+    Item Wohnraum100_Electricity received update
+then
+    Wohnraum100_Cost.sendCommand(Wohnraum100_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm100"
+when
+    Item Wohnraum100_CO2 received update
+then
+    if(Wohnraum100_CO2.state as DecimalType > 9 && Wohnraum100_Temperature.state as DecimalType > 35){
+        Wohnraum100_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts101"
+when
+    Item Wohnraum101_Electricity received update
+then
+    Wohnraum101_Cost.sendCommand(Wohnraum101_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm101"
+when
+    Item Wohnraum101_CO2 received update
+then
+    if(Wohnraum101_CO2.state as DecimalType > 9 && Wohnraum101_Temperature.state as DecimalType > 35){
+        Wohnraum101_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts102"
+when
+    Item Wohnraum102_Electricity received update
+then
+    Wohnraum102_Cost.sendCommand(Wohnraum102_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm102"
+when
+    Item Wohnraum102_CO2 received update
+then
+    if(Wohnraum102_CO2.state as DecimalType > 9 && Wohnraum102_Temperature.state as DecimalType > 35){
+        Wohnraum102_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts103"
+when
+    Item Wohnraum103_Electricity received update
+then
+    Wohnraum103_Cost.sendCommand(Wohnraum103_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm103"
+when
+    Item Wohnraum103_CO2 received update
+then
+    if(Wohnraum103_CO2.state as DecimalType > 9 && Wohnraum103_Temperature.state as DecimalType > 35){
+        Wohnraum103_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts104"
+when
+    Item Wohnraum104_Electricity received update
+then
+    Wohnraum104_Cost.sendCommand(Wohnraum104_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm104"
+when
+    Item Wohnraum104_CO2 received update
+then
+    if(Wohnraum104_CO2.state as DecimalType > 9 && Wohnraum104_Temperature.state as DecimalType > 35){
+        Wohnraum104_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts105"
+when
+    Item Wohnraum105_Electricity received update
+then
+    Wohnraum105_Cost.sendCommand(Wohnraum105_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm105"
+when
+    Item Wohnraum105_CO2 received update
+then
+    if(Wohnraum105_CO2.state as DecimalType > 9 && Wohnraum105_Temperature.state as DecimalType > 35){
+        Wohnraum105_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts106"
+when
+    Item Wohnraum106_Electricity received update
+then
+    Wohnraum106_Cost.sendCommand(Wohnraum106_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm106"
+when
+    Item Wohnraum106_CO2 received update
+then
+    if(Wohnraum106_CO2.state as DecimalType > 9 && Wohnraum106_Temperature.state as DecimalType > 35){
+        Wohnraum106_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts107"
+when
+    Item Wohnraum107_Electricity received update
+then
+    Wohnraum107_Cost.sendCommand(Wohnraum107_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm107"
+when
+    Item Wohnraum107_CO2 received update
+then
+    if(Wohnraum107_CO2.state as DecimalType > 9 && Wohnraum107_Temperature.state as DecimalType > 35){
+        Wohnraum107_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts108"
+when
+    Item Wohnraum108_Electricity received update
+then
+    Wohnraum108_Cost.sendCommand(Wohnraum108_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm108"
+when
+    Item Wohnraum108_CO2 received update
+then
+    if(Wohnraum108_CO2.state as DecimalType > 9 && Wohnraum108_Temperature.state as DecimalType > 35){
+        Wohnraum108_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts109"
+when
+    Item Wohnraum109_Electricity received update
+then
+    Wohnraum109_Cost.sendCommand(Wohnraum109_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm109"
+when
+    Item Wohnraum109_CO2 received update
+then
+    if(Wohnraum109_CO2.state as DecimalType > 9 && Wohnraum109_Temperature.state as DecimalType > 35){
+        Wohnraum109_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts110"
+when
+    Item Wohnraum110_Electricity received update
+then
+    Wohnraum110_Cost.sendCommand(Wohnraum110_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm110"
+when
+    Item Wohnraum110_CO2 received update
+then
+    if(Wohnraum110_CO2.state as DecimalType > 9 && Wohnraum110_Temperature.state as DecimalType > 35){
+        Wohnraum110_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts111"
+when
+    Item Wohnraum111_Electricity received update
+then
+    Wohnraum111_Cost.sendCommand(Wohnraum111_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm111"
+when
+    Item Wohnraum111_CO2 received update
+then
+    if(Wohnraum111_CO2.state as DecimalType > 9 && Wohnraum111_Temperature.state as DecimalType > 35){
+        Wohnraum111_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts112"
+when
+    Item Wohnraum112_Electricity received update
+then
+    Wohnraum112_Cost.sendCommand(Wohnraum112_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm112"
+when
+    Item Wohnraum112_CO2 received update
+then
+    if(Wohnraum112_CO2.state as DecimalType > 9 && Wohnraum112_Temperature.state as DecimalType > 35){
+        Wohnraum112_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts113"
+when
+    Item Wohnraum113_Electricity received update
+then
+    Wohnraum113_Cost.sendCommand(Wohnraum113_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm113"
+when
+    Item Wohnraum113_CO2 received update
+then
+    if(Wohnraum113_CO2.state as DecimalType > 9 && Wohnraum113_Temperature.state as DecimalType > 35){
+        Wohnraum113_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts114"
+when
+    Item Wohnraum114_Electricity received update
+then
+    Wohnraum114_Cost.sendCommand(Wohnraum114_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm114"
+when
+    Item Wohnraum114_CO2 received update
+then
+    if(Wohnraum114_CO2.state as DecimalType > 9 && Wohnraum114_Temperature.state as DecimalType > 35){
+        Wohnraum114_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts115"
+when
+    Item Wohnraum115_Electricity received update
+then
+    Wohnraum115_Cost.sendCommand(Wohnraum115_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm115"
+when
+    Item Wohnraum115_CO2 received update
+then
+    if(Wohnraum115_CO2.state as DecimalType > 9 && Wohnraum115_Temperature.state as DecimalType > 35){
+        Wohnraum115_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts116"
+when
+    Item Wohnraum116_Electricity received update
+then
+    Wohnraum116_Cost.sendCommand(Wohnraum116_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm116"
+when
+    Item Wohnraum116_CO2 received update
+then
+    if(Wohnraum116_CO2.state as DecimalType > 9 && Wohnraum116_Temperature.state as DecimalType > 35){
+        Wohnraum116_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts117"
+when
+    Item Wohnraum117_Electricity received update
+then
+    Wohnraum117_Cost.sendCommand(Wohnraum117_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm117"
+when
+    Item Wohnraum117_CO2 received update
+then
+    if(Wohnraum117_CO2.state as DecimalType > 9 && Wohnraum117_Temperature.state as DecimalType > 35){
+        Wohnraum117_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts118"
+when
+    Item Wohnraum118_Electricity received update
+then
+    Wohnraum118_Cost.sendCommand(Wohnraum118_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm118"
+when
+    Item Wohnraum118_CO2 received update
+then
+    if(Wohnraum118_CO2.state as DecimalType > 9 && Wohnraum118_Temperature.state as DecimalType > 35){
+        Wohnraum118_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts119"
+when
+    Item Wohnraum119_Electricity received update
+then
+    Wohnraum119_Cost.sendCommand(Wohnraum119_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm119"
+when
+    Item Wohnraum119_CO2 received update
+then
+    if(Wohnraum119_CO2.state as DecimalType > 9 && Wohnraum119_Temperature.state as DecimalType > 35){
+        Wohnraum119_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts120"
+when
+    Item Wohnraum120_Electricity received update
+then
+    Wohnraum120_Cost.sendCommand(Wohnraum120_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm120"
+when
+    Item Wohnraum120_CO2 received update
+then
+    if(Wohnraum120_CO2.state as DecimalType > 9 && Wohnraum120_Temperature.state as DecimalType > 35){
+        Wohnraum120_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts121"
+when
+    Item Wohnraum121_Electricity received update
+then
+    Wohnraum121_Cost.sendCommand(Wohnraum121_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm121"
+when
+    Item Wohnraum121_CO2 received update
+then
+    if(Wohnraum121_CO2.state as DecimalType > 9 && Wohnraum121_Temperature.state as DecimalType > 35){
+        Wohnraum121_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts122"
+when
+    Item Wohnraum122_Electricity received update
+then
+    Wohnraum122_Cost.sendCommand(Wohnraum122_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm122"
+when
+    Item Wohnraum122_CO2 received update
+then
+    if(Wohnraum122_CO2.state as DecimalType > 9 && Wohnraum122_Temperature.state as DecimalType > 35){
+        Wohnraum122_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts123"
+when
+    Item Wohnraum123_Electricity received update
+then
+    Wohnraum123_Cost.sendCommand(Wohnraum123_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm123"
+when
+    Item Wohnraum123_CO2 received update
+then
+    if(Wohnraum123_CO2.state as DecimalType > 9 && Wohnraum123_Temperature.state as DecimalType > 35){
+        Wohnraum123_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts124"
+when
+    Item Wohnraum124_Electricity received update
+then
+    Wohnraum124_Cost.sendCommand(Wohnraum124_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm124"
+when
+    Item Wohnraum124_CO2 received update
+then
+    if(Wohnraum124_CO2.state as DecimalType > 9 && Wohnraum124_Temperature.state as DecimalType > 35){
+        Wohnraum124_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts125"
+when
+    Item Wohnraum125_Electricity received update
+then
+    Wohnraum125_Cost.sendCommand(Wohnraum125_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm125"
+when
+    Item Wohnraum125_CO2 received update
+then
+    if(Wohnraum125_CO2.state as DecimalType > 9 && Wohnraum125_Temperature.state as DecimalType > 35){
+        Wohnraum125_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts126"
+when
+    Item Wohnraum126_Electricity received update
+then
+    Wohnraum126_Cost.sendCommand(Wohnraum126_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm126"
+when
+    Item Wohnraum126_CO2 received update
+then
+    if(Wohnraum126_CO2.state as DecimalType > 9 && Wohnraum126_Temperature.state as DecimalType > 35){
+        Wohnraum126_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts127"
+when
+    Item Wohnraum127_Electricity received update
+then
+    Wohnraum127_Cost.sendCommand(Wohnraum127_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm127"
+when
+    Item Wohnraum127_CO2 received update
+then
+    if(Wohnraum127_CO2.state as DecimalType > 9 && Wohnraum127_Temperature.state as DecimalType > 35){
+        Wohnraum127_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts128"
+when
+    Item Wohnraum128_Electricity received update
+then
+    Wohnraum128_Cost.sendCommand(Wohnraum128_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm128"
+when
+    Item Wohnraum128_CO2 received update
+then
+    if(Wohnraum128_CO2.state as DecimalType > 9 && Wohnraum128_Temperature.state as DecimalType > 35){
+        Wohnraum128_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts129"
+when
+    Item Wohnraum129_Electricity received update
+then
+    Wohnraum129_Cost.sendCommand(Wohnraum129_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm129"
+when
+    Item Wohnraum129_CO2 received update
+then
+    if(Wohnraum129_CO2.state as DecimalType > 9 && Wohnraum129_Temperature.state as DecimalType > 35){
+        Wohnraum129_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts130"
+when
+    Item Wohnraum130_Electricity received update
+then
+    Wohnraum130_Cost.sendCommand(Wohnraum130_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm130"
+when
+    Item Wohnraum130_CO2 received update
+then
+    if(Wohnraum130_CO2.state as DecimalType > 9 && Wohnraum130_Temperature.state as DecimalType > 35){
+        Wohnraum130_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts131"
+when
+    Item Wohnraum131_Electricity received update
+then
+    Wohnraum131_Cost.sendCommand(Wohnraum131_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm131"
+when
+    Item Wohnraum131_CO2 received update
+then
+    if(Wohnraum131_CO2.state as DecimalType > 9 && Wohnraum131_Temperature.state as DecimalType > 35){
+        Wohnraum131_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts132"
+when
+    Item Wohnraum132_Electricity received update
+then
+    Wohnraum132_Cost.sendCommand(Wohnraum132_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm132"
+when
+    Item Wohnraum132_CO2 received update
+then
+    if(Wohnraum132_CO2.state as DecimalType > 9 && Wohnraum132_Temperature.state as DecimalType > 35){
+        Wohnraum132_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts133"
+when
+    Item Wohnraum133_Electricity received update
+then
+    Wohnraum133_Cost.sendCommand(Wohnraum133_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm133"
+when
+    Item Wohnraum133_CO2 received update
+then
+    if(Wohnraum133_CO2.state as DecimalType > 9 && Wohnraum133_Temperature.state as DecimalType > 35){
+        Wohnraum133_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts134"
+when
+    Item Wohnraum134_Electricity received update
+then
+    Wohnraum134_Cost.sendCommand(Wohnraum134_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm134"
+when
+    Item Wohnraum134_CO2 received update
+then
+    if(Wohnraum134_CO2.state as DecimalType > 9 && Wohnraum134_Temperature.state as DecimalType > 35){
+        Wohnraum134_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts135"
+when
+    Item Wohnraum135_Electricity received update
+then
+    Wohnraum135_Cost.sendCommand(Wohnraum135_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm135"
+when
+    Item Wohnraum135_CO2 received update
+then
+    if(Wohnraum135_CO2.state as DecimalType > 9 && Wohnraum135_Temperature.state as DecimalType > 35){
+        Wohnraum135_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts136"
+when
+    Item Wohnraum136_Electricity received update
+then
+    Wohnraum136_Cost.sendCommand(Wohnraum136_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm136"
+when
+    Item Wohnraum136_CO2 received update
+then
+    if(Wohnraum136_CO2.state as DecimalType > 9 && Wohnraum136_Temperature.state as DecimalType > 35){
+        Wohnraum136_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts137"
+when
+    Item Wohnraum137_Electricity received update
+then
+    Wohnraum137_Cost.sendCommand(Wohnraum137_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm137"
+when
+    Item Wohnraum137_CO2 received update
+then
+    if(Wohnraum137_CO2.state as DecimalType > 9 && Wohnraum137_Temperature.state as DecimalType > 35){
+        Wohnraum137_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts138"
+when
+    Item Wohnraum138_Electricity received update
+then
+    Wohnraum138_Cost.sendCommand(Wohnraum138_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm138"
+when
+    Item Wohnraum138_CO2 received update
+then
+    if(Wohnraum138_CO2.state as DecimalType > 9 && Wohnraum138_Temperature.state as DecimalType > 35){
+        Wohnraum138_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts139"
+when
+    Item Wohnraum139_Electricity received update
+then
+    Wohnraum139_Cost.sendCommand(Wohnraum139_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm139"
+when
+    Item Wohnraum139_CO2 received update
+then
+    if(Wohnraum139_CO2.state as DecimalType > 9 && Wohnraum139_Temperature.state as DecimalType > 35){
+        Wohnraum139_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts140"
+when
+    Item Wohnraum140_Electricity received update
+then
+    Wohnraum140_Cost.sendCommand(Wohnraum140_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm140"
+when
+    Item Wohnraum140_CO2 received update
+then
+    if(Wohnraum140_CO2.state as DecimalType > 9 && Wohnraum140_Temperature.state as DecimalType > 35){
+        Wohnraum140_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts141"
+when
+    Item Wohnraum141_Electricity received update
+then
+    Wohnraum141_Cost.sendCommand(Wohnraum141_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm141"
+when
+    Item Wohnraum141_CO2 received update
+then
+    if(Wohnraum141_CO2.state as DecimalType > 9 && Wohnraum141_Temperature.state as DecimalType > 35){
+        Wohnraum141_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts142"
+when
+    Item Wohnraum142_Electricity received update
+then
+    Wohnraum142_Cost.sendCommand(Wohnraum142_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm142"
+when
+    Item Wohnraum142_CO2 received update
+then
+    if(Wohnraum142_CO2.state as DecimalType > 9 && Wohnraum142_Temperature.state as DecimalType > 35){
+        Wohnraum142_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts143"
+when
+    Item Wohnraum143_Electricity received update
+then
+    Wohnraum143_Cost.sendCommand(Wohnraum143_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm143"
+when
+    Item Wohnraum143_CO2 received update
+then
+    if(Wohnraum143_CO2.state as DecimalType > 9 && Wohnraum143_Temperature.state as DecimalType > 35){
+        Wohnraum143_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts144"
+when
+    Item Wohnraum144_Electricity received update
+then
+    Wohnraum144_Cost.sendCommand(Wohnraum144_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm144"
+when
+    Item Wohnraum144_CO2 received update
+then
+    if(Wohnraum144_CO2.state as DecimalType > 9 && Wohnraum144_Temperature.state as DecimalType > 35){
+        Wohnraum144_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts145"
+when
+    Item Wohnraum145_Electricity received update
+then
+    Wohnraum145_Cost.sendCommand(Wohnraum145_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm145"
+when
+    Item Wohnraum145_CO2 received update
+then
+    if(Wohnraum145_CO2.state as DecimalType > 9 && Wohnraum145_Temperature.state as DecimalType > 35){
+        Wohnraum145_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts146"
+when
+    Item Wohnraum146_Electricity received update
+then
+    Wohnraum146_Cost.sendCommand(Wohnraum146_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm146"
+when
+    Item Wohnraum146_CO2 received update
+then
+    if(Wohnraum146_CO2.state as DecimalType > 9 && Wohnraum146_Temperature.state as DecimalType > 35){
+        Wohnraum146_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts147"
+when
+    Item Wohnraum147_Electricity received update
+then
+    Wohnraum147_Cost.sendCommand(Wohnraum147_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm147"
+when
+    Item Wohnraum147_CO2 received update
+then
+    if(Wohnraum147_CO2.state as DecimalType > 9 && Wohnraum147_Temperature.state as DecimalType > 35){
+        Wohnraum147_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts148"
+when
+    Item Wohnraum148_Electricity received update
+then
+    Wohnraum148_Cost.sendCommand(Wohnraum148_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm148"
+when
+    Item Wohnraum148_CO2 received update
+then
+    if(Wohnraum148_CO2.state as DecimalType > 9 && Wohnraum148_Temperature.state as DecimalType > 35){
+        Wohnraum148_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts149"
+when
+    Item Wohnraum149_Electricity received update
+then
+    Wohnraum149_Cost.sendCommand(Wohnraum149_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm149"
+when
+    Item Wohnraum149_CO2 received update
+then
+    if(Wohnraum149_CO2.state as DecimalType > 9 && Wohnraum149_Temperature.state as DecimalType > 35){
+        Wohnraum149_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts150"
+when
+    Item Wohnraum150_Electricity received update
+then
+    Wohnraum150_Cost.sendCommand(Wohnraum150_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm150"
+when
+    Item Wohnraum150_CO2 received update
+then
+    if(Wohnraum150_CO2.state as DecimalType > 9 && Wohnraum150_Temperature.state as DecimalType > 35){
+        Wohnraum150_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts151"
+when
+    Item Wohnraum151_Electricity received update
+then
+    Wohnraum151_Cost.sendCommand(Wohnraum151_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm151"
+when
+    Item Wohnraum151_CO2 received update
+then
+    if(Wohnraum151_CO2.state as DecimalType > 9 && Wohnraum151_Temperature.state as DecimalType > 35){
+        Wohnraum151_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts152"
+when
+    Item Wohnraum152_Electricity received update
+then
+    Wohnraum152_Cost.sendCommand(Wohnraum152_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm152"
+when
+    Item Wohnraum152_CO2 received update
+then
+    if(Wohnraum152_CO2.state as DecimalType > 9 && Wohnraum152_Temperature.state as DecimalType > 35){
+        Wohnraum152_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts153"
+when
+    Item Wohnraum153_Electricity received update
+then
+    Wohnraum153_Cost.sendCommand(Wohnraum153_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm153"
+when
+    Item Wohnraum153_CO2 received update
+then
+    if(Wohnraum153_CO2.state as DecimalType > 9 && Wohnraum153_Temperature.state as DecimalType > 35){
+        Wohnraum153_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts154"
+when
+    Item Wohnraum154_Electricity received update
+then
+    Wohnraum154_Cost.sendCommand(Wohnraum154_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm154"
+when
+    Item Wohnraum154_CO2 received update
+then
+    if(Wohnraum154_CO2.state as DecimalType > 9 && Wohnraum154_Temperature.state as DecimalType > 35){
+        Wohnraum154_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts155"
+when
+    Item Wohnraum155_Electricity received update
+then
+    Wohnraum155_Cost.sendCommand(Wohnraum155_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm155"
+when
+    Item Wohnraum155_CO2 received update
+then
+    if(Wohnraum155_CO2.state as DecimalType > 9 && Wohnraum155_Temperature.state as DecimalType > 35){
+        Wohnraum155_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts156"
+when
+    Item Wohnraum156_Electricity received update
+then
+    Wohnraum156_Cost.sendCommand(Wohnraum156_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm156"
+when
+    Item Wohnraum156_CO2 received update
+then
+    if(Wohnraum156_CO2.state as DecimalType > 9 && Wohnraum156_Temperature.state as DecimalType > 35){
+        Wohnraum156_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts157"
+when
+    Item Wohnraum157_Electricity received update
+then
+    Wohnraum157_Cost.sendCommand(Wohnraum157_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm157"
+when
+    Item Wohnraum157_CO2 received update
+then
+    if(Wohnraum157_CO2.state as DecimalType > 9 && Wohnraum157_Temperature.state as DecimalType > 35){
+        Wohnraum157_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts158"
+when
+    Item Wohnraum158_Electricity received update
+then
+    Wohnraum158_Cost.sendCommand(Wohnraum158_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm158"
+when
+    Item Wohnraum158_CO2 received update
+then
+    if(Wohnraum158_CO2.state as DecimalType > 9 && Wohnraum158_Temperature.state as DecimalType > 35){
+        Wohnraum158_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts159"
+when
+    Item Wohnraum159_Electricity received update
+then
+    Wohnraum159_Cost.sendCommand(Wohnraum159_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm159"
+when
+    Item Wohnraum159_CO2 received update
+then
+    if(Wohnraum159_CO2.state as DecimalType > 9 && Wohnraum159_Temperature.state as DecimalType > 35){
+        Wohnraum159_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts160"
+when
+    Item Wohnraum160_Electricity received update
+then
+    Wohnraum160_Cost.sendCommand(Wohnraum160_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm160"
+when
+    Item Wohnraum160_CO2 received update
+then
+    if(Wohnraum160_CO2.state as DecimalType > 9 && Wohnraum160_Temperature.state as DecimalType > 35){
+        Wohnraum160_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts161"
+when
+    Item Wohnraum161_Electricity received update
+then
+    Wohnraum161_Cost.sendCommand(Wohnraum161_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm161"
+when
+    Item Wohnraum161_CO2 received update
+then
+    if(Wohnraum161_CO2.state as DecimalType > 9 && Wohnraum161_Temperature.state as DecimalType > 35){
+        Wohnraum161_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts162"
+when
+    Item Wohnraum162_Electricity received update
+then
+    Wohnraum162_Cost.sendCommand(Wohnraum162_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm162"
+when
+    Item Wohnraum162_CO2 received update
+then
+    if(Wohnraum162_CO2.state as DecimalType > 9 && Wohnraum162_Temperature.state as DecimalType > 35){
+        Wohnraum162_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts163"
+when
+    Item Wohnraum163_Electricity received update
+then
+    Wohnraum163_Cost.sendCommand(Wohnraum163_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm163"
+when
+    Item Wohnraum163_CO2 received update
+then
+    if(Wohnraum163_CO2.state as DecimalType > 9 && Wohnraum163_Temperature.state as DecimalType > 35){
+        Wohnraum163_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts164"
+when
+    Item Wohnraum164_Electricity received update
+then
+    Wohnraum164_Cost.sendCommand(Wohnraum164_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm164"
+when
+    Item Wohnraum164_CO2 received update
+then
+    if(Wohnraum164_CO2.state as DecimalType > 9 && Wohnraum164_Temperature.state as DecimalType > 35){
+        Wohnraum164_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts165"
+when
+    Item Wohnraum165_Electricity received update
+then
+    Wohnraum165_Cost.sendCommand(Wohnraum165_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm165"
+when
+    Item Wohnraum165_CO2 received update
+then
+    if(Wohnraum165_CO2.state as DecimalType > 9 && Wohnraum165_Temperature.state as DecimalType > 35){
+        Wohnraum165_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts166"
+when
+    Item Wohnraum166_Electricity received update
+then
+    Wohnraum166_Cost.sendCommand(Wohnraum166_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm166"
+when
+    Item Wohnraum166_CO2 received update
+then
+    if(Wohnraum166_CO2.state as DecimalType > 9 && Wohnraum166_Temperature.state as DecimalType > 35){
+        Wohnraum166_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts167"
+when
+    Item Wohnraum167_Electricity received update
+then
+    Wohnraum167_Cost.sendCommand(Wohnraum167_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm167"
+when
+    Item Wohnraum167_CO2 received update
+then
+    if(Wohnraum167_CO2.state as DecimalType > 9 && Wohnraum167_Temperature.state as DecimalType > 35){
+        Wohnraum167_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts168"
+when
+    Item Wohnraum168_Electricity received update
+then
+    Wohnraum168_Cost.sendCommand(Wohnraum168_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm168"
+when
+    Item Wohnraum168_CO2 received update
+then
+    if(Wohnraum168_CO2.state as DecimalType > 9 && Wohnraum168_Temperature.state as DecimalType > 35){
+        Wohnraum168_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts169"
+when
+    Item Wohnraum169_Electricity received update
+then
+    Wohnraum169_Cost.sendCommand(Wohnraum169_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm169"
+when
+    Item Wohnraum169_CO2 received update
+then
+    if(Wohnraum169_CO2.state as DecimalType > 9 && Wohnraum169_Temperature.state as DecimalType > 35){
+        Wohnraum169_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts170"
+when
+    Item Wohnraum170_Electricity received update
+then
+    Wohnraum170_Cost.sendCommand(Wohnraum170_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm170"
+when
+    Item Wohnraum170_CO2 received update
+then
+    if(Wohnraum170_CO2.state as DecimalType > 9 && Wohnraum170_Temperature.state as DecimalType > 35){
+        Wohnraum170_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts171"
+when
+    Item Wohnraum171_Electricity received update
+then
+    Wohnraum171_Cost.sendCommand(Wohnraum171_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm171"
+when
+    Item Wohnraum171_CO2 received update
+then
+    if(Wohnraum171_CO2.state as DecimalType > 9 && Wohnraum171_Temperature.state as DecimalType > 35){
+        Wohnraum171_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts172"
+when
+    Item Wohnraum172_Electricity received update
+then
+    Wohnraum172_Cost.sendCommand(Wohnraum172_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm172"
+when
+    Item Wohnraum172_CO2 received update
+then
+    if(Wohnraum172_CO2.state as DecimalType > 9 && Wohnraum172_Temperature.state as DecimalType > 35){
+        Wohnraum172_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts173"
+when
+    Item Wohnraum173_Electricity received update
+then
+    Wohnraum173_Cost.sendCommand(Wohnraum173_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm173"
+when
+    Item Wohnraum173_CO2 received update
+then
+    if(Wohnraum173_CO2.state as DecimalType > 9 && Wohnraum173_Temperature.state as DecimalType > 35){
+        Wohnraum173_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts174"
+when
+    Item Wohnraum174_Electricity received update
+then
+    Wohnraum174_Cost.sendCommand(Wohnraum174_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm174"
+when
+    Item Wohnraum174_CO2 received update
+then
+    if(Wohnraum174_CO2.state as DecimalType > 9 && Wohnraum174_Temperature.state as DecimalType > 35){
+        Wohnraum174_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts175"
+when
+    Item Wohnraum175_Electricity received update
+then
+    Wohnraum175_Cost.sendCommand(Wohnraum175_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm175"
+when
+    Item Wohnraum175_CO2 received update
+then
+    if(Wohnraum175_CO2.state as DecimalType > 9 && Wohnraum175_Temperature.state as DecimalType > 35){
+        Wohnraum175_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts176"
+when
+    Item Wohnraum176_Electricity received update
+then
+    Wohnraum176_Cost.sendCommand(Wohnraum176_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm176"
+when
+    Item Wohnraum176_CO2 received update
+then
+    if(Wohnraum176_CO2.state as DecimalType > 9 && Wohnraum176_Temperature.state as DecimalType > 35){
+        Wohnraum176_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts177"
+when
+    Item Wohnraum177_Electricity received update
+then
+    Wohnraum177_Cost.sendCommand(Wohnraum177_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm177"
+when
+    Item Wohnraum177_CO2 received update
+then
+    if(Wohnraum177_CO2.state as DecimalType > 9 && Wohnraum177_Temperature.state as DecimalType > 35){
+        Wohnraum177_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts178"
+when
+    Item Wohnraum178_Electricity received update
+then
+    Wohnraum178_Cost.sendCommand(Wohnraum178_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm178"
+when
+    Item Wohnraum178_CO2 received update
+then
+    if(Wohnraum178_CO2.state as DecimalType > 9 && Wohnraum178_Temperature.state as DecimalType > 35){
+        Wohnraum178_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts179"
+when
+    Item Wohnraum179_Electricity received update
+then
+    Wohnraum179_Cost.sendCommand(Wohnraum179_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm179"
+when
+    Item Wohnraum179_CO2 received update
+then
+    if(Wohnraum179_CO2.state as DecimalType > 9 && Wohnraum179_Temperature.state as DecimalType > 35){
+        Wohnraum179_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts180"
+when
+    Item Wohnraum180_Electricity received update
+then
+    Wohnraum180_Cost.sendCommand(Wohnraum180_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm180"
+when
+    Item Wohnraum180_CO2 received update
+then
+    if(Wohnraum180_CO2.state as DecimalType > 9 && Wohnraum180_Temperature.state as DecimalType > 35){
+        Wohnraum180_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts181"
+when
+    Item Wohnraum181_Electricity received update
+then
+    Wohnraum181_Cost.sendCommand(Wohnraum181_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm181"
+when
+    Item Wohnraum181_CO2 received update
+then
+    if(Wohnraum181_CO2.state as DecimalType > 9 && Wohnraum181_Temperature.state as DecimalType > 35){
+        Wohnraum181_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts182"
+when
+    Item Wohnraum182_Electricity received update
+then
+    Wohnraum182_Cost.sendCommand(Wohnraum182_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm182"
+when
+    Item Wohnraum182_CO2 received update
+then
+    if(Wohnraum182_CO2.state as DecimalType > 9 && Wohnraum182_Temperature.state as DecimalType > 35){
+        Wohnraum182_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts183"
+when
+    Item Wohnraum183_Electricity received update
+then
+    Wohnraum183_Cost.sendCommand(Wohnraum183_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm183"
+when
+    Item Wohnraum183_CO2 received update
+then
+    if(Wohnraum183_CO2.state as DecimalType > 9 && Wohnraum183_Temperature.state as DecimalType > 35){
+        Wohnraum183_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts184"
+when
+    Item Wohnraum184_Electricity received update
+then
+    Wohnraum184_Cost.sendCommand(Wohnraum184_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm184"
+when
+    Item Wohnraum184_CO2 received update
+then
+    if(Wohnraum184_CO2.state as DecimalType > 9 && Wohnraum184_Temperature.state as DecimalType > 35){
+        Wohnraum184_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts185"
+when
+    Item Wohnraum185_Electricity received update
+then
+    Wohnraum185_Cost.sendCommand(Wohnraum185_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm185"
+when
+    Item Wohnraum185_CO2 received update
+then
+    if(Wohnraum185_CO2.state as DecimalType > 9 && Wohnraum185_Temperature.state as DecimalType > 35){
+        Wohnraum185_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts186"
+when
+    Item Wohnraum186_Electricity received update
+then
+    Wohnraum186_Cost.sendCommand(Wohnraum186_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm186"
+when
+    Item Wohnraum186_CO2 received update
+then
+    if(Wohnraum186_CO2.state as DecimalType > 9 && Wohnraum186_Temperature.state as DecimalType > 35){
+        Wohnraum186_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts187"
+when
+    Item Wohnraum187_Electricity received update
+then
+    Wohnraum187_Cost.sendCommand(Wohnraum187_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm187"
+when
+    Item Wohnraum187_CO2 received update
+then
+    if(Wohnraum187_CO2.state as DecimalType > 9 && Wohnraum187_Temperature.state as DecimalType > 35){
+        Wohnraum187_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts188"
+when
+    Item Wohnraum188_Electricity received update
+then
+    Wohnraum188_Cost.sendCommand(Wohnraum188_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm188"
+when
+    Item Wohnraum188_CO2 received update
+then
+    if(Wohnraum188_CO2.state as DecimalType > 9 && Wohnraum188_Temperature.state as DecimalType > 35){
+        Wohnraum188_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts189"
+when
+    Item Wohnraum189_Electricity received update
+then
+    Wohnraum189_Cost.sendCommand(Wohnraum189_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm189"
+when
+    Item Wohnraum189_CO2 received update
+then
+    if(Wohnraum189_CO2.state as DecimalType > 9 && Wohnraum189_Temperature.state as DecimalType > 35){
+        Wohnraum189_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts190"
+when
+    Item Wohnraum190_Electricity received update
+then
+    Wohnraum190_Cost.sendCommand(Wohnraum190_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm190"
+when
+    Item Wohnraum190_CO2 received update
+then
+    if(Wohnraum190_CO2.state as DecimalType > 9 && Wohnraum190_Temperature.state as DecimalType > 35){
+        Wohnraum190_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts191"
+when
+    Item Wohnraum191_Electricity received update
+then
+    Wohnraum191_Cost.sendCommand(Wohnraum191_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm191"
+when
+    Item Wohnraum191_CO2 received update
+then
+    if(Wohnraum191_CO2.state as DecimalType > 9 && Wohnraum191_Temperature.state as DecimalType > 35){
+        Wohnraum191_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts192"
+when
+    Item Wohnraum192_Electricity received update
+then
+    Wohnraum192_Cost.sendCommand(Wohnraum192_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm192"
+when
+    Item Wohnraum192_CO2 received update
+then
+    if(Wohnraum192_CO2.state as DecimalType > 9 && Wohnraum192_Temperature.state as DecimalType > 35){
+        Wohnraum192_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts193"
+when
+    Item Wohnraum193_Electricity received update
+then
+    Wohnraum193_Cost.sendCommand(Wohnraum193_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm193"
+when
+    Item Wohnraum193_CO2 received update
+then
+    if(Wohnraum193_CO2.state as DecimalType > 9 && Wohnraum193_Temperature.state as DecimalType > 35){
+        Wohnraum193_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts194"
+when
+    Item Wohnraum194_Electricity received update
+then
+    Wohnraum194_Cost.sendCommand(Wohnraum194_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm194"
+when
+    Item Wohnraum194_CO2 received update
+then
+    if(Wohnraum194_CO2.state as DecimalType > 9 && Wohnraum194_Temperature.state as DecimalType > 35){
+        Wohnraum194_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts195"
+when
+    Item Wohnraum195_Electricity received update
+then
+    Wohnraum195_Cost.sendCommand(Wohnraum195_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm195"
+when
+    Item Wohnraum195_CO2 received update
+then
+    if(Wohnraum195_CO2.state as DecimalType > 9 && Wohnraum195_Temperature.state as DecimalType > 35){
+        Wohnraum195_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts196"
+when
+    Item Wohnraum196_Electricity received update
+then
+    Wohnraum196_Cost.sendCommand(Wohnraum196_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm196"
+when
+    Item Wohnraum196_CO2 received update
+then
+    if(Wohnraum196_CO2.state as DecimalType > 9 && Wohnraum196_Temperature.state as DecimalType > 35){
+        Wohnraum196_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts197"
+when
+    Item Wohnraum197_Electricity received update
+then
+    Wohnraum197_Cost.sendCommand(Wohnraum197_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm197"
+when
+    Item Wohnraum197_CO2 received update
+then
+    if(Wohnraum197_CO2.state as DecimalType > 9 && Wohnraum197_Temperature.state as DecimalType > 35){
+        Wohnraum197_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts198"
+when
+    Item Wohnraum198_Electricity received update
+then
+    Wohnraum198_Cost.sendCommand(Wohnraum198_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm198"
+when
+    Item Wohnraum198_CO2 received update
+then
+    if(Wohnraum198_CO2.state as DecimalType > 9 && Wohnraum198_Temperature.state as DecimalType > 35){
+        Wohnraum198_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts199"
+when
+    Item Wohnraum199_Electricity received update
+then
+    Wohnraum199_Cost.sendCommand(Wohnraum199_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm199"
+when
+    Item Wohnraum199_CO2 received update
+then
+    if(Wohnraum199_CO2.state as DecimalType > 9 && Wohnraum199_Temperature.state as DecimalType > 35){
+        Wohnraum199_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts200"
+when
+    Item Wohnraum200_Electricity received update
+then
+    Wohnraum200_Cost.sendCommand(Wohnraum200_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm200"
+when
+    Item Wohnraum200_CO2 received update
+then
+    if(Wohnraum200_CO2.state as DecimalType > 9 && Wohnraum200_Temperature.state as DecimalType > 35){
+        Wohnraum200_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts201"
+when
+    Item Wohnraum201_Electricity received update
+then
+    Wohnraum201_Cost.sendCommand(Wohnraum201_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm201"
+when
+    Item Wohnraum201_CO2 received update
+then
+    if(Wohnraum201_CO2.state as DecimalType > 9 && Wohnraum201_Temperature.state as DecimalType > 35){
+        Wohnraum201_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts202"
+when
+    Item Wohnraum202_Electricity received update
+then
+    Wohnraum202_Cost.sendCommand(Wohnraum202_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm202"
+when
+    Item Wohnraum202_CO2 received update
+then
+    if(Wohnraum202_CO2.state as DecimalType > 9 && Wohnraum202_Temperature.state as DecimalType > 35){
+        Wohnraum202_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts203"
+when
+    Item Wohnraum203_Electricity received update
+then
+    Wohnraum203_Cost.sendCommand(Wohnraum203_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm203"
+when
+    Item Wohnraum203_CO2 received update
+then
+    if(Wohnraum203_CO2.state as DecimalType > 9 && Wohnraum203_Temperature.state as DecimalType > 35){
+        Wohnraum203_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts204"
+when
+    Item Wohnraum204_Electricity received update
+then
+    Wohnraum204_Cost.sendCommand(Wohnraum204_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm204"
+when
+    Item Wohnraum204_CO2 received update
+then
+    if(Wohnraum204_CO2.state as DecimalType > 9 && Wohnraum204_Temperature.state as DecimalType > 35){
+        Wohnraum204_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts205"
+when
+    Item Wohnraum205_Electricity received update
+then
+    Wohnraum205_Cost.sendCommand(Wohnraum205_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm205"
+when
+    Item Wohnraum205_CO2 received update
+then
+    if(Wohnraum205_CO2.state as DecimalType > 9 && Wohnraum205_Temperature.state as DecimalType > 35){
+        Wohnraum205_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts206"
+when
+    Item Wohnraum206_Electricity received update
+then
+    Wohnraum206_Cost.sendCommand(Wohnraum206_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm206"
+when
+    Item Wohnraum206_CO2 received update
+then
+    if(Wohnraum206_CO2.state as DecimalType > 9 && Wohnraum206_Temperature.state as DecimalType > 35){
+        Wohnraum206_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts207"
+when
+    Item Wohnraum207_Electricity received update
+then
+    Wohnraum207_Cost.sendCommand(Wohnraum207_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm207"
+when
+    Item Wohnraum207_CO2 received update
+then
+    if(Wohnraum207_CO2.state as DecimalType > 9 && Wohnraum207_Temperature.state as DecimalType > 35){
+        Wohnraum207_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts208"
+when
+    Item Wohnraum208_Electricity received update
+then
+    Wohnraum208_Cost.sendCommand(Wohnraum208_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm208"
+when
+    Item Wohnraum208_CO2 received update
+then
+    if(Wohnraum208_CO2.state as DecimalType > 9 && Wohnraum208_Temperature.state as DecimalType > 35){
+        Wohnraum208_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts209"
+when
+    Item Wohnraum209_Electricity received update
+then
+    Wohnraum209_Cost.sendCommand(Wohnraum209_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm209"
+when
+    Item Wohnraum209_CO2 received update
+then
+    if(Wohnraum209_CO2.state as DecimalType > 9 && Wohnraum209_Temperature.state as DecimalType > 35){
+        Wohnraum209_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts210"
+when
+    Item Wohnraum210_Electricity received update
+then
+    Wohnraum210_Cost.sendCommand(Wohnraum210_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm210"
+when
+    Item Wohnraum210_CO2 received update
+then
+    if(Wohnraum210_CO2.state as DecimalType > 9 && Wohnraum210_Temperature.state as DecimalType > 35){
+        Wohnraum210_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts211"
+when
+    Item Wohnraum211_Electricity received update
+then
+    Wohnraum211_Cost.sendCommand(Wohnraum211_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm211"
+when
+    Item Wohnraum211_CO2 received update
+then
+    if(Wohnraum211_CO2.state as DecimalType > 9 && Wohnraum211_Temperature.state as DecimalType > 35){
+        Wohnraum211_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts212"
+when
+    Item Wohnraum212_Electricity received update
+then
+    Wohnraum212_Cost.sendCommand(Wohnraum212_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm212"
+when
+    Item Wohnraum212_CO2 received update
+then
+    if(Wohnraum212_CO2.state as DecimalType > 9 && Wohnraum212_Temperature.state as DecimalType > 35){
+        Wohnraum212_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts213"
+when
+    Item Wohnraum213_Electricity received update
+then
+    Wohnraum213_Cost.sendCommand(Wohnraum213_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm213"
+when
+    Item Wohnraum213_CO2 received update
+then
+    if(Wohnraum213_CO2.state as DecimalType > 9 && Wohnraum213_Temperature.state as DecimalType > 35){
+        Wohnraum213_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts214"
+when
+    Item Wohnraum214_Electricity received update
+then
+    Wohnraum214_Cost.sendCommand(Wohnraum214_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm214"
+when
+    Item Wohnraum214_CO2 received update
+then
+    if(Wohnraum214_CO2.state as DecimalType > 9 && Wohnraum214_Temperature.state as DecimalType > 35){
+        Wohnraum214_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts215"
+when
+    Item Wohnraum215_Electricity received update
+then
+    Wohnraum215_Cost.sendCommand(Wohnraum215_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm215"
+when
+    Item Wohnraum215_CO2 received update
+then
+    if(Wohnraum215_CO2.state as DecimalType > 9 && Wohnraum215_Temperature.state as DecimalType > 35){
+        Wohnraum215_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts216"
+when
+    Item Wohnraum216_Electricity received update
+then
+    Wohnraum216_Cost.sendCommand(Wohnraum216_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm216"
+when
+    Item Wohnraum216_CO2 received update
+then
+    if(Wohnraum216_CO2.state as DecimalType > 9 && Wohnraum216_Temperature.state as DecimalType > 35){
+        Wohnraum216_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts217"
+when
+    Item Wohnraum217_Electricity received update
+then
+    Wohnraum217_Cost.sendCommand(Wohnraum217_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm217"
+when
+    Item Wohnraum217_CO2 received update
+then
+    if(Wohnraum217_CO2.state as DecimalType > 9 && Wohnraum217_Temperature.state as DecimalType > 35){
+        Wohnraum217_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts218"
+when
+    Item Wohnraum218_Electricity received update
+then
+    Wohnraum218_Cost.sendCommand(Wohnraum218_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm218"
+when
+    Item Wohnraum218_CO2 received update
+then
+    if(Wohnraum218_CO2.state as DecimalType > 9 && Wohnraum218_Temperature.state as DecimalType > 35){
+        Wohnraum218_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts219"
+when
+    Item Wohnraum219_Electricity received update
+then
+    Wohnraum219_Cost.sendCommand(Wohnraum219_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm219"
+when
+    Item Wohnraum219_CO2 received update
+then
+    if(Wohnraum219_CO2.state as DecimalType > 9 && Wohnraum219_Temperature.state as DecimalType > 35){
+        Wohnraum219_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts220"
+when
+    Item Wohnraum220_Electricity received update
+then
+    Wohnraum220_Cost.sendCommand(Wohnraum220_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm220"
+when
+    Item Wohnraum220_CO2 received update
+then
+    if(Wohnraum220_CO2.state as DecimalType > 9 && Wohnraum220_Temperature.state as DecimalType > 35){
+        Wohnraum220_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts221"
+when
+    Item Wohnraum221_Electricity received update
+then
+    Wohnraum221_Cost.sendCommand(Wohnraum221_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm221"
+when
+    Item Wohnraum221_CO2 received update
+then
+    if(Wohnraum221_CO2.state as DecimalType > 9 && Wohnraum221_Temperature.state as DecimalType > 35){
+        Wohnraum221_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts222"
+when
+    Item Wohnraum222_Electricity received update
+then
+    Wohnraum222_Cost.sendCommand(Wohnraum222_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm222"
+when
+    Item Wohnraum222_CO2 received update
+then
+    if(Wohnraum222_CO2.state as DecimalType > 9 && Wohnraum222_Temperature.state as DecimalType > 35){
+        Wohnraum222_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts223"
+when
+    Item Wohnraum223_Electricity received update
+then
+    Wohnraum223_Cost.sendCommand(Wohnraum223_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm223"
+when
+    Item Wohnraum223_CO2 received update
+then
+    if(Wohnraum223_CO2.state as DecimalType > 9 && Wohnraum223_Temperature.state as DecimalType > 35){
+        Wohnraum223_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts224"
+when
+    Item Wohnraum224_Electricity received update
+then
+    Wohnraum224_Cost.sendCommand(Wohnraum224_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm224"
+when
+    Item Wohnraum224_CO2 received update
+then
+    if(Wohnraum224_CO2.state as DecimalType > 9 && Wohnraum224_Temperature.state as DecimalType > 35){
+        Wohnraum224_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts225"
+when
+    Item Wohnraum225_Electricity received update
+then
+    Wohnraum225_Cost.sendCommand(Wohnraum225_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm225"
+when
+    Item Wohnraum225_CO2 received update
+then
+    if(Wohnraum225_CO2.state as DecimalType > 9 && Wohnraum225_Temperature.state as DecimalType > 35){
+        Wohnraum225_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts226"
+when
+    Item Wohnraum226_Electricity received update
+then
+    Wohnraum226_Cost.sendCommand(Wohnraum226_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm226"
+when
+    Item Wohnraum226_CO2 received update
+then
+    if(Wohnraum226_CO2.state as DecimalType > 9 && Wohnraum226_Temperature.state as DecimalType > 35){
+        Wohnraum226_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts227"
+when
+    Item Wohnraum227_Electricity received update
+then
+    Wohnraum227_Cost.sendCommand(Wohnraum227_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm227"
+when
+    Item Wohnraum227_CO2 received update
+then
+    if(Wohnraum227_CO2.state as DecimalType > 9 && Wohnraum227_Temperature.state as DecimalType > 35){
+        Wohnraum227_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts228"
+when
+    Item Wohnraum228_Electricity received update
+then
+    Wohnraum228_Cost.sendCommand(Wohnraum228_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm228"
+when
+    Item Wohnraum228_CO2 received update
+then
+    if(Wohnraum228_CO2.state as DecimalType > 9 && Wohnraum228_Temperature.state as DecimalType > 35){
+        Wohnraum228_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts229"
+when
+    Item Wohnraum229_Electricity received update
+then
+    Wohnraum229_Cost.sendCommand(Wohnraum229_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm229"
+when
+    Item Wohnraum229_CO2 received update
+then
+    if(Wohnraum229_CO2.state as DecimalType > 9 && Wohnraum229_Temperature.state as DecimalType > 35){
+        Wohnraum229_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts230"
+when
+    Item Wohnraum230_Electricity received update
+then
+    Wohnraum230_Cost.sendCommand(Wohnraum230_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm230"
+when
+    Item Wohnraum230_CO2 received update
+then
+    if(Wohnraum230_CO2.state as DecimalType > 9 && Wohnraum230_Temperature.state as DecimalType > 35){
+        Wohnraum230_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts231"
+when
+    Item Wohnraum231_Electricity received update
+then
+    Wohnraum231_Cost.sendCommand(Wohnraum231_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm231"
+when
+    Item Wohnraum231_CO2 received update
+then
+    if(Wohnraum231_CO2.state as DecimalType > 9 && Wohnraum231_Temperature.state as DecimalType > 35){
+        Wohnraum231_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts232"
+when
+    Item Wohnraum232_Electricity received update
+then
+    Wohnraum232_Cost.sendCommand(Wohnraum232_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm232"
+when
+    Item Wohnraum232_CO2 received update
+then
+    if(Wohnraum232_CO2.state as DecimalType > 9 && Wohnraum232_Temperature.state as DecimalType > 35){
+        Wohnraum232_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts233"
+when
+    Item Wohnraum233_Electricity received update
+then
+    Wohnraum233_Cost.sendCommand(Wohnraum233_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm233"
+when
+    Item Wohnraum233_CO2 received update
+then
+    if(Wohnraum233_CO2.state as DecimalType > 9 && Wohnraum233_Temperature.state as DecimalType > 35){
+        Wohnraum233_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts234"
+when
+    Item Wohnraum234_Electricity received update
+then
+    Wohnraum234_Cost.sendCommand(Wohnraum234_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm234"
+when
+    Item Wohnraum234_CO2 received update
+then
+    if(Wohnraum234_CO2.state as DecimalType > 9 && Wohnraum234_Temperature.state as DecimalType > 35){
+        Wohnraum234_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts235"
+when
+    Item Wohnraum235_Electricity received update
+then
+    Wohnraum235_Cost.sendCommand(Wohnraum235_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm235"
+when
+    Item Wohnraum235_CO2 received update
+then
+    if(Wohnraum235_CO2.state as DecimalType > 9 && Wohnraum235_Temperature.state as DecimalType > 35){
+        Wohnraum235_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts236"
+when
+    Item Wohnraum236_Electricity received update
+then
+    Wohnraum236_Cost.sendCommand(Wohnraum236_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm236"
+when
+    Item Wohnraum236_CO2 received update
+then
+    if(Wohnraum236_CO2.state as DecimalType > 9 && Wohnraum236_Temperature.state as DecimalType > 35){
+        Wohnraum236_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts237"
+when
+    Item Wohnraum237_Electricity received update
+then
+    Wohnraum237_Cost.sendCommand(Wohnraum237_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm237"
+when
+    Item Wohnraum237_CO2 received update
+then
+    if(Wohnraum237_CO2.state as DecimalType > 9 && Wohnraum237_Temperature.state as DecimalType > 35){
+        Wohnraum237_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts238"
+when
+    Item Wohnraum238_Electricity received update
+then
+    Wohnraum238_Cost.sendCommand(Wohnraum238_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm238"
+when
+    Item Wohnraum238_CO2 received update
+then
+    if(Wohnraum238_CO2.state as DecimalType > 9 && Wohnraum238_Temperature.state as DecimalType > 35){
+        Wohnraum238_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts239"
+when
+    Item Wohnraum239_Electricity received update
+then
+    Wohnraum239_Cost.sendCommand(Wohnraum239_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm239"
+when
+    Item Wohnraum239_CO2 received update
+then
+    if(Wohnraum239_CO2.state as DecimalType > 9 && Wohnraum239_Temperature.state as DecimalType > 35){
+        Wohnraum239_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts240"
+when
+    Item Wohnraum240_Electricity received update
+then
+    Wohnraum240_Cost.sendCommand(Wohnraum240_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm240"
+when
+    Item Wohnraum240_CO2 received update
+then
+    if(Wohnraum240_CO2.state as DecimalType > 9 && Wohnraum240_Temperature.state as DecimalType > 35){
+        Wohnraum240_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts241"
+when
+    Item Wohnraum241_Electricity received update
+then
+    Wohnraum241_Cost.sendCommand(Wohnraum241_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm241"
+when
+    Item Wohnraum241_CO2 received update
+then
+    if(Wohnraum241_CO2.state as DecimalType > 9 && Wohnraum241_Temperature.state as DecimalType > 35){
+        Wohnraum241_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts242"
+when
+    Item Wohnraum242_Electricity received update
+then
+    Wohnraum242_Cost.sendCommand(Wohnraum242_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm242"
+when
+    Item Wohnraum242_CO2 received update
+then
+    if(Wohnraum242_CO2.state as DecimalType > 9 && Wohnraum242_Temperature.state as DecimalType > 35){
+        Wohnraum242_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts243"
+when
+    Item Wohnraum243_Electricity received update
+then
+    Wohnraum243_Cost.sendCommand(Wohnraum243_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm243"
+when
+    Item Wohnraum243_CO2 received update
+then
+    if(Wohnraum243_CO2.state as DecimalType > 9 && Wohnraum243_Temperature.state as DecimalType > 35){
+        Wohnraum243_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts244"
+when
+    Item Wohnraum244_Electricity received update
+then
+    Wohnraum244_Cost.sendCommand(Wohnraum244_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm244"
+when
+    Item Wohnraum244_CO2 received update
+then
+    if(Wohnraum244_CO2.state as DecimalType > 9 && Wohnraum244_Temperature.state as DecimalType > 35){
+        Wohnraum244_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts245"
+when
+    Item Wohnraum245_Electricity received update
+then
+    Wohnraum245_Cost.sendCommand(Wohnraum245_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm245"
+when
+    Item Wohnraum245_CO2 received update
+then
+    if(Wohnraum245_CO2.state as DecimalType > 9 && Wohnraum245_Temperature.state as DecimalType > 35){
+        Wohnraum245_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts246"
+when
+    Item Wohnraum246_Electricity received update
+then
+    Wohnraum246_Cost.sendCommand(Wohnraum246_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm246"
+when
+    Item Wohnraum246_CO2 received update
+then
+    if(Wohnraum246_CO2.state as DecimalType > 9 && Wohnraum246_Temperature.state as DecimalType > 35){
+        Wohnraum246_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts247"
+when
+    Item Wohnraum247_Electricity received update
+then
+    Wohnraum247_Cost.sendCommand(Wohnraum247_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm247"
+when
+    Item Wohnraum247_CO2 received update
+then
+    if(Wohnraum247_CO2.state as DecimalType > 9 && Wohnraum247_Temperature.state as DecimalType > 35){
+        Wohnraum247_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts248"
+when
+    Item Wohnraum248_Electricity received update
+then
+    Wohnraum248_Cost.sendCommand(Wohnraum248_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm248"
+when
+    Item Wohnraum248_CO2 received update
+then
+    if(Wohnraum248_CO2.state as DecimalType > 9 && Wohnraum248_Temperature.state as DecimalType > 35){
+        Wohnraum248_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts249"
+when
+    Item Wohnraum249_Electricity received update
+then
+    Wohnraum249_Cost.sendCommand(Wohnraum249_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm249"
+when
+    Item Wohnraum249_CO2 received update
+then
+    if(Wohnraum249_CO2.state as DecimalType > 9 && Wohnraum249_Temperature.state as DecimalType > 35){
+        Wohnraum249_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts250"
+when
+    Item Wohnraum250_Electricity received update
+then
+    Wohnraum250_Cost.sendCommand(Wohnraum250_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm250"
+when
+    Item Wohnraum250_CO2 received update
+then
+    if(Wohnraum250_CO2.state as DecimalType > 9 && Wohnraum250_Temperature.state as DecimalType > 35){
+        Wohnraum250_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts251"
+when
+    Item Wohnraum251_Electricity received update
+then
+    Wohnraum251_Cost.sendCommand(Wohnraum251_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm251"
+when
+    Item Wohnraum251_CO2 received update
+then
+    if(Wohnraum251_CO2.state as DecimalType > 9 && Wohnraum251_Temperature.state as DecimalType > 35){
+        Wohnraum251_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts252"
+when
+    Item Wohnraum252_Electricity received update
+then
+    Wohnraum252_Cost.sendCommand(Wohnraum252_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm252"
+when
+    Item Wohnraum252_CO2 received update
+then
+    if(Wohnraum252_CO2.state as DecimalType > 9 && Wohnraum252_Temperature.state as DecimalType > 35){
+        Wohnraum252_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts253"
+when
+    Item Wohnraum253_Electricity received update
+then
+    Wohnraum253_Cost.sendCommand(Wohnraum253_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm253"
+when
+    Item Wohnraum253_CO2 received update
+then
+    if(Wohnraum253_CO2.state as DecimalType > 9 && Wohnraum253_Temperature.state as DecimalType > 35){
+        Wohnraum253_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts254"
+when
+    Item Wohnraum254_Electricity received update
+then
+    Wohnraum254_Cost.sendCommand(Wohnraum254_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm254"
+when
+    Item Wohnraum254_CO2 received update
+then
+    if(Wohnraum254_CO2.state as DecimalType > 9 && Wohnraum254_Temperature.state as DecimalType > 35){
+        Wohnraum254_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts255"
+when
+    Item Wohnraum255_Electricity received update
+then
+    Wohnraum255_Cost.sendCommand(Wohnraum255_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm255"
+when
+    Item Wohnraum255_CO2 received update
+then
+    if(Wohnraum255_CO2.state as DecimalType > 9 && Wohnraum255_Temperature.state as DecimalType > 35){
+        Wohnraum255_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts256"
+when
+    Item Wohnraum256_Electricity received update
+then
+    Wohnraum256_Cost.sendCommand(Wohnraum256_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm256"
+when
+    Item Wohnraum256_CO2 received update
+then
+    if(Wohnraum256_CO2.state as DecimalType > 9 && Wohnraum256_Temperature.state as DecimalType > 35){
+        Wohnraum256_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts257"
+when
+    Item Wohnraum257_Electricity received update
+then
+    Wohnraum257_Cost.sendCommand(Wohnraum257_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm257"
+when
+    Item Wohnraum257_CO2 received update
+then
+    if(Wohnraum257_CO2.state as DecimalType > 9 && Wohnraum257_Temperature.state as DecimalType > 35){
+        Wohnraum257_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts258"
+when
+    Item Wohnraum258_Electricity received update
+then
+    Wohnraum258_Cost.sendCommand(Wohnraum258_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm258"
+when
+    Item Wohnraum258_CO2 received update
+then
+    if(Wohnraum258_CO2.state as DecimalType > 9 && Wohnraum258_Temperature.state as DecimalType > 35){
+        Wohnraum258_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts259"
+when
+    Item Wohnraum259_Electricity received update
+then
+    Wohnraum259_Cost.sendCommand(Wohnraum259_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm259"
+when
+    Item Wohnraum259_CO2 received update
+then
+    if(Wohnraum259_CO2.state as DecimalType > 9 && Wohnraum259_Temperature.state as DecimalType > 35){
+        Wohnraum259_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts260"
+when
+    Item Wohnraum260_Electricity received update
+then
+    Wohnraum260_Cost.sendCommand(Wohnraum260_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm260"
+when
+    Item Wohnraum260_CO2 received update
+then
+    if(Wohnraum260_CO2.state as DecimalType > 9 && Wohnraum260_Temperature.state as DecimalType > 35){
+        Wohnraum260_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts261"
+when
+    Item Wohnraum261_Electricity received update
+then
+    Wohnraum261_Cost.sendCommand(Wohnraum261_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm261"
+when
+    Item Wohnraum261_CO2 received update
+then
+    if(Wohnraum261_CO2.state as DecimalType > 9 && Wohnraum261_Temperature.state as DecimalType > 35){
+        Wohnraum261_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts262"
+when
+    Item Wohnraum262_Electricity received update
+then
+    Wohnraum262_Cost.sendCommand(Wohnraum262_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm262"
+when
+    Item Wohnraum262_CO2 received update
+then
+    if(Wohnraum262_CO2.state as DecimalType > 9 && Wohnraum262_Temperature.state as DecimalType > 35){
+        Wohnraum262_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts263"
+when
+    Item Wohnraum263_Electricity received update
+then
+    Wohnraum263_Cost.sendCommand(Wohnraum263_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm263"
+when
+    Item Wohnraum263_CO2 received update
+then
+    if(Wohnraum263_CO2.state as DecimalType > 9 && Wohnraum263_Temperature.state as DecimalType > 35){
+        Wohnraum263_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts264"
+when
+    Item Wohnraum264_Electricity received update
+then
+    Wohnraum264_Cost.sendCommand(Wohnraum264_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm264"
+when
+    Item Wohnraum264_CO2 received update
+then
+    if(Wohnraum264_CO2.state as DecimalType > 9 && Wohnraum264_Temperature.state as DecimalType > 35){
+        Wohnraum264_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts265"
+when
+    Item Wohnraum265_Electricity received update
+then
+    Wohnraum265_Cost.sendCommand(Wohnraum265_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm265"
+when
+    Item Wohnraum265_CO2 received update
+then
+    if(Wohnraum265_CO2.state as DecimalType > 9 && Wohnraum265_Temperature.state as DecimalType > 35){
+        Wohnraum265_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts266"
+when
+    Item Wohnraum266_Electricity received update
+then
+    Wohnraum266_Cost.sendCommand(Wohnraum266_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm266"
+when
+    Item Wohnraum266_CO2 received update
+then
+    if(Wohnraum266_CO2.state as DecimalType > 9 && Wohnraum266_Temperature.state as DecimalType > 35){
+        Wohnraum266_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts267"
+when
+    Item Wohnraum267_Electricity received update
+then
+    Wohnraum267_Cost.sendCommand(Wohnraum267_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm267"
+when
+    Item Wohnraum267_CO2 received update
+then
+    if(Wohnraum267_CO2.state as DecimalType > 9 && Wohnraum267_Temperature.state as DecimalType > 35){
+        Wohnraum267_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts268"
+when
+    Item Wohnraum268_Electricity received update
+then
+    Wohnraum268_Cost.sendCommand(Wohnraum268_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm268"
+when
+    Item Wohnraum268_CO2 received update
+then
+    if(Wohnraum268_CO2.state as DecimalType > 9 && Wohnraum268_Temperature.state as DecimalType > 35){
+        Wohnraum268_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts269"
+when
+    Item Wohnraum269_Electricity received update
+then
+    Wohnraum269_Cost.sendCommand(Wohnraum269_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm269"
+when
+    Item Wohnraum269_CO2 received update
+then
+    if(Wohnraum269_CO2.state as DecimalType > 9 && Wohnraum269_Temperature.state as DecimalType > 35){
+        Wohnraum269_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts270"
+when
+    Item Wohnraum270_Electricity received update
+then
+    Wohnraum270_Cost.sendCommand(Wohnraum270_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm270"
+when
+    Item Wohnraum270_CO2 received update
+then
+    if(Wohnraum270_CO2.state as DecimalType > 9 && Wohnraum270_Temperature.state as DecimalType > 35){
+        Wohnraum270_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts271"
+when
+    Item Wohnraum271_Electricity received update
+then
+    Wohnraum271_Cost.sendCommand(Wohnraum271_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm271"
+when
+    Item Wohnraum271_CO2 received update
+then
+    if(Wohnraum271_CO2.state as DecimalType > 9 && Wohnraum271_Temperature.state as DecimalType > 35){
+        Wohnraum271_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts272"
+when
+    Item Wohnraum272_Electricity received update
+then
+    Wohnraum272_Cost.sendCommand(Wohnraum272_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm272"
+when
+    Item Wohnraum272_CO2 received update
+then
+    if(Wohnraum272_CO2.state as DecimalType > 9 && Wohnraum272_Temperature.state as DecimalType > 35){
+        Wohnraum272_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts273"
+when
+    Item Wohnraum273_Electricity received update
+then
+    Wohnraum273_Cost.sendCommand(Wohnraum273_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm273"
+when
+    Item Wohnraum273_CO2 received update
+then
+    if(Wohnraum273_CO2.state as DecimalType > 9 && Wohnraum273_Temperature.state as DecimalType > 35){
+        Wohnraum273_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts274"
+when
+    Item Wohnraum274_Electricity received update
+then
+    Wohnraum274_Cost.sendCommand(Wohnraum274_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm274"
+when
+    Item Wohnraum274_CO2 received update
+then
+    if(Wohnraum274_CO2.state as DecimalType > 9 && Wohnraum274_Temperature.state as DecimalType > 35){
+        Wohnraum274_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts275"
+when
+    Item Wohnraum275_Electricity received update
+then
+    Wohnraum275_Cost.sendCommand(Wohnraum275_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm275"
+when
+    Item Wohnraum275_CO2 received update
+then
+    if(Wohnraum275_CO2.state as DecimalType > 9 && Wohnraum275_Temperature.state as DecimalType > 35){
+        Wohnraum275_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts276"
+when
+    Item Wohnraum276_Electricity received update
+then
+    Wohnraum276_Cost.sendCommand(Wohnraum276_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm276"
+when
+    Item Wohnraum276_CO2 received update
+then
+    if(Wohnraum276_CO2.state as DecimalType > 9 && Wohnraum276_Temperature.state as DecimalType > 35){
+        Wohnraum276_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts277"
+when
+    Item Wohnraum277_Electricity received update
+then
+    Wohnraum277_Cost.sendCommand(Wohnraum277_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm277"
+when
+    Item Wohnraum277_CO2 received update
+then
+    if(Wohnraum277_CO2.state as DecimalType > 9 && Wohnraum277_Temperature.state as DecimalType > 35){
+        Wohnraum277_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts278"
+when
+    Item Wohnraum278_Electricity received update
+then
+    Wohnraum278_Cost.sendCommand(Wohnraum278_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm278"
+when
+    Item Wohnraum278_CO2 received update
+then
+    if(Wohnraum278_CO2.state as DecimalType > 9 && Wohnraum278_Temperature.state as DecimalType > 35){
+        Wohnraum278_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts279"
+when
+    Item Wohnraum279_Electricity received update
+then
+    Wohnraum279_Cost.sendCommand(Wohnraum279_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm279"
+when
+    Item Wohnraum279_CO2 received update
+then
+    if(Wohnraum279_CO2.state as DecimalType > 9 && Wohnraum279_Temperature.state as DecimalType > 35){
+        Wohnraum279_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts280"
+when
+    Item Wohnraum280_Electricity received update
+then
+    Wohnraum280_Cost.sendCommand(Wohnraum280_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm280"
+when
+    Item Wohnraum280_CO2 received update
+then
+    if(Wohnraum280_CO2.state as DecimalType > 9 && Wohnraum280_Temperature.state as DecimalType > 35){
+        Wohnraum280_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts281"
+when
+    Item Wohnraum281_Electricity received update
+then
+    Wohnraum281_Cost.sendCommand(Wohnraum281_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm281"
+when
+    Item Wohnraum281_CO2 received update
+then
+    if(Wohnraum281_CO2.state as DecimalType > 9 && Wohnraum281_Temperature.state as DecimalType > 35){
+        Wohnraum281_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts282"
+when
+    Item Wohnraum282_Electricity received update
+then
+    Wohnraum282_Cost.sendCommand(Wohnraum282_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm282"
+when
+    Item Wohnraum282_CO2 received update
+then
+    if(Wohnraum282_CO2.state as DecimalType > 9 && Wohnraum282_Temperature.state as DecimalType > 35){
+        Wohnraum282_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts283"
+when
+    Item Wohnraum283_Electricity received update
+then
+    Wohnraum283_Cost.sendCommand(Wohnraum283_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm283"
+when
+    Item Wohnraum283_CO2 received update
+then
+    if(Wohnraum283_CO2.state as DecimalType > 9 && Wohnraum283_Temperature.state as DecimalType > 35){
+        Wohnraum283_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts284"
+when
+    Item Wohnraum284_Electricity received update
+then
+    Wohnraum284_Cost.sendCommand(Wohnraum284_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm284"
+when
+    Item Wohnraum284_CO2 received update
+then
+    if(Wohnraum284_CO2.state as DecimalType > 9 && Wohnraum284_Temperature.state as DecimalType > 35){
+        Wohnraum284_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts285"
+when
+    Item Wohnraum285_Electricity received update
+then
+    Wohnraum285_Cost.sendCommand(Wohnraum285_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm285"
+when
+    Item Wohnraum285_CO2 received update
+then
+    if(Wohnraum285_CO2.state as DecimalType > 9 && Wohnraum285_Temperature.state as DecimalType > 35){
+        Wohnraum285_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts286"
+when
+    Item Wohnraum286_Electricity received update
+then
+    Wohnraum286_Cost.sendCommand(Wohnraum286_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm286"
+when
+    Item Wohnraum286_CO2 received update
+then
+    if(Wohnraum286_CO2.state as DecimalType > 9 && Wohnraum286_Temperature.state as DecimalType > 35){
+        Wohnraum286_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts287"
+when
+    Item Wohnraum287_Electricity received update
+then
+    Wohnraum287_Cost.sendCommand(Wohnraum287_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm287"
+when
+    Item Wohnraum287_CO2 received update
+then
+    if(Wohnraum287_CO2.state as DecimalType > 9 && Wohnraum287_Temperature.state as DecimalType > 35){
+        Wohnraum287_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts288"
+when
+    Item Wohnraum288_Electricity received update
+then
+    Wohnraum288_Cost.sendCommand(Wohnraum288_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm288"
+when
+    Item Wohnraum288_CO2 received update
+then
+    if(Wohnraum288_CO2.state as DecimalType > 9 && Wohnraum288_Temperature.state as DecimalType > 35){
+        Wohnraum288_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts289"
+when
+    Item Wohnraum289_Electricity received update
+then
+    Wohnraum289_Cost.sendCommand(Wohnraum289_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm289"
+when
+    Item Wohnraum289_CO2 received update
+then
+    if(Wohnraum289_CO2.state as DecimalType > 9 && Wohnraum289_Temperature.state as DecimalType > 35){
+        Wohnraum289_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts290"
+when
+    Item Wohnraum290_Electricity received update
+then
+    Wohnraum290_Cost.sendCommand(Wohnraum290_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm290"
+when
+    Item Wohnraum290_CO2 received update
+then
+    if(Wohnraum290_CO2.state as DecimalType > 9 && Wohnraum290_Temperature.state as DecimalType > 35){
+        Wohnraum290_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts291"
+when
+    Item Wohnraum291_Electricity received update
+then
+    Wohnraum291_Cost.sendCommand(Wohnraum291_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm291"
+when
+    Item Wohnraum291_CO2 received update
+then
+    if(Wohnraum291_CO2.state as DecimalType > 9 && Wohnraum291_Temperature.state as DecimalType > 35){
+        Wohnraum291_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts292"
+when
+    Item Wohnraum292_Electricity received update
+then
+    Wohnraum292_Cost.sendCommand(Wohnraum292_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm292"
+when
+    Item Wohnraum292_CO2 received update
+then
+    if(Wohnraum292_CO2.state as DecimalType > 9 && Wohnraum292_Temperature.state as DecimalType > 35){
+        Wohnraum292_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts293"
+when
+    Item Wohnraum293_Electricity received update
+then
+    Wohnraum293_Cost.sendCommand(Wohnraum293_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm293"
+when
+    Item Wohnraum293_CO2 received update
+then
+    if(Wohnraum293_CO2.state as DecimalType > 9 && Wohnraum293_Temperature.state as DecimalType > 35){
+        Wohnraum293_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts294"
+when
+    Item Wohnraum294_Electricity received update
+then
+    Wohnraum294_Cost.sendCommand(Wohnraum294_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm294"
+when
+    Item Wohnraum294_CO2 received update
+then
+    if(Wohnraum294_CO2.state as DecimalType > 9 && Wohnraum294_Temperature.state as DecimalType > 35){
+        Wohnraum294_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts295"
+when
+    Item Wohnraum295_Electricity received update
+then
+    Wohnraum295_Cost.sendCommand(Wohnraum295_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm295"
+when
+    Item Wohnraum295_CO2 received update
+then
+    if(Wohnraum295_CO2.state as DecimalType > 9 && Wohnraum295_Temperature.state as DecimalType > 35){
+        Wohnraum295_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts296"
+when
+    Item Wohnraum296_Electricity received update
+then
+    Wohnraum296_Cost.sendCommand(Wohnraum296_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm296"
+when
+    Item Wohnraum296_CO2 received update
+then
+    if(Wohnraum296_CO2.state as DecimalType > 9 && Wohnraum296_Temperature.state as DecimalType > 35){
+        Wohnraum296_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts297"
+when
+    Item Wohnraum297_Electricity received update
+then
+    Wohnraum297_Cost.sendCommand(Wohnraum297_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm297"
+when
+    Item Wohnraum297_CO2 received update
+then
+    if(Wohnraum297_CO2.state as DecimalType > 9 && Wohnraum297_Temperature.state as DecimalType > 35){
+        Wohnraum297_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts298"
+when
+    Item Wohnraum298_Electricity received update
+then
+    Wohnraum298_Cost.sendCommand(Wohnraum298_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm298"
+when
+    Item Wohnraum298_CO2 received update
+then
+    if(Wohnraum298_CO2.state as DecimalType > 9 && Wohnraum298_Temperature.state as DecimalType > 35){
+        Wohnraum298_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts299"
+when
+    Item Wohnraum299_Electricity received update
+then
+    Wohnraum299_Cost.sendCommand(Wohnraum299_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm299"
+when
+    Item Wohnraum299_CO2 received update
+then
+    if(Wohnraum299_CO2.state as DecimalType > 9 && Wohnraum299_Temperature.state as DecimalType > 35){
+        Wohnraum299_Fire.sendCommand("Feuer")
+    }
+end
+
+rule "CalculateElectricityCosts300"
+when
+    Item Wohnraum300_Electricity received update
+then
+    Wohnraum300_Cost.sendCommand(Wohnraum300_Electricity.state as DecimalType * 0.3)
+end
+
+rule "Burning-Alarm300"
+when
+    Item Wohnraum300_CO2 received update
+then
+    if(Wohnraum300_CO2.state as DecimalType > 9 && Wohnraum300_Temperature.state as DecimalType > 35){
+        Wohnraum300_Fire.sendCommand("Feuer")
+    }
+end
+

@@ -1,0 +1,2703 @@
+Bridge mqtt:broker:myWohnraumBroker "myWohnraumBroker" [host="192.168.178.79", secure=false, qos=1] 
+{
+    // Thing Sensoren Wohnraum1
+    Thing topic wohnraumSensoren1 "Wohnraum1 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature1/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity1/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity1/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid1/"]
+    }
+
+    // Thing Sensoren Wohnraum2
+    Thing topic wohnraumSensoren2 "Wohnraum2 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature2/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity2/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity2/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid2/"]
+    }
+
+    // Thing Sensoren Wohnraum3
+    Thing topic wohnraumSensoren3 "Wohnraum3 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature3/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity3/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity3/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid3/"]
+    }
+
+    // Thing Sensoren Wohnraum4
+    Thing topic wohnraumSensoren4 "Wohnraum4 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature4/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity4/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity4/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid4/"]
+    }
+
+    // Thing Sensoren Wohnraum5
+    Thing topic wohnraumSensoren5 "Wohnraum5 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature5/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity5/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity5/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid5/"]
+    }
+
+    // Thing Sensoren Wohnraum6
+    Thing topic wohnraumSensoren6 "Wohnraum6 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature6/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity6/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity6/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid6/"]
+    }
+
+    // Thing Sensoren Wohnraum7
+    Thing topic wohnraumSensoren7 "Wohnraum7 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature7/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity7/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity7/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid7/"]
+    }
+
+    // Thing Sensoren Wohnraum8
+    Thing topic wohnraumSensoren8 "Wohnraum8 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature8/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity8/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity8/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid8/"]
+    }
+
+    // Thing Sensoren Wohnraum9
+    Thing topic wohnraumSensoren9 "Wohnraum9 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature9/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity9/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity9/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid9/"]
+    }
+
+    // Thing Sensoren Wohnraum10
+    Thing topic wohnraumSensoren10 "Wohnraum10 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature10/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity10/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity10/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid10/"]
+    }
+
+    // Thing Sensoren Wohnraum11
+    Thing topic wohnraumSensoren11 "Wohnraum11 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature11/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity11/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity11/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid11/"]
+    }
+
+    // Thing Sensoren Wohnraum12
+    Thing topic wohnraumSensoren12 "Wohnraum12 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature12/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity12/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity12/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid12/"]
+    }
+
+    // Thing Sensoren Wohnraum13
+    Thing topic wohnraumSensoren13 "Wohnraum13 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature13/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity13/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity13/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid13/"]
+    }
+
+    // Thing Sensoren Wohnraum14
+    Thing topic wohnraumSensoren14 "Wohnraum14 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature14/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity14/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity14/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid14/"]
+    }
+
+    // Thing Sensoren Wohnraum15
+    Thing topic wohnraumSensoren15 "Wohnraum15 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature15/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity15/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity15/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid15/"]
+    }
+
+    // Thing Sensoren Wohnraum16
+    Thing topic wohnraumSensoren16 "Wohnraum16 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature16/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity16/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity16/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid16/"]
+    }
+
+    // Thing Sensoren Wohnraum17
+    Thing topic wohnraumSensoren17 "Wohnraum17 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature17/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity17/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity17/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid17/"]
+    }
+
+    // Thing Sensoren Wohnraum18
+    Thing topic wohnraumSensoren18 "Wohnraum18 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature18/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity18/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity18/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid18/"]
+    }
+
+    // Thing Sensoren Wohnraum19
+    Thing topic wohnraumSensoren19 "Wohnraum19 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature19/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity19/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity19/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid19/"]
+    }
+
+    // Thing Sensoren Wohnraum20
+    Thing topic wohnraumSensoren20 "Wohnraum20 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature20/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity20/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity20/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid20/"]
+    }
+
+    // Thing Sensoren Wohnraum21
+    Thing topic wohnraumSensoren21 "Wohnraum21 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature21/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity21/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity21/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid21/"]
+    }
+
+    // Thing Sensoren Wohnraum22
+    Thing topic wohnraumSensoren22 "Wohnraum22 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature22/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity22/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity22/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid22/"]
+    }
+
+    // Thing Sensoren Wohnraum23
+    Thing topic wohnraumSensoren23 "Wohnraum23 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature23/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity23/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity23/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid23/"]
+    }
+
+    // Thing Sensoren Wohnraum24
+    Thing topic wohnraumSensoren24 "Wohnraum24 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature24/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity24/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity24/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid24/"]
+    }
+
+    // Thing Sensoren Wohnraum25
+    Thing topic wohnraumSensoren25 "Wohnraum25 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature25/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity25/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity25/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid25/"]
+    }
+
+    // Thing Sensoren Wohnraum26
+    Thing topic wohnraumSensoren26 "Wohnraum26 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature26/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity26/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity26/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid26/"]
+    }
+
+    // Thing Sensoren Wohnraum27
+    Thing topic wohnraumSensoren27 "Wohnraum27 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature27/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity27/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity27/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid27/"]
+    }
+
+    // Thing Sensoren Wohnraum28
+    Thing topic wohnraumSensoren28 "Wohnraum28 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature28/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity28/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity28/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid28/"]
+    }
+
+    // Thing Sensoren Wohnraum29
+    Thing topic wohnraumSensoren29 "Wohnraum29 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature29/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity29/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity29/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid29/"]
+    }
+
+    // Thing Sensoren Wohnraum30
+    Thing topic wohnraumSensoren30 "Wohnraum30 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature30/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity30/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity30/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid30/"]
+    }
+
+    // Thing Sensoren Wohnraum31
+    Thing topic wohnraumSensoren31 "Wohnraum31 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature31/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity31/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity31/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid31/"]
+    }
+
+    // Thing Sensoren Wohnraum32
+    Thing topic wohnraumSensoren32 "Wohnraum32 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature32/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity32/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity32/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid32/"]
+    }
+
+    // Thing Sensoren Wohnraum33
+    Thing topic wohnraumSensoren33 "Wohnraum33 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature33/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity33/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity33/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid33/"]
+    }
+
+    // Thing Sensoren Wohnraum34
+    Thing topic wohnraumSensoren34 "Wohnraum34 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature34/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity34/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity34/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid34/"]
+    }
+
+    // Thing Sensoren Wohnraum35
+    Thing topic wohnraumSensoren35 "Wohnraum35 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature35/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity35/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity35/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid35/"]
+    }
+
+    // Thing Sensoren Wohnraum36
+    Thing topic wohnraumSensoren36 "Wohnraum36 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature36/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity36/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity36/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid36/"]
+    }
+
+    // Thing Sensoren Wohnraum37
+    Thing topic wohnraumSensoren37 "Wohnraum37 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature37/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity37/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity37/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid37/"]
+    }
+
+    // Thing Sensoren Wohnraum38
+    Thing topic wohnraumSensoren38 "Wohnraum38 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature38/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity38/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity38/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid38/"]
+    }
+
+    // Thing Sensoren Wohnraum39
+    Thing topic wohnraumSensoren39 "Wohnraum39 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature39/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity39/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity39/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid39/"]
+    }
+
+    // Thing Sensoren Wohnraum40
+    Thing topic wohnraumSensoren40 "Wohnraum40 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature40/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity40/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity40/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid40/"]
+    }
+
+    // Thing Sensoren Wohnraum41
+    Thing topic wohnraumSensoren41 "Wohnraum41 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature41/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity41/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity41/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid41/"]
+    }
+
+    // Thing Sensoren Wohnraum42
+    Thing topic wohnraumSensoren42 "Wohnraum42 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature42/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity42/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity42/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid42/"]
+    }
+
+    // Thing Sensoren Wohnraum43
+    Thing topic wohnraumSensoren43 "Wohnraum43 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature43/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity43/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity43/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid43/"]
+    }
+
+    // Thing Sensoren Wohnraum44
+    Thing topic wohnraumSensoren44 "Wohnraum44 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature44/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity44/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity44/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid44/"]
+    }
+
+    // Thing Sensoren Wohnraum45
+    Thing topic wohnraumSensoren45 "Wohnraum45 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature45/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity45/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity45/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid45/"]
+    }
+
+    // Thing Sensoren Wohnraum46
+    Thing topic wohnraumSensoren46 "Wohnraum46 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature46/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity46/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity46/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid46/"]
+    }
+
+    // Thing Sensoren Wohnraum47
+    Thing topic wohnraumSensoren47 "Wohnraum47 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature47/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity47/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity47/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid47/"]
+    }
+
+    // Thing Sensoren Wohnraum48
+    Thing topic wohnraumSensoren48 "Wohnraum48 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature48/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity48/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity48/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid48/"]
+    }
+
+    // Thing Sensoren Wohnraum49
+    Thing topic wohnraumSensoren49 "Wohnraum49 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature49/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity49/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity49/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid49/"]
+    }
+
+    // Thing Sensoren Wohnraum50
+    Thing topic wohnraumSensoren50 "Wohnraum50 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature50/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity50/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity50/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid50/"]
+    }
+
+    // Thing Sensoren Wohnraum51
+    Thing topic wohnraumSensoren51 "Wohnraum51 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature51/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity51/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity51/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid51/"]
+    }
+
+    // Thing Sensoren Wohnraum52
+    Thing topic wohnraumSensoren52 "Wohnraum52 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature52/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity52/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity52/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid52/"]
+    }
+
+    // Thing Sensoren Wohnraum53
+    Thing topic wohnraumSensoren53 "Wohnraum53 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature53/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity53/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity53/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid53/"]
+    }
+
+    // Thing Sensoren Wohnraum54
+    Thing topic wohnraumSensoren54 "Wohnraum54 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature54/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity54/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity54/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid54/"]
+    }
+
+    // Thing Sensoren Wohnraum55
+    Thing topic wohnraumSensoren55 "Wohnraum55 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature55/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity55/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity55/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid55/"]
+    }
+
+    // Thing Sensoren Wohnraum56
+    Thing topic wohnraumSensoren56 "Wohnraum56 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature56/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity56/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity56/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid56/"]
+    }
+
+    // Thing Sensoren Wohnraum57
+    Thing topic wohnraumSensoren57 "Wohnraum57 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature57/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity57/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity57/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid57/"]
+    }
+
+    // Thing Sensoren Wohnraum58
+    Thing topic wohnraumSensoren58 "Wohnraum58 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature58/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity58/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity58/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid58/"]
+    }
+
+    // Thing Sensoren Wohnraum59
+    Thing topic wohnraumSensoren59 "Wohnraum59 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature59/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity59/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity59/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid59/"]
+    }
+
+    // Thing Sensoren Wohnraum60
+    Thing topic wohnraumSensoren60 "Wohnraum60 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature60/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity60/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity60/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid60/"]
+    }
+
+    // Thing Sensoren Wohnraum61
+    Thing topic wohnraumSensoren61 "Wohnraum61 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature61/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity61/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity61/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid61/"]
+    }
+
+    // Thing Sensoren Wohnraum62
+    Thing topic wohnraumSensoren62 "Wohnraum62 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature62/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity62/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity62/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid62/"]
+    }
+
+    // Thing Sensoren Wohnraum63
+    Thing topic wohnraumSensoren63 "Wohnraum63 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature63/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity63/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity63/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid63/"]
+    }
+
+    // Thing Sensoren Wohnraum64
+    Thing topic wohnraumSensoren64 "Wohnraum64 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature64/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity64/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity64/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid64/"]
+    }
+
+    // Thing Sensoren Wohnraum65
+    Thing topic wohnraumSensoren65 "Wohnraum65 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature65/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity65/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity65/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid65/"]
+    }
+
+    // Thing Sensoren Wohnraum66
+    Thing topic wohnraumSensoren66 "Wohnraum66 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature66/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity66/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity66/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid66/"]
+    }
+
+    // Thing Sensoren Wohnraum67
+    Thing topic wohnraumSensoren67 "Wohnraum67 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature67/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity67/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity67/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid67/"]
+    }
+
+    // Thing Sensoren Wohnraum68
+    Thing topic wohnraumSensoren68 "Wohnraum68 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature68/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity68/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity68/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid68/"]
+    }
+
+    // Thing Sensoren Wohnraum69
+    Thing topic wohnraumSensoren69 "Wohnraum69 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature69/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity69/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity69/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid69/"]
+    }
+
+    // Thing Sensoren Wohnraum70
+    Thing topic wohnraumSensoren70 "Wohnraum70 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature70/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity70/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity70/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid70/"]
+    }
+
+    // Thing Sensoren Wohnraum71
+    Thing topic wohnraumSensoren71 "Wohnraum71 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature71/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity71/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity71/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid71/"]
+    }
+
+    // Thing Sensoren Wohnraum72
+    Thing topic wohnraumSensoren72 "Wohnraum72 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature72/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity72/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity72/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid72/"]
+    }
+
+    // Thing Sensoren Wohnraum73
+    Thing topic wohnraumSensoren73 "Wohnraum73 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature73/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity73/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity73/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid73/"]
+    }
+
+    // Thing Sensoren Wohnraum74
+    Thing topic wohnraumSensoren74 "Wohnraum74 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature74/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity74/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity74/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid74/"]
+    }
+
+    // Thing Sensoren Wohnraum75
+    Thing topic wohnraumSensoren75 "Wohnraum75 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature75/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity75/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity75/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid75/"]
+    }
+
+    // Thing Sensoren Wohnraum76
+    Thing topic wohnraumSensoren76 "Wohnraum76 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature76/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity76/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity76/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid76/"]
+    }
+
+    // Thing Sensoren Wohnraum77
+    Thing topic wohnraumSensoren77 "Wohnraum77 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature77/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity77/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity77/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid77/"]
+    }
+
+    // Thing Sensoren Wohnraum78
+    Thing topic wohnraumSensoren78 "Wohnraum78 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature78/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity78/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity78/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid78/"]
+    }
+
+    // Thing Sensoren Wohnraum79
+    Thing topic wohnraumSensoren79 "Wohnraum79 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature79/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity79/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity79/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid79/"]
+    }
+
+    // Thing Sensoren Wohnraum80
+    Thing topic wohnraumSensoren80 "Wohnraum80 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature80/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity80/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity80/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid80/"]
+    }
+
+    // Thing Sensoren Wohnraum81
+    Thing topic wohnraumSensoren81 "Wohnraum81 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature81/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity81/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity81/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid81/"]
+    }
+
+    // Thing Sensoren Wohnraum82
+    Thing topic wohnraumSensoren82 "Wohnraum82 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature82/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity82/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity82/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid82/"]
+    }
+
+    // Thing Sensoren Wohnraum83
+    Thing topic wohnraumSensoren83 "Wohnraum83 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature83/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity83/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity83/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid83/"]
+    }
+
+    // Thing Sensoren Wohnraum84
+    Thing topic wohnraumSensoren84 "Wohnraum84 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature84/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity84/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity84/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid84/"]
+    }
+
+    // Thing Sensoren Wohnraum85
+    Thing topic wohnraumSensoren85 "Wohnraum85 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature85/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity85/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity85/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid85/"]
+    }
+
+    // Thing Sensoren Wohnraum86
+    Thing topic wohnraumSensoren86 "Wohnraum86 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature86/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity86/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity86/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid86/"]
+    }
+
+    // Thing Sensoren Wohnraum87
+    Thing topic wohnraumSensoren87 "Wohnraum87 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature87/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity87/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity87/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid87/"]
+    }
+
+    // Thing Sensoren Wohnraum88
+    Thing topic wohnraumSensoren88 "Wohnraum88 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature88/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity88/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity88/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid88/"]
+    }
+
+    // Thing Sensoren Wohnraum89
+    Thing topic wohnraumSensoren89 "Wohnraum89 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature89/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity89/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity89/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid89/"]
+    }
+
+    // Thing Sensoren Wohnraum90
+    Thing topic wohnraumSensoren90 "Wohnraum90 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature90/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity90/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity90/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid90/"]
+    }
+
+    // Thing Sensoren Wohnraum91
+    Thing topic wohnraumSensoren91 "Wohnraum91 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature91/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity91/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity91/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid91/"]
+    }
+
+    // Thing Sensoren Wohnraum92
+    Thing topic wohnraumSensoren92 "Wohnraum92 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature92/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity92/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity92/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid92/"]
+    }
+
+    // Thing Sensoren Wohnraum93
+    Thing topic wohnraumSensoren93 "Wohnraum93 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature93/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity93/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity93/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid93/"]
+    }
+
+    // Thing Sensoren Wohnraum94
+    Thing topic wohnraumSensoren94 "Wohnraum94 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature94/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity94/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity94/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid94/"]
+    }
+
+    // Thing Sensoren Wohnraum95
+    Thing topic wohnraumSensoren95 "Wohnraum95 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature95/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity95/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity95/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid95/"]
+    }
+
+    // Thing Sensoren Wohnraum96
+    Thing topic wohnraumSensoren96 "Wohnraum96 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature96/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity96/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity96/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid96/"]
+    }
+
+    // Thing Sensoren Wohnraum97
+    Thing topic wohnraumSensoren97 "Wohnraum97 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature97/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity97/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity97/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid97/"]
+    }
+
+    // Thing Sensoren Wohnraum98
+    Thing topic wohnraumSensoren98 "Wohnraum98 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature98/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity98/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity98/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid98/"]
+    }
+
+    // Thing Sensoren Wohnraum99
+    Thing topic wohnraumSensoren99 "Wohnraum99 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature99/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity99/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity99/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid99/"]
+    }
+
+    // Thing Sensoren Wohnraum100
+    Thing topic wohnraumSensoren100 "Wohnraum100 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature100/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity100/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity100/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid100/"]
+    }
+
+    // Thing Sensoren Wohnraum101
+    Thing topic wohnraumSensoren101 "Wohnraum101 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature101/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity101/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity101/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid101/"]
+    }
+
+    // Thing Sensoren Wohnraum102
+    Thing topic wohnraumSensoren102 "Wohnraum102 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature102/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity102/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity102/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid102/"]
+    }
+
+    // Thing Sensoren Wohnraum103
+    Thing topic wohnraumSensoren103 "Wohnraum103 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature103/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity103/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity103/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid103/"]
+    }
+
+    // Thing Sensoren Wohnraum104
+    Thing topic wohnraumSensoren104 "Wohnraum104 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature104/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity104/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity104/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid104/"]
+    }
+
+    // Thing Sensoren Wohnraum105
+    Thing topic wohnraumSensoren105 "Wohnraum105 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature105/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity105/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity105/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid105/"]
+    }
+
+    // Thing Sensoren Wohnraum106
+    Thing topic wohnraumSensoren106 "Wohnraum106 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature106/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity106/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity106/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid106/"]
+    }
+
+    // Thing Sensoren Wohnraum107
+    Thing topic wohnraumSensoren107 "Wohnraum107 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature107/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity107/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity107/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid107/"]
+    }
+
+    // Thing Sensoren Wohnraum108
+    Thing topic wohnraumSensoren108 "Wohnraum108 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature108/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity108/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity108/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid108/"]
+    }
+
+    // Thing Sensoren Wohnraum109
+    Thing topic wohnraumSensoren109 "Wohnraum109 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature109/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity109/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity109/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid109/"]
+    }
+
+    // Thing Sensoren Wohnraum110
+    Thing topic wohnraumSensoren110 "Wohnraum110 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature110/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity110/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity110/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid110/"]
+    }
+
+    // Thing Sensoren Wohnraum111
+    Thing topic wohnraumSensoren111 "Wohnraum111 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature111/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity111/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity111/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid111/"]
+    }
+
+    // Thing Sensoren Wohnraum112
+    Thing topic wohnraumSensoren112 "Wohnraum112 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature112/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity112/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity112/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid112/"]
+    }
+
+    // Thing Sensoren Wohnraum113
+    Thing topic wohnraumSensoren113 "Wohnraum113 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature113/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity113/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity113/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid113/"]
+    }
+
+    // Thing Sensoren Wohnraum114
+    Thing topic wohnraumSensoren114 "Wohnraum114 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature114/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity114/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity114/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid114/"]
+    }
+
+    // Thing Sensoren Wohnraum115
+    Thing topic wohnraumSensoren115 "Wohnraum115 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature115/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity115/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity115/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid115/"]
+    }
+
+    // Thing Sensoren Wohnraum116
+    Thing topic wohnraumSensoren116 "Wohnraum116 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature116/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity116/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity116/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid116/"]
+    }
+
+    // Thing Sensoren Wohnraum117
+    Thing topic wohnraumSensoren117 "Wohnraum117 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature117/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity117/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity117/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid117/"]
+    }
+
+    // Thing Sensoren Wohnraum118
+    Thing topic wohnraumSensoren118 "Wohnraum118 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature118/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity118/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity118/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid118/"]
+    }
+
+    // Thing Sensoren Wohnraum119
+    Thing topic wohnraumSensoren119 "Wohnraum119 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature119/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity119/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity119/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid119/"]
+    }
+
+    // Thing Sensoren Wohnraum120
+    Thing topic wohnraumSensoren120 "Wohnraum120 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature120/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity120/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity120/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid120/"]
+    }
+
+    // Thing Sensoren Wohnraum121
+    Thing topic wohnraumSensoren121 "Wohnraum121 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature121/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity121/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity121/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid121/"]
+    }
+
+    // Thing Sensoren Wohnraum122
+    Thing topic wohnraumSensoren122 "Wohnraum122 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature122/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity122/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity122/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid122/"]
+    }
+
+    // Thing Sensoren Wohnraum123
+    Thing topic wohnraumSensoren123 "Wohnraum123 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature123/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity123/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity123/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid123/"]
+    }
+
+    // Thing Sensoren Wohnraum124
+    Thing topic wohnraumSensoren124 "Wohnraum124 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature124/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity124/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity124/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid124/"]
+    }
+
+    // Thing Sensoren Wohnraum125
+    Thing topic wohnraumSensoren125 "Wohnraum125 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature125/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity125/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity125/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid125/"]
+    }
+
+    // Thing Sensoren Wohnraum126
+    Thing topic wohnraumSensoren126 "Wohnraum126 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature126/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity126/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity126/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid126/"]
+    }
+
+    // Thing Sensoren Wohnraum127
+    Thing topic wohnraumSensoren127 "Wohnraum127 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature127/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity127/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity127/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid127/"]
+    }
+
+    // Thing Sensoren Wohnraum128
+    Thing topic wohnraumSensoren128 "Wohnraum128 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature128/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity128/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity128/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid128/"]
+    }
+
+    // Thing Sensoren Wohnraum129
+    Thing topic wohnraumSensoren129 "Wohnraum129 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature129/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity129/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity129/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid129/"]
+    }
+
+    // Thing Sensoren Wohnraum130
+    Thing topic wohnraumSensoren130 "Wohnraum130 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature130/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity130/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity130/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid130/"]
+    }
+
+    // Thing Sensoren Wohnraum131
+    Thing topic wohnraumSensoren131 "Wohnraum131 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature131/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity131/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity131/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid131/"]
+    }
+
+    // Thing Sensoren Wohnraum132
+    Thing topic wohnraumSensoren132 "Wohnraum132 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature132/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity132/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity132/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid132/"]
+    }
+
+    // Thing Sensoren Wohnraum133
+    Thing topic wohnraumSensoren133 "Wohnraum133 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature133/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity133/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity133/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid133/"]
+    }
+
+    // Thing Sensoren Wohnraum134
+    Thing topic wohnraumSensoren134 "Wohnraum134 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature134/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity134/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity134/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid134/"]
+    }
+
+    // Thing Sensoren Wohnraum135
+    Thing topic wohnraumSensoren135 "Wohnraum135 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature135/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity135/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity135/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid135/"]
+    }
+
+    // Thing Sensoren Wohnraum136
+    Thing topic wohnraumSensoren136 "Wohnraum136 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature136/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity136/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity136/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid136/"]
+    }
+
+    // Thing Sensoren Wohnraum137
+    Thing topic wohnraumSensoren137 "Wohnraum137 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature137/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity137/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity137/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid137/"]
+    }
+
+    // Thing Sensoren Wohnraum138
+    Thing topic wohnraumSensoren138 "Wohnraum138 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature138/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity138/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity138/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid138/"]
+    }
+
+    // Thing Sensoren Wohnraum139
+    Thing topic wohnraumSensoren139 "Wohnraum139 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature139/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity139/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity139/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid139/"]
+    }
+
+    // Thing Sensoren Wohnraum140
+    Thing topic wohnraumSensoren140 "Wohnraum140 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature140/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity140/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity140/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid140/"]
+    }
+
+    // Thing Sensoren Wohnraum141
+    Thing topic wohnraumSensoren141 "Wohnraum141 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature141/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity141/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity141/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid141/"]
+    }
+
+    // Thing Sensoren Wohnraum142
+    Thing topic wohnraumSensoren142 "Wohnraum142 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature142/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity142/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity142/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid142/"]
+    }
+
+    // Thing Sensoren Wohnraum143
+    Thing topic wohnraumSensoren143 "Wohnraum143 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature143/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity143/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity143/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid143/"]
+    }
+
+    // Thing Sensoren Wohnraum144
+    Thing topic wohnraumSensoren144 "Wohnraum144 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature144/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity144/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity144/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid144/"]
+    }
+
+    // Thing Sensoren Wohnraum145
+    Thing topic wohnraumSensoren145 "Wohnraum145 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature145/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity145/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity145/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid145/"]
+    }
+
+    // Thing Sensoren Wohnraum146
+    Thing topic wohnraumSensoren146 "Wohnraum146 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature146/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity146/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity146/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid146/"]
+    }
+
+    // Thing Sensoren Wohnraum147
+    Thing topic wohnraumSensoren147 "Wohnraum147 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature147/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity147/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity147/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid147/"]
+    }
+
+    // Thing Sensoren Wohnraum148
+    Thing topic wohnraumSensoren148 "Wohnraum148 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature148/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity148/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity148/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid148/"]
+    }
+
+    // Thing Sensoren Wohnraum149
+    Thing topic wohnraumSensoren149 "Wohnraum149 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature149/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity149/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity149/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid149/"]
+    }
+
+    // Thing Sensoren Wohnraum150
+    Thing topic wohnraumSensoren150 "Wohnraum150 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature150/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity150/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity150/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid150/"]
+    }
+
+    // Thing Sensoren Wohnraum151
+    Thing topic wohnraumSensoren151 "Wohnraum151 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature151/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity151/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity151/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid151/"]
+    }
+
+    // Thing Sensoren Wohnraum152
+    Thing topic wohnraumSensoren152 "Wohnraum152 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature152/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity152/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity152/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid152/"]
+    }
+
+    // Thing Sensoren Wohnraum153
+    Thing topic wohnraumSensoren153 "Wohnraum153 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature153/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity153/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity153/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid153/"]
+    }
+
+    // Thing Sensoren Wohnraum154
+    Thing topic wohnraumSensoren154 "Wohnraum154 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature154/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity154/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity154/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid154/"]
+    }
+
+    // Thing Sensoren Wohnraum155
+    Thing topic wohnraumSensoren155 "Wohnraum155 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature155/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity155/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity155/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid155/"]
+    }
+
+    // Thing Sensoren Wohnraum156
+    Thing topic wohnraumSensoren156 "Wohnraum156 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature156/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity156/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity156/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid156/"]
+    }
+
+    // Thing Sensoren Wohnraum157
+    Thing topic wohnraumSensoren157 "Wohnraum157 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature157/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity157/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity157/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid157/"]
+    }
+
+    // Thing Sensoren Wohnraum158
+    Thing topic wohnraumSensoren158 "Wohnraum158 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature158/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity158/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity158/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid158/"]
+    }
+
+    // Thing Sensoren Wohnraum159
+    Thing topic wohnraumSensoren159 "Wohnraum159 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature159/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity159/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity159/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid159/"]
+    }
+
+    // Thing Sensoren Wohnraum160
+    Thing topic wohnraumSensoren160 "Wohnraum160 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature160/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity160/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity160/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid160/"]
+    }
+
+    // Thing Sensoren Wohnraum161
+    Thing topic wohnraumSensoren161 "Wohnraum161 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature161/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity161/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity161/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid161/"]
+    }
+
+    // Thing Sensoren Wohnraum162
+    Thing topic wohnraumSensoren162 "Wohnraum162 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature162/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity162/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity162/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid162/"]
+    }
+
+    // Thing Sensoren Wohnraum163
+    Thing topic wohnraumSensoren163 "Wohnraum163 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature163/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity163/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity163/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid163/"]
+    }
+
+    // Thing Sensoren Wohnraum164
+    Thing topic wohnraumSensoren164 "Wohnraum164 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature164/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity164/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity164/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid164/"]
+    }
+
+    // Thing Sensoren Wohnraum165
+    Thing topic wohnraumSensoren165 "Wohnraum165 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature165/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity165/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity165/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid165/"]
+    }
+
+    // Thing Sensoren Wohnraum166
+    Thing topic wohnraumSensoren166 "Wohnraum166 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature166/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity166/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity166/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid166/"]
+    }
+
+    // Thing Sensoren Wohnraum167
+    Thing topic wohnraumSensoren167 "Wohnraum167 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature167/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity167/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity167/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid167/"]
+    }
+
+    // Thing Sensoren Wohnraum168
+    Thing topic wohnraumSensoren168 "Wohnraum168 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature168/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity168/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity168/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid168/"]
+    }
+
+    // Thing Sensoren Wohnraum169
+    Thing topic wohnraumSensoren169 "Wohnraum169 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature169/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity169/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity169/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid169/"]
+    }
+
+    // Thing Sensoren Wohnraum170
+    Thing topic wohnraumSensoren170 "Wohnraum170 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature170/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity170/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity170/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid170/"]
+    }
+
+    // Thing Sensoren Wohnraum171
+    Thing topic wohnraumSensoren171 "Wohnraum171 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature171/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity171/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity171/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid171/"]
+    }
+
+    // Thing Sensoren Wohnraum172
+    Thing topic wohnraumSensoren172 "Wohnraum172 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature172/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity172/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity172/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid172/"]
+    }
+
+    // Thing Sensoren Wohnraum173
+    Thing topic wohnraumSensoren173 "Wohnraum173 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature173/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity173/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity173/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid173/"]
+    }
+
+    // Thing Sensoren Wohnraum174
+    Thing topic wohnraumSensoren174 "Wohnraum174 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature174/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity174/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity174/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid174/"]
+    }
+
+    // Thing Sensoren Wohnraum175
+    Thing topic wohnraumSensoren175 "Wohnraum175 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature175/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity175/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity175/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid175/"]
+    }
+
+    // Thing Sensoren Wohnraum176
+    Thing topic wohnraumSensoren176 "Wohnraum176 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature176/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity176/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity176/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid176/"]
+    }
+
+    // Thing Sensoren Wohnraum177
+    Thing topic wohnraumSensoren177 "Wohnraum177 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature177/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity177/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity177/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid177/"]
+    }
+
+    // Thing Sensoren Wohnraum178
+    Thing topic wohnraumSensoren178 "Wohnraum178 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature178/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity178/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity178/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid178/"]
+    }
+
+    // Thing Sensoren Wohnraum179
+    Thing topic wohnraumSensoren179 "Wohnraum179 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature179/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity179/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity179/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid179/"]
+    }
+
+    // Thing Sensoren Wohnraum180
+    Thing topic wohnraumSensoren180 "Wohnraum180 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature180/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity180/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity180/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid180/"]
+    }
+
+    // Thing Sensoren Wohnraum181
+    Thing topic wohnraumSensoren181 "Wohnraum181 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature181/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity181/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity181/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid181/"]
+    }
+
+    // Thing Sensoren Wohnraum182
+    Thing topic wohnraumSensoren182 "Wohnraum182 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature182/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity182/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity182/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid182/"]
+    }
+
+    // Thing Sensoren Wohnraum183
+    Thing topic wohnraumSensoren183 "Wohnraum183 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature183/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity183/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity183/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid183/"]
+    }
+
+    // Thing Sensoren Wohnraum184
+    Thing topic wohnraumSensoren184 "Wohnraum184 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature184/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity184/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity184/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid184/"]
+    }
+
+    // Thing Sensoren Wohnraum185
+    Thing topic wohnraumSensoren185 "Wohnraum185 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature185/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity185/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity185/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid185/"]
+    }
+
+    // Thing Sensoren Wohnraum186
+    Thing topic wohnraumSensoren186 "Wohnraum186 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature186/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity186/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity186/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid186/"]
+    }
+
+    // Thing Sensoren Wohnraum187
+    Thing topic wohnraumSensoren187 "Wohnraum187 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature187/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity187/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity187/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid187/"]
+    }
+
+    // Thing Sensoren Wohnraum188
+    Thing topic wohnraumSensoren188 "Wohnraum188 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature188/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity188/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity188/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid188/"]
+    }
+
+    // Thing Sensoren Wohnraum189
+    Thing topic wohnraumSensoren189 "Wohnraum189 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature189/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity189/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity189/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid189/"]
+    }
+
+    // Thing Sensoren Wohnraum190
+    Thing topic wohnraumSensoren190 "Wohnraum190 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature190/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity190/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity190/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid190/"]
+    }
+
+    // Thing Sensoren Wohnraum191
+    Thing topic wohnraumSensoren191 "Wohnraum191 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature191/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity191/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity191/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid191/"]
+    }
+
+    // Thing Sensoren Wohnraum192
+    Thing topic wohnraumSensoren192 "Wohnraum192 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature192/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity192/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity192/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid192/"]
+    }
+
+    // Thing Sensoren Wohnraum193
+    Thing topic wohnraumSensoren193 "Wohnraum193 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature193/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity193/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity193/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid193/"]
+    }
+
+    // Thing Sensoren Wohnraum194
+    Thing topic wohnraumSensoren194 "Wohnraum194 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature194/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity194/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity194/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid194/"]
+    }
+
+    // Thing Sensoren Wohnraum195
+    Thing topic wohnraumSensoren195 "Wohnraum195 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature195/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity195/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity195/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid195/"]
+    }
+
+    // Thing Sensoren Wohnraum196
+    Thing topic wohnraumSensoren196 "Wohnraum196 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature196/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity196/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity196/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid196/"]
+    }
+
+    // Thing Sensoren Wohnraum197
+    Thing topic wohnraumSensoren197 "Wohnraum197 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature197/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity197/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity197/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid197/"]
+    }
+
+    // Thing Sensoren Wohnraum198
+    Thing topic wohnraumSensoren198 "Wohnraum198 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature198/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity198/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity198/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid198/"]
+    }
+
+    // Thing Sensoren Wohnraum199
+    Thing topic wohnraumSensoren199 "Wohnraum199 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature199/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity199/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity199/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid199/"]
+    }
+
+    // Thing Sensoren Wohnraum200
+    Thing topic wohnraumSensoren200 "Wohnraum200 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature200/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity200/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity200/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid200/"]
+    }
+
+    // Thing Sensoren Wohnraum201
+    Thing topic wohnraumSensoren201 "Wohnraum201 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature201/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity201/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity201/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid201/"]
+    }
+
+    // Thing Sensoren Wohnraum202
+    Thing topic wohnraumSensoren202 "Wohnraum202 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature202/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity202/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity202/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid202/"]
+    }
+
+    // Thing Sensoren Wohnraum203
+    Thing topic wohnraumSensoren203 "Wohnraum203 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature203/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity203/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity203/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid203/"]
+    }
+
+    // Thing Sensoren Wohnraum204
+    Thing topic wohnraumSensoren204 "Wohnraum204 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature204/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity204/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity204/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid204/"]
+    }
+
+    // Thing Sensoren Wohnraum205
+    Thing topic wohnraumSensoren205 "Wohnraum205 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature205/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity205/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity205/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid205/"]
+    }
+
+    // Thing Sensoren Wohnraum206
+    Thing topic wohnraumSensoren206 "Wohnraum206 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature206/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity206/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity206/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid206/"]
+    }
+
+    // Thing Sensoren Wohnraum207
+    Thing topic wohnraumSensoren207 "Wohnraum207 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature207/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity207/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity207/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid207/"]
+    }
+
+    // Thing Sensoren Wohnraum208
+    Thing topic wohnraumSensoren208 "Wohnraum208 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature208/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity208/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity208/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid208/"]
+    }
+
+    // Thing Sensoren Wohnraum209
+    Thing topic wohnraumSensoren209 "Wohnraum209 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature209/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity209/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity209/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid209/"]
+    }
+
+    // Thing Sensoren Wohnraum210
+    Thing topic wohnraumSensoren210 "Wohnraum210 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature210/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity210/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity210/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid210/"]
+    }
+
+    // Thing Sensoren Wohnraum211
+    Thing topic wohnraumSensoren211 "Wohnraum211 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature211/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity211/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity211/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid211/"]
+    }
+
+    // Thing Sensoren Wohnraum212
+    Thing topic wohnraumSensoren212 "Wohnraum212 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature212/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity212/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity212/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid212/"]
+    }
+
+    // Thing Sensoren Wohnraum213
+    Thing topic wohnraumSensoren213 "Wohnraum213 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature213/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity213/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity213/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid213/"]
+    }
+
+    // Thing Sensoren Wohnraum214
+    Thing topic wohnraumSensoren214 "Wohnraum214 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature214/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity214/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity214/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid214/"]
+    }
+
+    // Thing Sensoren Wohnraum215
+    Thing topic wohnraumSensoren215 "Wohnraum215 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature215/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity215/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity215/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid215/"]
+    }
+
+    // Thing Sensoren Wohnraum216
+    Thing topic wohnraumSensoren216 "Wohnraum216 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature216/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity216/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity216/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid216/"]
+    }
+
+    // Thing Sensoren Wohnraum217
+    Thing topic wohnraumSensoren217 "Wohnraum217 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature217/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity217/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity217/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid217/"]
+    }
+
+    // Thing Sensoren Wohnraum218
+    Thing topic wohnraumSensoren218 "Wohnraum218 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature218/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity218/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity218/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid218/"]
+    }
+
+    // Thing Sensoren Wohnraum219
+    Thing topic wohnraumSensoren219 "Wohnraum219 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature219/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity219/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity219/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid219/"]
+    }
+
+    // Thing Sensoren Wohnraum220
+    Thing topic wohnraumSensoren220 "Wohnraum220 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature220/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity220/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity220/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid220/"]
+    }
+
+    // Thing Sensoren Wohnraum221
+    Thing topic wohnraumSensoren221 "Wohnraum221 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature221/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity221/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity221/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid221/"]
+    }
+
+    // Thing Sensoren Wohnraum222
+    Thing topic wohnraumSensoren222 "Wohnraum222 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature222/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity222/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity222/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid222/"]
+    }
+
+    // Thing Sensoren Wohnraum223
+    Thing topic wohnraumSensoren223 "Wohnraum223 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature223/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity223/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity223/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid223/"]
+    }
+
+    // Thing Sensoren Wohnraum224
+    Thing topic wohnraumSensoren224 "Wohnraum224 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature224/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity224/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity224/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid224/"]
+    }
+
+    // Thing Sensoren Wohnraum225
+    Thing topic wohnraumSensoren225 "Wohnraum225 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature225/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity225/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity225/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid225/"]
+    }
+
+    // Thing Sensoren Wohnraum226
+    Thing topic wohnraumSensoren226 "Wohnraum226 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature226/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity226/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity226/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid226/"]
+    }
+
+    // Thing Sensoren Wohnraum227
+    Thing topic wohnraumSensoren227 "Wohnraum227 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature227/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity227/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity227/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid227/"]
+    }
+
+    // Thing Sensoren Wohnraum228
+    Thing topic wohnraumSensoren228 "Wohnraum228 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature228/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity228/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity228/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid228/"]
+    }
+
+    // Thing Sensoren Wohnraum229
+    Thing topic wohnraumSensoren229 "Wohnraum229 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature229/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity229/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity229/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid229/"]
+    }
+
+    // Thing Sensoren Wohnraum230
+    Thing topic wohnraumSensoren230 "Wohnraum230 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature230/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity230/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity230/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid230/"]
+    }
+
+    // Thing Sensoren Wohnraum231
+    Thing topic wohnraumSensoren231 "Wohnraum231 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature231/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity231/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity231/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid231/"]
+    }
+
+    // Thing Sensoren Wohnraum232
+    Thing topic wohnraumSensoren232 "Wohnraum232 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature232/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity232/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity232/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid232/"]
+    }
+
+    // Thing Sensoren Wohnraum233
+    Thing topic wohnraumSensoren233 "Wohnraum233 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature233/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity233/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity233/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid233/"]
+    }
+
+    // Thing Sensoren Wohnraum234
+    Thing topic wohnraumSensoren234 "Wohnraum234 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature234/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity234/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity234/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid234/"]
+    }
+
+    // Thing Sensoren Wohnraum235
+    Thing topic wohnraumSensoren235 "Wohnraum235 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature235/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity235/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity235/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid235/"]
+    }
+
+    // Thing Sensoren Wohnraum236
+    Thing topic wohnraumSensoren236 "Wohnraum236 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature236/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity236/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity236/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid236/"]
+    }
+
+    // Thing Sensoren Wohnraum237
+    Thing topic wohnraumSensoren237 "Wohnraum237 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature237/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity237/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity237/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid237/"]
+    }
+
+    // Thing Sensoren Wohnraum238
+    Thing topic wohnraumSensoren238 "Wohnraum238 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature238/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity238/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity238/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid238/"]
+    }
+
+    // Thing Sensoren Wohnraum239
+    Thing topic wohnraumSensoren239 "Wohnraum239 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature239/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity239/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity239/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid239/"]
+    }
+
+    // Thing Sensoren Wohnraum240
+    Thing topic wohnraumSensoren240 "Wohnraum240 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature240/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity240/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity240/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid240/"]
+    }
+
+    // Thing Sensoren Wohnraum241
+    Thing topic wohnraumSensoren241 "Wohnraum241 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature241/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity241/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity241/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid241/"]
+    }
+
+    // Thing Sensoren Wohnraum242
+    Thing topic wohnraumSensoren242 "Wohnraum242 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature242/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity242/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity242/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid242/"]
+    }
+
+    // Thing Sensoren Wohnraum243
+    Thing topic wohnraumSensoren243 "Wohnraum243 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature243/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity243/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity243/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid243/"]
+    }
+
+    // Thing Sensoren Wohnraum244
+    Thing topic wohnraumSensoren244 "Wohnraum244 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature244/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity244/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity244/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid244/"]
+    }
+
+    // Thing Sensoren Wohnraum245
+    Thing topic wohnraumSensoren245 "Wohnraum245 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature245/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity245/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity245/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid245/"]
+    }
+
+    // Thing Sensoren Wohnraum246
+    Thing topic wohnraumSensoren246 "Wohnraum246 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature246/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity246/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity246/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid246/"]
+    }
+
+    // Thing Sensoren Wohnraum247
+    Thing topic wohnraumSensoren247 "Wohnraum247 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature247/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity247/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity247/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid247/"]
+    }
+
+    // Thing Sensoren Wohnraum248
+    Thing topic wohnraumSensoren248 "Wohnraum248 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature248/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity248/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity248/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid248/"]
+    }
+
+    // Thing Sensoren Wohnraum249
+    Thing topic wohnraumSensoren249 "Wohnraum249 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature249/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity249/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity249/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid249/"]
+    }
+
+    // Thing Sensoren Wohnraum250
+    Thing topic wohnraumSensoren250 "Wohnraum250 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature250/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity250/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity250/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid250/"]
+    }
+
+    // Thing Sensoren Wohnraum251
+    Thing topic wohnraumSensoren251 "Wohnraum251 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature251/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity251/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity251/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid251/"]
+    }
+
+    // Thing Sensoren Wohnraum252
+    Thing topic wohnraumSensoren252 "Wohnraum252 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature252/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity252/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity252/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid252/"]
+    }
+
+    // Thing Sensoren Wohnraum253
+    Thing topic wohnraumSensoren253 "Wohnraum253 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature253/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity253/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity253/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid253/"]
+    }
+
+    // Thing Sensoren Wohnraum254
+    Thing topic wohnraumSensoren254 "Wohnraum254 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature254/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity254/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity254/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid254/"]
+    }
+
+    // Thing Sensoren Wohnraum255
+    Thing topic wohnraumSensoren255 "Wohnraum255 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature255/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity255/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity255/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid255/"]
+    }
+
+    // Thing Sensoren Wohnraum256
+    Thing topic wohnraumSensoren256 "Wohnraum256 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature256/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity256/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity256/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid256/"]
+    }
+
+    // Thing Sensoren Wohnraum257
+    Thing topic wohnraumSensoren257 "Wohnraum257 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature257/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity257/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity257/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid257/"]
+    }
+
+    // Thing Sensoren Wohnraum258
+    Thing topic wohnraumSensoren258 "Wohnraum258 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature258/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity258/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity258/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid258/"]
+    }
+
+    // Thing Sensoren Wohnraum259
+    Thing topic wohnraumSensoren259 "Wohnraum259 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature259/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity259/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity259/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid259/"]
+    }
+
+    // Thing Sensoren Wohnraum260
+    Thing topic wohnraumSensoren260 "Wohnraum260 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature260/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity260/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity260/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid260/"]
+    }
+
+    // Thing Sensoren Wohnraum261
+    Thing topic wohnraumSensoren261 "Wohnraum261 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature261/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity261/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity261/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid261/"]
+    }
+
+    // Thing Sensoren Wohnraum262
+    Thing topic wohnraumSensoren262 "Wohnraum262 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature262/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity262/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity262/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid262/"]
+    }
+
+    // Thing Sensoren Wohnraum263
+    Thing topic wohnraumSensoren263 "Wohnraum263 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature263/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity263/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity263/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid263/"]
+    }
+
+    // Thing Sensoren Wohnraum264
+    Thing topic wohnraumSensoren264 "Wohnraum264 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature264/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity264/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity264/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid264/"]
+    }
+
+    // Thing Sensoren Wohnraum265
+    Thing topic wohnraumSensoren265 "Wohnraum265 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature265/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity265/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity265/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid265/"]
+    }
+
+    // Thing Sensoren Wohnraum266
+    Thing topic wohnraumSensoren266 "Wohnraum266 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature266/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity266/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity266/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid266/"]
+    }
+
+    // Thing Sensoren Wohnraum267
+    Thing topic wohnraumSensoren267 "Wohnraum267 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature267/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity267/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity267/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid267/"]
+    }
+
+    // Thing Sensoren Wohnraum268
+    Thing topic wohnraumSensoren268 "Wohnraum268 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature268/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity268/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity268/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid268/"]
+    }
+
+    // Thing Sensoren Wohnraum269
+    Thing topic wohnraumSensoren269 "Wohnraum269 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature269/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity269/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity269/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid269/"]
+    }
+
+    // Thing Sensoren Wohnraum270
+    Thing topic wohnraumSensoren270 "Wohnraum270 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature270/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity270/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity270/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid270/"]
+    }
+
+    // Thing Sensoren Wohnraum271
+    Thing topic wohnraumSensoren271 "Wohnraum271 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature271/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity271/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity271/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid271/"]
+    }
+
+    // Thing Sensoren Wohnraum272
+    Thing topic wohnraumSensoren272 "Wohnraum272 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature272/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity272/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity272/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid272/"]
+    }
+
+    // Thing Sensoren Wohnraum273
+    Thing topic wohnraumSensoren273 "Wohnraum273 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature273/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity273/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity273/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid273/"]
+    }
+
+    // Thing Sensoren Wohnraum274
+    Thing topic wohnraumSensoren274 "Wohnraum274 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature274/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity274/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity274/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid274/"]
+    }
+
+    // Thing Sensoren Wohnraum275
+    Thing topic wohnraumSensoren275 "Wohnraum275 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature275/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity275/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity275/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid275/"]
+    }
+
+    // Thing Sensoren Wohnraum276
+    Thing topic wohnraumSensoren276 "Wohnraum276 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature276/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity276/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity276/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid276/"]
+    }
+
+    // Thing Sensoren Wohnraum277
+    Thing topic wohnraumSensoren277 "Wohnraum277 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature277/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity277/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity277/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid277/"]
+    }
+
+    // Thing Sensoren Wohnraum278
+    Thing topic wohnraumSensoren278 "Wohnraum278 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature278/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity278/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity278/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid278/"]
+    }
+
+    // Thing Sensoren Wohnraum279
+    Thing topic wohnraumSensoren279 "Wohnraum279 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature279/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity279/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity279/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid279/"]
+    }
+
+    // Thing Sensoren Wohnraum280
+    Thing topic wohnraumSensoren280 "Wohnraum280 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature280/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity280/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity280/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid280/"]
+    }
+
+    // Thing Sensoren Wohnraum281
+    Thing topic wohnraumSensoren281 "Wohnraum281 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature281/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity281/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity281/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid281/"]
+    }
+
+    // Thing Sensoren Wohnraum282
+    Thing topic wohnraumSensoren282 "Wohnraum282 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature282/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity282/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity282/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid282/"]
+    }
+
+    // Thing Sensoren Wohnraum283
+    Thing topic wohnraumSensoren283 "Wohnraum283 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature283/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity283/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity283/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid283/"]
+    }
+
+    // Thing Sensoren Wohnraum284
+    Thing topic wohnraumSensoren284 "Wohnraum284 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature284/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity284/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity284/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid284/"]
+    }
+
+    // Thing Sensoren Wohnraum285
+    Thing topic wohnraumSensoren285 "Wohnraum285 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature285/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity285/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity285/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid285/"]
+    }
+
+    // Thing Sensoren Wohnraum286
+    Thing topic wohnraumSensoren286 "Wohnraum286 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature286/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity286/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity286/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid286/"]
+    }
+
+    // Thing Sensoren Wohnraum287
+    Thing topic wohnraumSensoren287 "Wohnraum287 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature287/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity287/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity287/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid287/"]
+    }
+
+    // Thing Sensoren Wohnraum288
+    Thing topic wohnraumSensoren288 "Wohnraum288 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature288/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity288/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity288/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid288/"]
+    }
+
+    // Thing Sensoren Wohnraum289
+    Thing topic wohnraumSensoren289 "Wohnraum289 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature289/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity289/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity289/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid289/"]
+    }
+
+    // Thing Sensoren Wohnraum290
+    Thing topic wohnraumSensoren290 "Wohnraum290 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature290/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity290/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity290/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid290/"]
+    }
+
+    // Thing Sensoren Wohnraum291
+    Thing topic wohnraumSensoren291 "Wohnraum291 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature291/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity291/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity291/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid291/"]
+    }
+
+    // Thing Sensoren Wohnraum292
+    Thing topic wohnraumSensoren292 "Wohnraum292 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature292/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity292/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity292/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid292/"]
+    }
+
+    // Thing Sensoren Wohnraum293
+    Thing topic wohnraumSensoren293 "Wohnraum293 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature293/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity293/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity293/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid293/"]
+    }
+
+    // Thing Sensoren Wohnraum294
+    Thing topic wohnraumSensoren294 "Wohnraum294 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature294/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity294/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity294/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid294/"]
+    }
+
+    // Thing Sensoren Wohnraum295
+    Thing topic wohnraumSensoren295 "Wohnraum295 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature295/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity295/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity295/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid295/"]
+    }
+
+    // Thing Sensoren Wohnraum296
+    Thing topic wohnraumSensoren296 "Wohnraum296 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature296/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity296/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity296/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid296/"]
+    }
+
+    // Thing Sensoren Wohnraum297
+    Thing topic wohnraumSensoren297 "Wohnraum297 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature297/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity297/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity297/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid297/"]
+    }
+
+    // Thing Sensoren Wohnraum298
+    Thing topic wohnraumSensoren298 "Wohnraum298 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature298/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity298/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity298/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid298/"]
+    }
+
+    // Thing Sensoren Wohnraum299
+    Thing topic wohnraumSensoren299 "Wohnraum299 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature299/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity299/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity299/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid299/"]
+    }
+
+    // Thing Sensoren Wohnraum300
+    Thing topic wohnraumSensoren300 "Wohnraum300 Sensoren" {
+    Channels:
+        Type number : temperature   "Temperatur"            [stateTopic="apartment/temperature300/"]
+        Type number : humidity      "Luftfeuchtigkeit"      [stateTopic="apartment/humidity300/"]
+        Type number : electricity   "Stromzähler"           [stateTopic="apartment/electricity300/"]
+        Type number : kohlenstoffdioxid   "Kolhelnstoffdioxid"           [stateTopic="apartment/kohlenstoffdioxid300/"]
+    }
+
+}

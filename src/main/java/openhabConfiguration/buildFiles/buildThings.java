@@ -16,6 +16,7 @@ public class buildThings {
     private static boolean hum = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "humidity"));
     private static boolean co2 = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "co2"));
     private static boolean elec = Boolean.parseBoolean(getConfigurations.getConfigs("perApartment", "electricity"));
+    private static String ip = getConfigurations.getConfigs("properties", "openhab_host");
     private static int qos = Integer.parseInt(getConfigurations.getConfigs("properties", "qos"));
 
     public boolean buildThingsFile(String path) {
@@ -38,7 +39,7 @@ public class buildThings {
 
     private String buildBridge() {
         if(qos==0 || qos==1 || qos==2){
-            bridgeString += "Bridge mqtt:broker:myWohnraumBroker \"myWohnraumBroker\" [host=\"192.168.178.22\", secure=false, qos="+ qos +"] \n{\n";
+            bridgeString += "Bridge mqtt:broker:myWohnraumBroker \"myWohnraumBroker\" [host=\"" + ip +"\", secure=false, qos="+ qos +"] \n{\n";
             bridgeString += buildThings(num);
             bridgeString += "}";
             return bridgeString;
